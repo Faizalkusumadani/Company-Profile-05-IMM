@@ -1,0 +1,650 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "profil": "Company Profile",
+    "histori": "History",
+    "visi-misi": "Vision & Mision",
+    "nilai-nilai": "Core Values",
+    "manajemen": "Management",
+    "product": "Product",
+    "services": "Services",
+    "services_01": "Installation",
+    "services_02": "Maintenance",
+    "services_03": "Repair",
+    "find_us": "Find Us",
+    "business": "Bussiness",
+    "business_construction": "Trading & Distribution",
+    "business_services": "HVAC Installation & Services",
+    "business_design": "Creative, IP Licensing & Merchandising",
+    "business_information": "Information Technology Solution",
+    "business_food": "Food & Beverage Distribution",
+    "news": "Room Information",
+    "news_company": "News",
+    "news_activity": "Activities",
+    "project": "Project",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label_01": "Cool air,",
+    "label_02": "delivered with precision",
+    "desc": "Professional AC installation, maintenance, and repair for homes, shophouses, and office buildings",
+    "cta": "Booking Service Now"
+  },
+
+  "stat": {
+    "label_01": "Product",
+    "label_02": "Business Partner",
+    "label_03": "Established",
+    "label_04": "Active Technicians"
+  },
+  "home": {
+    "tag": "Our Services",
+    "header": "One team for all your AC needs",
+    "desc": "From residential units to commercial cooling systems, we operate using clear procedures and consistent technical standards"
+  },
+  "services": {
+    "cta": "See all",
+    "installation": {
+      "title": "New AC Installation",
+      "desc": "Precision installation with neat piping and drainage routing."
+    },
+    "maintenance": {
+      "title": "Cleaning & Maintenance",
+      "desc": "Restore your unit's cooling performance and energy efficiency."
+    },
+    "relocation": {
+      "title": "Relocation (Uninstall & Reinstall)",
+      "desc": "Unit relocation with safe handling of refrigerant and electrical systems."
+    },
+    "repair": {
+      "title": "AC Repair",
+      "desc": "Transparent diagnosis for compressor, refrigerant, and electrical issues."
+    },
+    "refill": {
+      "title": "Refrigerant Refill",
+      "desc": "Specification-compliant refrigerant for optimal cooling."
+    },
+    "contract": {
+      "title": "Building Contracts",
+      "desc": "Scheduled maintenance for offices, shophouses, and commercial properties."
+    }
+  },
+  "benefits": {
+    "trained_technician": {
+      "title": "Professional technician",
+      "desc": "Experienced with all AC brands and capacities."
+    },
+    "transparent_price": {
+      "title": "Transparent pricing",
+      "desc": "Clear estimate before work begins, no hidden fees."
+    },
+    "warranty_12_months": {
+      "title": "12-month warranty",
+      "desc": "Installation and repair work covered by a written warranty."
+    },
+    "fast_response": {
+      "title": "Fast response",
+      "desc": "Technicians available for service areas in under 60 minutes."
+    }
+  },
+  "home_about": {
+    "tag": "Why us",
+    "header": "Work based on standards, not guesswork",
+    "desc": "Every detail is inspected. Every recommendation is explained. Because true comfort begins with trustworthy work"
+  },
+  "home_testi": {
+    "tag": "Testimonial",
+    "header": "Trusted by homes and businesses"
+  },
+  "flow_work": {
+    "tag": "Process Flow",
+    "header": "  Four steps, from booking to warranty",
+    "steps": {
+      "consultation": {
+        "title": "Consultation & Booking",
+        "desc": "Share your requirements—whether for a new installation, routine servicing, or repairs—via phone or WhatsApp."
+      },
+      "survey": {
+        "title": "Survey & Diagnosis",
+        "desc": "Technicians inspect the site or unit to determine the necessary actions and provide a clear cost estimate upfront."
+      },
+      "execution": {
+        "title": "Execution",
+        "desc": "Installation or repairs are carried out according to professional standards, ensuring the workspace remains tidy."
+      },
+      "quality_check": {
+        "title": "Quality Check & Warranty",
+        "desc": "Cooling performance testing prior to handover, accompanied by an official warranty card."
+      }
+    }
+  },
+  "brands": {
+    "tag": "Serving all brands and types of AC"
+  },
+  "about": {
+    "meta": {
+      "title": "Company Profile",
+      "description": "Intisukses Mitratama Mandiri is a company providing HVAC installation, maintenance, and servicing services in Indonesia"
+    },
+    "tag_company": "CORPORATE OVERVIEW",
+    "header_01": "A Reliable Pillar in",
+    "header_02": "HVAC Installation & Services",
+    "header_03": "National",
+    "ihktisar": [
+      "Building upon the rapidly growing business operations of PT Intisukses Mitra Sejati in the HVAC-R (Heating, Ventilating, Air Conditioning, and Refrigeration) and M&E (Mechanical & Electrical) sectors—and in response to customer demand for engineering support—PT Intisukses Mitratama Mandiri was established in 2017. The company focuses on contracting services, specifically installation, maintenance, and repair.",
+      "By steadfastly prioritizing customer satisfaction through rapid response times—backed by a skilled workforce, appropriate tools and technology, and support from principals—PT Intisukses Mitratama Mandiri has grown rapidly. This success is evidenced by the trust placed in our company (often referred to as IM2) to serve as a subcontractor or engineering dealer for various principals, including Daikin, McQuay, Mitsubishi, Panasonic, Samsung, Wika, and others.",
+      "IM2 has also earned the trust of a wide range of clients—including office buildings, factories, and luxury residences—who rely on us for high-quality service."
+    ],
+    "tag_office": "INFRASTRUCTURE",
+    "header_office": "Office",
+    "desc_office": "A primary operational hub and logistics coordination center strategically designed to facilitate the smooth flow of inter-regional trade.",
+    "image-header": "Head Office",
+    "office_reception": "Main Lobby & Reception",
+    "office_front": "Main Courtyard",
+    "office_meeting": "Executive & Partnership Meeting Room",
+    "office_floor2": "Operational Facilities & Team Workspace"
+  },
+  "visiMisi": {
+    "meta": {
+      "title": "Company Vision & Mission",
+      "description": "Intisukses Mitratama Mandiri's Vision & Mission as the main foundation"
+    },
+    "visi": {
+      "title": "Vision",
+      "description": "To become the number one company providing services, maintenance, installation, and unit procurement in the fields of Mechanical, Electrical, and HVACR."
+    },
+    "misi": {
+      "title": "Mission",
+      "list": [
+        {
+          "title": "Mission 1",
+          "description": "Making the customer the primary focus of service satisfaction and the benchmark for company quality"
+        },
+        {
+          "title": "Mission 2",
+          "description": "Providing services and ensuring customer satisfaction in a professional and timely manner that meets customer expectations"
+        },
+        {
+          "title": "Mission 3",
+          "description": "Developing and prioritizing eco-friendly and energy-efficient technologies"
+        },
+        {
+          "title": "Mission 4",
+          "description": "Establishing synergy and teamwork as the fundamental assets for company growth"
+        }
+      ]
+    }
+  },
+  "bod": {
+    "meta": {
+      "title": "Company Management",
+      "description": "Information regarding the management and BOD of Intisukses Mitratama Mandiri"
+    },
+    "cta": "View details",
+    "rudy": {
+      "position": "Commissioner",
+      "description": [
+        "Born in Jakarta and earned a Bachelor of Economics and Accounting degree from Atma Jaya Catholic University in 1993. Since elementary school, I have been involved in the family business as a retailer, which laid the foundation for my understanding of the business world.",
+        "In 1991, while still at university, he began working as a professional at a tax consultancy, and from 1992 to 2013, he worked in the fields of accounting and finance. These experiences proved invaluable in building his business later on. In 2003, he started a retail business and successfully expanded it.",
+        "Five years later, he founded PT Intisukses Mitra Sejati, the company that served as the foundation for subsequent business expansion.",
+        "In 2012, he established a second company specializing in cement distribution in collaboration with a business partner; since then, he has continued to innovate and found several other companies across various business sectors.",
+        "Backed by experience and a strong vision, we are committed to continuously developing a sustainable business and making a positive contribution to stakeholders.s"
+      ]
+    },
+    "megawati": {
+      "position": "President Director",
+      "description": [
+        "Born in Serang and earned a Bachelor of Economics and Accounting degree from Atma Jaya Catholic University in 1993. He spent his childhood and completed his junior high school education in Serang, before continuing his high school education in Jakarta in 1985 and then went on to college.",
+        "Starting in 1992, while in college, he worked as a professional in finance for a food company. From 1994 to 2001, he worked in finance for a developer building apartments, hotels, and offices.",
+        "His entrepreneurial spirit began to be honed in 2003 when he started a business as a retailer. In 2008, he founded his first company, PT Intisukses Mitra Sejati, which became the forerunner for various subsequent companies.",
+        "With extensive experience and high dedication, he will continue to lead and develop businesses that have a positive impact in various industrial sectors."
+      ]
+    },
+    "asep": {
+      "position": "Director",
+      "description": [
+        "Born in Serang and earned a Bachelor of Economics and Accounting degree from Atma Jaya Catholic University in 1993. He spent his childhood and completed his junior high school education in Serang, before continuing his high school education in Jakarta in 1985 and then went on to college.",
+        "Starting in 1992, while in college, he worked as a professional in finance for a food company. From 1994 to 2001, he worked in finance for a developer building apartments, hotels, and offices.",
+        "His entrepreneurial spirit began to be honed in 2003 when he started a business as a retailer. In 2008, he founded his first company, PT Intisukses Mitra Sejati, which became the forerunner for various subsequent companies.",
+        "With extensive experience and high dedication, he will continue to lead and develop businesses that have a positive impact in various industrial sectors."
+      ]
+    }
+  },
+  "corevalues": {
+    "heading": "Core Values",
+    "desc_corevalues": "The foundation of our work culture that shapes the company's integrity and excellence",
+    "responsibility": {
+      "title": "Responsibility",
+      "description": "Specific duties, obligations, or actions expected of an individual within their scope of work."
+    },
+    "excellent": {
+      "title": "Excellent",
+      "description": "A high and consistent standard of quality in carrying out tasks or work performance."
+    },
+    "dedicated": {
+      "title": "Dedicated",
+      "description": "The level of commitment, enthusiasm, and seriousness a person has toward their tasks or work."
+    },
+    "detailOriented": {
+      "title": "Detail Oriented",
+      "description": "The ability to notice and understand small details or things that others might overlook."
+    },
+    "modernization": {
+      "title": "Modernization",
+      "description": "The process or effort to renew, modernize, or adopt new technologies, methods, or processes that are more efficient and aligned with current developments."
+    },
+    "agility": {
+      "title": "Agility",
+      "description": "The ability of an individual or organization to adapt quickly to change and respond to shifting situations with flexibility and responsiveness."
+    },
+    "senseOfBelonging": {
+      "title": "Sense of Belonging",
+      "description": "The feeling that one is an integral part of the team or organization they work in."
+    }
+  },
+  "instalasi": {
+    "meta": {
+      "title": "AC & HVACR Installation Services",
+      "description": "Professional installation services for AC, VRF/VRV, chillers, and commercial heat pumps by certified engineers. Precise, clean, and fully guaranteed"
+    },
+    "badge_01": "Manufacturer Standards",
+    "badge_02": "Professional Technicians",
+    "badge_03": "Workmanship Warranty",
+    "badge_04": "12-Month Official Warranty",
+    "tag_01": "Installation Services",
+    "header_01": "Performed by Experienced and Professional Technicians",
+    "desc_01": "Every AC installation is handled by trained technicians who understand safety standards and unit technical specifications. With experience handling various types and capacities of AC units, we ensure the installation process is quick, neat, and tailored to your room's requirements.",
+    "header_02": "Periodic Maintenance Services",
+    "desc_02": "Throughout the partnership, we also provide maintenance services to ensure that air conditioners, water heaters, and heat pumps always operate optimally. This service is designed to keep the equipment in top condition and prevent breakdowns before they occur",
+    "point_01": "Professional Technicians",
+    "point_02": "12-Month Workmanship Warranty",
+    "point_03": "All HVACR Unit Types",
+    "point_04": "Residential & Commercial",
+
+    "scope_tag": "Scope of Work",
+    "scope_title": "Our Installation Scope",
+    "scope_desc": "We execute every installation project through clear stages—from initial survey to handover—ensuring measurable and accountable results.",
+    "scope_stag": "Standardized SOP Stages",
+    "scope_01_title": "Site Survey & Analysis",
+    "scope_01_desc": "Assessment of room conditions, piping routes, and electrical power requirements prior to installation.",
+    "scope_02_title": "Indoor & Outdoor Unit Installation",
+    "scope_02_desc": "Placement of brackets and units in accordance with airflow standards and room aesthetics.",
+    "scope_03_title": "Piping & Electrical Installation",
+    "scope_03_desc": "Installation of refrigerant piping, power cables, and drainage lines with neat routing.",
+    "scope_04_title": "Vacuuming & Refrigerant Charging",
+    "scope_04_desc": "System vacuuming and refrigerant charging processes based on unit specifications.",
+    "scope_05_title": "Testing & Commissioning",
+    "scope_05_desc": "Testing of pressure, leaks, and cooling performance before the unit is declared ready for use.",
+    "scope_06_title": "Handover & Warranty",
+    "scope_06_desc": "Documentation of work results, operational briefing, and activation of the workmanship warranty.",
+
+    "benefit_tag": "Our Quality Commitment",
+    "benefit_title": "Why Proper Installation Matters",
+    "benefit_desc": "A correctly installed system operates at its nominal capacity, consumes energy as designed, and reaches its intended lifespan. We ensure your cooling system performs flawlessly from day one.",
+    "benefit_tag_notif": "Did you know?",
+    "benefit_content": "An improperly installed AC unit can lose 15–25% of its efficiency from day one. Correct pipe sizing and proper vacuuming save electricity and extend the compressor's lifespan.",
+    "benefit_img_badge": "Quality Assurance",
+    "benefit_img_title": "Zero Rework, Clean Execution",
+    "benefit_img_desc": "Every installation is executed systematically following strict checklists and factory tolerances.",
+
+    "benefit_card_01": "3 Key Pillars of Excellence",
+    "benefit_card_02": "Precision, Cleanliness, and Energy Efficiency",
+    "benefit_card_03": "Three fundamental principles upheld by our technicians during every residential and commercial cooling unit installation.",
+    "benefit_card_footer": "Verified Quality Standard",
+
+    "benefit_presisi_tag": "Precision & Accuracy",
+    "benefit_presisi_title": "Precision",
+    "benefit_presisi_desc": "Every angle, level, and piping run is executed with millimetre accuracy. Precision machine-flared joints guarantee leak-free connections without vibration.",
+    "benefit_presisi_point_01": "Precise digital spirit level alignment",
+    "benefit_presisi_point_02": "Machine-flared leak-proof copper joints",
+    "benefit_presisi_point_03": "Sturdy vibration-free mounting brackets",
+
+    "benefit_kebersihan_tag": "Clean & Tidy",
+    "benefit_kebersihan_title": "Cleanliness",
+    "benefit_kebersihan_desc": "Work areas are protected with safety covers. Pipes and cabling are routed neatly to preserve aesthetics, and all debris is thoroughly cleaned upon completion.",
+    "benefit_kebersihan_point_01": "Protective dust covers for work areas",
+    "benefit_kebersihan_point_02": "Concealed & orderly pipe/cable routing",
+    "benefit_kebersihan_point_03": "Full post-installation clean-up",
+
+    "benefit_hemat_daya_tag": "Energy Efficiency",
+    "benefit_hemat_daya_title": "Energy Saving",
+    "benefit_hemat_daya_desc": "Thorough system vacuuming, tight thermal insulation, and optimal placement keep compressor workloads light, significantly reducing power consumption from day one.",
+    "benefit_hemat_daya_point_01": "Thorough non-condensable vacuuming",
+    "benefit_hemat_daya_point_02": "Tight UV-resistant thermal insulation",
+    "benefit_hemat_daya_point_03": "Light & energy-efficient compressor load",
+
+    "cta_tag": "Start Your Project",
+    "cta_title": "Ready to Install Your AC & HVACR System?",
+    "cta_desc": "Consult your residential, office, or commercial installation requirements with the certified engineering team at PT Intisukses Mitratama Mandiri.",
+    "cta_wa": "Consult via WhatsApp",
+    "cta_contact": "Contact Us"
+  },
+  "pemeliharaan": {
+    "meta": {
+      "title": "AC Maintenance & Servicing",
+      "description": "Periodic maintenance and preventive servicing for AC, heat pump, and water heater units by certified technicians. Clean air, lower power bills, and longer lifespan."
+    },
+    "tag": "Periodic Maintenance Services",
+    "header": "Structured Preventive Maintenance for Peak Cooling Efficiency",
+    "desc": "We provide scheduled maintenance services to ensure your air conditioning, water heaters, and heat pumps operate at peak efficiency, preventing premature failures and maintaining healthy indoor air quality.",
+    "badge_01": "Official SOP Standards",
+    "badge_02": "Certified Technicians",
+    "badge_03": "Service Guarantee",
+    "badge_04": "Leak-Free Warranty",
+    "point_01": "Thorough & Hygienic Deep Cleaning",
+    "point_02": "Refrigerant & Electrical Audit",
+    "point_03": "Handling All AC Unit Types",
+    "point_04": "Residential & Corporate Facilities",
+
+    "scope_tag": "Scope of Work",
+    "scope_title": "Our Periodic Maintenance Checklist",
+    "scope_desc": "Each service visit is conducted according to manufacturer checklist standards, ranging from physical deep-cleaning to electrical audits and performance testing.",
+    "scope_stag": "Standardized SOP Stages",
+    "scope_01_title": "Filter & Indoor Cover Cleaning",
+    "scope_01_desc": "Removal, washing, and sanitizing of indoor air filters and unit casings for clean air circulation.",
+    "scope_02_title": "Evaporator Coil Jet-Wash",
+    "scope_02_desc": "Controlled high-pressure wash of evaporator fins using protective wash bags and safe cleaning agents.",
+    "scope_03_title": "Drainage Line Flushing",
+    "scope_03_desc": "Flushing of drain pans and discharge piping to eliminate slime buildup and prevent ceiling water leaks.",
+    "scope_04_title": "Outdoor Condenser Jet-Wash",
+    "scope_04_desc": "Pressure washing of outdoor condenser coils to ensure efficient heat dissipation for the compressor.",
+    "scope_05_title": "Refrigerant & Electrical Check",
+    "scope_05_desc": "Measurement of refrigerant operating pressure and compressor running amperage using digital gauges.",
+    "scope_06_title": "Delta T Testing & Handover",
+    "scope_06_desc": "Testing temperature drop across supply and return air, followed by formal handover of service records.",
+
+    "benefit_tag": "Our Quality Commitment",
+    "benefit_title": "Why Regular Maintenance Matters",
+    "benefit_desc": "Micro-dust accumulation on cooling coils reduces heat exchange efficiency by up to 25% and strains the compressor. Regular servicing keeps indoor air healthy and energy bills under control.",
+    "benefit_tag_notif": "Efficiency Fact",
+    "benefit_content": "Servicing every 3 months restores cooling performance by up to 99%, cuts electricity consumption by 20–30%, and extends equipment service life.",
+    "benefit_img_badge": "Hygiene & Cleanliness",
+    "benefit_img_title": "Zero Mess, Protected Work Area",
+    "benefit_img_desc": "Our technicians always use waterproof wash bags and floor drop-cloths to keep your room spotless and dry.",
+
+    "benefit_card_01": "3 Key Pillars of Excellence",
+    "benefit_card_02": "Energy Efficiency, Air Hygiene, and Unit Longevity",
+    "benefit_card_03": "Three tangible benefits delivered by the preventive maintenance program of PT IMM.",
+    "benefit_card_footer": "Verified Quality Standard",
+
+    "benefit_efisiensi_tag": "Energy Efficiency",
+    "benefit_efisiensi_title": "Save 20–30% on Electricity",
+    "benefit_efisiensi_desc": "Clean evaporator and condenser coils optimize heat exchange, reduce compressor workload, and directly lower monthly electricity bills.",
+    "benefit_efisiensi_point_01": "Maximum coil heat exchange restored",
+    "benefit_efisiensi_point_02": "Compressor runs at optimal amperage",
+    "benefit_efisiensi_point_03": "Reduces monthly electrical expenses",
+
+    "benefit_kesehatan_tag": "Health & Hygiene",
+    "benefit_kesehatan_title": "Clean Air & Allergen-Free",
+    "benefit_kesehatan_desc": "Eliminates mould, bacteria, slime, and musty odours inside the AC unit, ensuring the air your family or workforce breathes is always fresh.",
+    "benefit_kesehatan_point_01": "Sanitizes dirt and evaporator mould",
+    "benefit_kesehatan_point_02": "Eliminates musty odours and stale dust",
+    "benefit_kesehatan_point_03": "Fresh, breathable indoor air",
+
+    "benefit_keawetan_tag": "Asset Protection",
+    "benefit_keawetan_title": "Extended Equipment Lifespan",
+    "benefit_keawetan_desc": "Early detection of potential issues such as minor leaks, weak capacitors, or blocked drains before they develop into expensive major breakdowns.",
+    "benefit_keawetan_point_01": "Prevents compressor overheating and seizure",
+    "benefit_keawetan_point_02": "Avoids water leaks that damage ceilings",
+    "benefit_keawetan_point_03": "Documented digital service history"
+  },
+  "perbaikan": {
+    "meta": {
+      "title": "AC & HVACR Repair & Troubleshooting Services",
+      "description": "Fast, accurate diagnosis and repair for AC, VRF/VRV systems, chillers, and commercial heat pumps by certified engineers. Genuine spare parts and official warranty."
+    },
+    "hero": {
+      "badge": "HVACR Repair & Troubleshooting",
+      "title": "Accurate Diagnosis. Genuine Parts. Reliable Solutions.",
+      "desc": "Don't let malfunctioning air conditioning disrupt your comfort or business operations. Our certified engineers identify root causes and restore peak performance with genuine OEM components.",
+      "imageAlt": "Professional technician repairing an air conditioner",
+      "badgeQualityLabel": "Diagnostic Quality",
+      "badgeQualityValue": "Accurate & Reliable",
+      "badgeWarrantyLabel": "Official Guarantee",
+      "badgeWarrantyValue": "Up to 6 Months Official"
+    },
+    "checklist": {
+      "point_01": "Certified HVAC Engineers",
+      "point_02": "Accurate Digital Diagnostics",
+      "point_03": "Genuine OEM Spare Parts",
+      "point_04": "Up to 6 Months Warranty"
+    },
+    "scopeSection": {
+      "badge": "Full Repair Scope",
+      "title": "Common HVACR Failures We Resolve",
+      "desc": "From small electrical faults to major compressor replacements across all brands and capacities.",
+      "footerLabel": "OEM Compliant"
+    },
+    "scope": {
+      "scope_01": {
+        "title": "Comprehensive System Diagnostics",
+        "desc": "In-depth electrical, refrigerant, and mechanical error code analysis to pinpoint exact failure causes without guesswork.",
+        "badge": "Inspection"
+      },
+      "scope_02": {
+        "title": "Compressor Overhaul & Replacement",
+        "desc": "Professional repair or replacement of locked, noisy, or grounded compressors with proper oil balancing and acid flushing.",
+        "badge": "Core Engine"
+      },
+      "scope_03": {
+        "title": "Refrigerant Leak Detection & Brazing",
+        "desc": "Nitrogen bubble pressure testing, electronic halogen sniffing, pipe re-flaring, and oxygen-acetylene silver brazing.",
+        "badge": "Refrigerant"
+      },
+      "scope_04": {
+        "title": "Capacitor, Contactor & Wiring Repair",
+        "desc": "Replacement of degraded starting/running capacitors, burned magnetic contactors, and corroded electrical terminals.",
+        "badge": "Electrical"
+      },
+      "scope_05": {
+        "title": "PCB Module & Thermistor Repair",
+        "desc": "Troubleshooting inverter control boards, microcontrollers, sensor thermistors, and remote receiver modules.",
+        "badge": "Electronics"
+      },
+      "scope_06": {
+        "title": "Blower & Outdoor Fan Motor Repair",
+        "desc": "Resolving screeching bearings, seized fan motors, unbalanced blower wheels, and broken swing blades.",
+        "badge": "Mechanical"
+      }
+    },
+    "benefitsSection": {
+      "badge": "Why Choose Our Repair Service",
+      "title": "Repairs Backed by Skill, Parts, and a Written Guarantee",
+      "desc": "Every job starts with an accurate diagnosis and ends with a warranty card — so you know exactly what was fixed and why.",
+      "calloutTitle": "Emergency Response",
+      "calloutDesc": "Facing a critical cooling failure? Our technicians can be dispatched in under 60 minutes for urgent commercial and residential cases.",
+      "galleryImageAlt": "Certified technician performing AC unit repair",
+      "galleryBadge": "Repair in Action",
+      "galleryTitle": "Certified Technician at Work",
+      "galleryDesc": "Every repair follows strict SOP and quality control before handover.",
+      "guaranteeBadge": "Our Guarantee",
+      "guaranteeTitle": "Three Reasons Customers Trust Our Repairs",
+      "guaranteeDesc": "Accurate diagnostics, genuine parts, and a warranty that backs our workmanship.",
+      "cardFooter": "Verified Quality"
+    },
+    "benefits": {
+      "diagnosa": {
+        "tag": "Certified",
+        "title": "Root-Cause Diagnostics",
+        "desc": "Digital pressure gauges and error-code scanners pinpoint the exact failure — no guesswork, no unnecessary part swaps.",
+        "points": {
+          "point_01": "Digital pressure & amperage test",
+          "point_02": "PCB error-code analysis",
+          "point_03": "Written diagnostic report"
+        }
+      },
+      "sparepart": {
+        "tag": "OEM",
+        "title": "Genuine Spare Parts",
+        "desc": "Every replaced component is factory-certified, ensuring long-term compatibility and system reliability.",
+        "points": {
+          "point_01": "Factory-certified components",
+          "point_02": "Verified compatibility",
+          "point_03": "Sourced from official channels"
+        }
+      },
+      "garansi": {
+        "tag": "Guaranteed",
+        "title": "Official Repair Warranty",
+        "desc": "We stand behind every repair with a written warranty covering both parts and workmanship.",
+        "points": {
+          "point_01": "Up to 6 months coverage",
+          "point_02": "Covers parts & labor",
+          "point_03": "Official warranty card"
+        }
+      }
+    },
+    "stepsSection": {
+      "badge": "Repair Procedure",
+      "title": "4 Steps from Diagnosis to Warranty",
+      "desc": "We never perform unapproved repairs. Every step is documented and explained before execution."
+    },
+    "steps": {
+      "step_01": {
+        "title": "Consultation & Symptoms",
+        "desc": "Explain the issues you are experiencing (e.g., AC blowing warm air, tripping breaker, or water leaks) via WhatsApp or phone.",
+        "detail": "Fast response & symptom check"
+      },
+      "step_02": {
+        "title": "On-Site Diagnostic Audit",
+        "desc": "Our technician arrives on site with professional testing meters to inspect pressure, voltage, and circuit board error codes.",
+        "detail": "Accurate root-cause analysis"
+      },
+      "step_03": {
+        "title": "Transparent Quote & Repair",
+        "desc": "We present a clear breakdown of required parts and labor costs before starting. Repair proceeds only after your approval.",
+        "detail": "No hidden charges, upfront price"
+      },
+      "step_04": {
+        "title": "Testing & Written Warranty",
+        "desc": "Continuous load testing to confirm steady temperature drop (Delta T) and issuance of our official written warranty card.",
+        "detail": "QC sign-off & warranty card"
+      }
+    }
+  },
+  "faq": {
+    "tag": "FAQ",
+    "header": "Commonly asked questions",
+    "duration": {
+      "q": "How long does it take to install a single AC unit?",
+      "a": "For standard units (1–1.5 HP), installation typically takes 1.5–2.5 hours, depending on piping distance and site conditions."
+    },
+    "material": {
+      "q": "Are refrigerant (Freon) and brackets included in the service fee?",
+      "a": "Installation fees are separate from material costs such as piping, brackets, and refrigerant. Details will be provided after a site survey or confirmation of requirements."
+    },
+    "warranty": {
+      "q": "Is there a warranty after installation or repair?",
+      "a": "Yes, all work is covered by an official warranty of up to 12 months for installation services, with service warranties applicable based on the type of work performed."
+    },
+    "commercial": {
+      "q": "Can you handle large-scale installations for buildings or offices?",
+      "a": "Yes. We offer periodic maintenance contract packages for commercial clients with large numbers of units."
+    }
+  },
+  "testimonials": {
+    "budi": {
+      "name": "Budi Santoso",
+      "role": "Shop Owner — Bekasi",
+      "quote": "Installing 4 AC units for the shop was done in a day, neat work and even cooling in every room."
+    },
+    "sari": {
+      "name": "Sari Wulandari",
+      "role": "Homeowner — Depok",
+      "quote": "The technician arrived on time and clearly explained why the AC wasn't cooling before starting the work."
+    },
+    "andrean": {
+      "name": "Andrean Wijaya",
+      "role": "Operations Manager — Office Building",
+      "quote": "We've used their monthly contract service for 20 office AC units for two years, always on a consistent schedule."
+    },
+    "rizal": {
+      "name": "Rizal Efendi",
+      "role": "Real Estate Office",
+      "quote": "Our meeting room AC suddenly stopped working at midday; the technician came the same day and fixed it before hours ended."
+    },
+    "sumanto": {
+      "name": "Sumanto",
+      "role": "Homeowner — Jombang",
+      "quote": "After a routine AC cleaning, the room cools down much faster and our monthly electricity bill dropped too."
+    },
+    "wijaya": {
+      "name": "Wijaya Susanto",
+      "role": "General Manager — Office Building",
+      "quote": "Their routine inspection reports are always detailed, making it easy for us to track AC condition on every floor."
+    },
+    "dewi": {
+      "name": "Dewi Anggraini",
+      "role": "Homemaker — Tangerang",
+      "quote": "Pricing was explained clearly upfront, with no surprise extra charges once the job was done."
+    },
+    "hendra": {
+      "name": "Hendra Kurniawan",
+      "role": "Boarding House Owner — Bandung",
+      "quote": "Installing AC units in 8 rooms went smoothly over two days, and the technicians cleaned up all the leftover materials."
+    },
+    "linda": {
+      "name": "Linda Permatasari",
+      "role": "HR — Manufacturing Company",
+      "quote": "The team was willing to come outside office hours as we requested, so our operations weren't disrupted."
+    }
+  },
+  "proyek": {
+    "meta": {
+      "title": "Company Projects",
+      "description": "Selected project portfolio of Intisukses Mitratama Mandiri"
+    },
+    "hero": {
+      "badge": "Project Portfolio",
+      "title": "Projects We Have Delivered",
+      "desc": "A selection of our track record supplying and installing HVAC systems for commercial buildings, residences, and public facilities across Indonesia.",
+      "count": "Showing {count} projects"
+    },
+    "empty": "No projects to display yet."
+  },
+  "karir": {
+    "meta": {
+      "title": "Company Careers",
+      "description": "Job openings at Intisukses Mitratama Mandiri"
+    },
+    "tag": "Job Vacancies",
+    "header": "Grow Your Career With Us!",
+    "desc": "If you are dynamic, hardworking, and eager to take on new challenges to achieve better results, we invite you to join us and become part of our team."
+  },
+  "kontak": {
+    "location_heading": "Our Location",
+    "desc_heading": "Our team is ready to help answer questions about Reddmas Group's products and services",
+    "hero_heading_01": "We're here to help",
+    "hero_heading_02": "You!",
+    "hero_subtext": "Fill out the form for a consultation",
+    "alert_message_name": "Full name must be at least 8 characters long",
+    "alert_message_email": "Email address is required",
+    "alert_message_telp": "Phone number must be entered in the correct format",
+    "alert_message_city": "City is required",
+    "alert_message": "Message must be at least 10 characters long",
+    "form": {
+      "name_label": "Full Name",
+      "email_label": "Email Address",
+      "contact_label": "Phone Number",
+      "contact_hint": "(e.g., +62812 7777 1111)",
+      "country_label": "Your City",
+      "message_label": "Your Message...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Your message has been sent successfully. We will contact you shortly.",
+      "error": "An error occurred; please try again."
+    },
+    "locations": {
+      "kantor-utama": { "name": "Head Office" },
+      "email": { "name": "Email" },
+      "telepon": { "name": "Phone" },
+      "company-profile": { "name": "Download Company Profile" }
+    }
+  },
+  "footer": {
+    "header_footer": "Connect With Us",
+    "header_footer_01": "Head Office"
+  }
+}

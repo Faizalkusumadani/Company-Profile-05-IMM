@@ -1,0 +1,649 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "profil": "Profil Perusahaan",
+    "histori": "Histori",
+    "visi-misi": "Visi & Misi",
+    "nilai-nilai": "Nilai-Nilai",
+    "manajemen": "Manajemen",
+    "product": "Produk",
+    "services": "Layanan",
+    "services_01": "Instalasi",
+    "services_02": "Pemeliharaan",
+    "services_03": "Perbaikan",
+    "find_us": "Temukan Kami",
+    "news": "Ruang Informasi",
+    "news_company": "Berita",
+    "news_activity": "Kegiatan",
+    "project": "Proyek",
+    "career": "Karir",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "label_01": "Udara sejuk,",
+    "label_02": "dikerjakan dengan presisi",
+    "desc": "Pemasangan, perawatan, dan perbaikan AC oleh teknisi profesional untuk rumah, ruko, hingga gedung perkantoran",
+    "cta": "Pesan Layanan Sekarang"
+  },
+  "stat": {
+    "label_01": "Produk",
+    "label_02": "Mitra Bisnis",
+    "label_03": "Berdiri Sejak",
+    "label_04": "Teknisi aktif"
+  },
+  "home": {
+    "tag": "Layanan Kami",
+    "header": "Satu tim untuk seluruh kebutuhan AC Anda",
+    "desc": "Dari unit rumah hingga sistem pendingin komersial, kami bekerja dengan prosedur yang jelas dan standar teknis yang konsisten"
+  },
+  "services": {
+    "cta": "Lihat semua",
+    "installation": {
+      "title": "Pasang AC baru",
+      "desc": "Instalasi presisi dengan jalur pipa dan drainase yang rapi."
+    },
+    "maintenance": {
+      "title": "Cuci & perawatan",
+      "desc": "Kembalikan performa dingin dan efisiensi listrik unit Anda."
+    },
+    "relocation": {
+      "title": "Bongkar pasang",
+      "desc": "Relokasi unit dengan penanganan freon dan kelistrikan yang aman."
+    },
+    "repair": {
+      "title": "Perbaikan AC",
+      "desc": "Diagnosa transparan untuk masalah kompresor, freon, dan kelistrikan."
+    },
+    "refill": {
+      "title": "Isi ulang freon",
+      "desc": "Refrigerant sesuai spesifikasi untuk pendinginan yang optimal."
+    },
+    "contract": {
+      "title": "Kontrak gedung",
+      "desc": "Maintenance berkala untuk kantor, ruko, dan properti komersial."
+    }
+  },
+  "benefits": {
+    "trained_technician": {
+      "title": "Teknisi profesional",
+      "desc": "Berpengalaman menangani semua merek dan kapasitas AC."
+    },
+    "transparent_price": {
+      "title": "Harga transparan",
+      "desc": "Estimasi jelas sebelum pengerjaan dimulai, tanpa biaya tersembunyi."
+    },
+    "warranty_12_months": {
+      "title": "Garansi 12 bulan",
+      "desc": "Pekerjaan pemasangan dan perbaikan dilindungi garansi tertulis."
+    },
+    "fast_response": {
+      "title": "Respon cepat",
+      "desc": "Jadwal teknisi tersedia untuk area layanan dalam waktu kurang dari 60 menit."
+    }
+  },
+  "home_about": {
+    "tag": "Kenapa kami",
+    "header": "Dikerjakan dengan standar, bukan tebakan",
+    "desc": "Setiap detail diperiksa. Setiap rekomendasi dijelaskan. Karena kenyamanan yang baik dimulai dari pekerjaan yang bisa dipercaya"
+  },
+  "home_testi": {
+    "tag": "Testimoni",
+    "header": "Dipercaya rumah tangga dan bisnis"
+  },
+  "flow_work": {
+    "tag": "Alur Pengerjaan",
+    "header": "  Empat langkah, dari booking hingga garansi",
+    "steps": {
+      "consultation": {
+        "title": "Konsultasi & Booking",
+        "desc": "Sampaikan kebutuhan Anda — pemasangan baru, service rutin, atau perbaikan — via telepon atau WhatsApp."
+      },
+      "survey": {
+        "title": "Survei & Diagnosa",
+        "desc": "Teknisi memeriksa lokasi atau unit untuk menentukan tindakan dan estimasi biaya yang jelas di awal."
+      },
+      "execution": {
+        "title": "Pengerjaan",
+        "desc": "Pemasangan atau perbaikan dilakukan sesuai standar kerja, dengan area kerja yang dijaga tetap rapi."
+      },
+      "quality_check": {
+        "title": "Quality Check & Garansi",
+        "desc": "Pengujian performa pendinginan sebelum serah terima, dilengkapi kartu garansi resmi."
+      }
+    }
+  },
+  "brands": {
+    "tag": "Melayani semua merek dan tipe AC"
+  },
+  "about": {
+    "meta": {
+      "title": "Profil Perusahaan",
+      "description": "Intisukses Mitratama Mandiri merupakan perusahaan Layanan Jasa instalasi, pemeliharaan dan perawatan HVACR di indonesia"
+    },
+    "tag_company": "IKHTISAR KORPORASI",
+    "header_01": "Pilar Andal dalam",
+    "header_02": "Instalasi & Layanan HVAC",
+    "header_03": "  Nasional",
+    "ihktisar": [
+      "Berlatar belakang bisnis di dunia Heating, Ventilating, Air Conditioning, Refrigeration, Mechanical & Electrical yang di jalani oleh PT Intisukses Mitra Sejati yang terus berkembang pesat Serta tuntutan customer khususnya di bidang Engineering support maka pads tahun 2017 berdirilah PT Intisukses Mitratama Mandiri dengan fokus usaha di bidang kontraktor atau lebih spesifiknya di bidang installasi, pemeliharaan dan perbaikan.",
+      "Berpegang teguh pads prinsip mengutamakan kepuasan pelanggan dengan Cara respon yong cepat serta di dukung oleh tenaga kerja, supporting tools, Supporting teknologi Serta dukungan dari principle PT Intisukses Mitratama Mandiri berkembang dengan cepat. Hal ini di buktikan dengan di percayanya perusahaan kami (yang sering di sebut dengan IM2) sebagai Subcont atau engineering dealer beberapa principle seperti Daikin, McQuoy, Mitsubishi, Panasonic, Samsung, Wika, dan lain-Iain.",
+      "IM2 juga di percaya oleh banyak customer mulai dari office building, pabrik, rumahan tinggal mewah Serta customer-customer yang memang membutuhkon layanan berkualitas dari Kami."
+    ],
+    "tag_office": "INFRASTRUKTUR",
+    "header_office": "Kantor",
+    "desc_office": "Pusat operasional utama dan koordinasi logistik yang dirancang strategis guna memfasilitasi kelancaran arus perdagangan antar wilayah.",
+    "image-header": "Kantor Pusat",
+    "office_reception": "Lobi Utama & Resepsionis",
+    "office_front": "Halaman Utama",
+    "office_meeting": "Ruang Rapat Eksekutif & Kemitraan",
+    "office_floor2": "Fasilitas Operasional & Ruang Kerja Tim"
+  },
+  "visiMisi": {
+    "meta": {
+      "title": "Visi & Misi Perusahaan",
+      "description": "Visi & Misi Intisukses Mitratama Mandiri sebagai fondasi utama"
+    },
+    "visi": {
+      "title": "Visi",
+      "description": "Menjadi perusahaan no. l di bidang Jasa service, maintenance, installasi dan pengadaan unit di bidang Mechanical, Electrial, & HVACR "
+    },
+    "misi": {
+      "title": "Misi",
+      "list": [
+        {
+          "title": "Misi 1",
+          "description": "Menjadikan customer sebagai tujuan utama kepuasan layanan pelanggan & tolok ukur kualitas perusahaan"
+        },
+        {
+          "title": "Misi 2",
+          "description": "Menyediakan layanan & kepuasan customer secara profesional, tepat waktu & sesuai dengan ekspetasi customer"
+        },
+        {
+          "title": "Misi 3",
+          "description": "Mengembangkan & mengedepankan teknologi yang berbasis ramah lingkungan & hemat energi"
+        },
+        {
+          "title": "Misi 4",
+          "description": "Menciptakan & menjadikan sinergi & term work sebagai modal dasar dalam mengembangkan perusahaan"
+        }
+      ]
+    }
+  },
+  "bod": {
+    "meta": {
+      "title": "Manajemen Perusahaan",
+      "description": "Informasi seputar manajemen & BOD Intisukses Mitratama Mandiri"
+    },
+    "cta": "Lihat detail",
+    "rudy": {
+      "position": "Komisaris",
+      "description": [
+        "Lahir di Jakarta dan meraih gelar Sarjana Ekonomi Akuntansi dari Universitas Katolik Atma Jaya pada tahun 1993. Sejak duduk di Sekolah Dasar telah terlibat dalam bisnis keluarga sebagai pedagang eceran, yang membentuk dasar pemahaman mengenai dunia bisnis.",
+        "Pada tahun 1991, saat masih kuliah mulai bekerja sebagai profesional di konsultan perpajakan dan mulai tahun 1992 sampai dengan 2013 bekerja di bidang akuntansi dan keuangan. Pengalaman - pengalaman tersebut sangat bernilai dalam membangun bisnis di kemudian hari. Pada tahun 2003 memulai usaha menjadi pedagang eceran dan sukses dalam mengembangkan bisnis tersebut.",
+        "Lima tahun kemudian mendirikan PT Intisukses Mitra Sejati, perusahaan pertama yang menjadi cikal bakal untuk ekspansi bisnis selanjutnya. ",
+        "Pada Tahun 2012 mendirikan perusahaan yang kedua yang bergerak di bidang distribusi semen berkolaborasi dengan rekan bisnis dan sejak itu terus berinovasi dan mendirikan beberapa perusahaan lain dalam berbagai bidang bisnis.",
+        "Dengan pengalaman dan visi yang kuat, berkomitmen untuk terus mengembangkan bisnis yang berkelanjutan dan memberikan kontribusi positif bagi pemangku kepentingan (Stakeholder)."
+      ]
+    },
+    "megawati": {
+      "position": "Direktur Utama ",
+      "description": [
+        "Lahir di Serang dan meraih gelar Sarjana Ekonomi Akuntansi dari Universitas Katolik Atma Jaya pada tahun 1993. Menghabiskan masa kecil hingga menyelesaikan pendidikan Sekolah Menengah Pertama (SMP) di kota Serang, sebelum melanjutkan ke Sekolah Menengah Atas (SMA) di Jakarta pada tahun 1985 sampai dengan perguruan tinggi. ",
+        "Mulai tahun 1992, semasa kuliah bekerja sebagai profesional di bidang keuangan pada perusahaan yang bergerak di bisnis makanan. Selanjutnya mulai tahun 1994 sampai dengan tahun 2001, bekerja di bidang keuangan pada perusahaan developer yang membangun apartemen, hotel, dan perkantoran. ",
+        "Mental kewirausahaan mulai terasah pada tahun 2003 ketika memulai bisnis dengan menjadi pedagang eceran. Pada tahun 2008, mendirikan perusahaan pertamanya, PT Intisukses Mitra Sejati, yang menjadi cikal bakal bagi berdirinya berbagai perusahaan selanjutnya. ",
+        "Dengan pengalaman yang luas dan dedikasi yang tinggi, akan terus memimpin dan mengembangkan usaha yang memberikan dampak positif di berbagai sektor industri. "
+      ]
+    },
+    "asep": {
+      "position": "Direktur",
+      "description": [
+        "Lahir di Serang dan meraih gelar Sarjana Ekonomi Akuntansi dari Universitas Katolik Atma Jaya pada tahun 1993. Menghabiskan masa kecil hingga menyelesaikan pendidikan Sekolah Menengah Pertama (SMP) di kota Serang, sebelum melanjutkan ke Sekolah Menengah Atas (SMA) di Jakarta pada tahun 1985 sampai dengan perguruan tinggi. ",
+        "Mulai tahun 1992, semasa kuliah bekerja sebagai profesional di bidang keuangan pada perusahaan yang bergerak di bisnis makanan. Selanjutnya mulai tahun 1994 sampai dengan tahun 2001, bekerja di bidang keuangan pada perusahaan developer yang membangun apartemen, hotel, dan perkantoran. ",
+        "Mental kewirausahaan mulai terasah pada tahun 2003 ketika memulai bisnis dengan menjadi pedagang eceran. Pada tahun 2008, mendirikan perusahaan pertamanya, PT Intisukses Mitra Sejati, yang menjadi cikal bakal bagi berdirinya berbagai perusahaan selanjutnya. ",
+        "Dengan pengalaman yang luas dan dedikasi yang tinggi, akan terus memimpin dan mengembangkan usaha yang memberikan dampak positif di berbagai sektor industri. "
+      ]
+    }
+  },
+  "corevalues": {
+    "meta": {
+      "title": "Nilai-Nilai Perusahaan",
+      "description": "Nilai-nilai Intisukses Mitratama Mandiri sebagai fondasi budaya kerja"
+    },
+    "heading": "Core Values",
+    "desc_corevalues": "Fondasi budaya kerja kami yang membentuk integritas dan keunggulan perusahaan",
+    "responsibility": {
+      "title": "Responsibility",
+      "description": "Tugas, kewajiban, atau tindakan tertentu yang diharapkan dari seseorang dalam lingkup pekerjaannya."
+    },
+    "excellent": {
+      "title": "Excellent",
+      "description": "Standar kualitas yang tinggi dan konsisten dalam melakukan tugas atau kinerja pekerjaan."
+    },
+    "dedicated": {
+      "title": "Dedicated",
+      "description": "Tingkat komitmen, semangat, dan keseriusan seseorang terhadap tugas atau pekerjaannya."
+    },
+    "detailOriented": {
+      "title": "Detail Oriented",
+      "description": "Kemampuan untuk memperhatikan dan memahami detail kecil atau hal-hal yang mungkin terlewatkan oleh orang lain."
+    },
+    "modernization": {
+      "title": "Modernization",
+      "description": "Proses atau upaya untuk memperbaharui, memodernisasi, atau mengadopsi teknologi, metode, atau proses baru yang lebih efisien dan sesuai dengan perkembangan terkini."
+    },
+    "agility": {
+      "title": "Agility",
+      "description": "Kemampuan seseorang terkini atau organisasi untuk beradaptasi dengan cepat terhadap perubahan dan menanggapi situasi yang berubah dengan fleksibilitas dan responsif."
+    },
+    "senseOfBelonging": {
+      "title": "Sense of Belonging",
+      "description": "Perasaan bahwa seseorang adalah bagian integral dari tim atau organisasi tempat mereka bekerja."
+    }
+  },
+  "instalasi": {
+    "meta": {
+      "title": "Layanan Instalasi AC & Sistem HVACR",
+      "description": "Layanan instalasi dan pemasangan AC, sistem VRV/VRF, chiller, dan heat pump komersial oleh teknisi bersertifikasi. Presisi, rapi, dan bergaransi resmi 12 bulan"
+    },
+    "badge_01": "Standar Pabrikan",
+    "badge_02": "Teknisi Profesional",
+    "badge_03": "Garansi Pekerjaan",
+    "badge_04": "12 Bulan Garansi Resmi",
+    "tag_01": "Layanan Instalasi",
+    "header_01": "Dikerjakan oleh Teknisi Berpengalaman dan Profesional",
+    "desc_01": "Setiap pemasangan AC ditangani oleh teknisi terlatih yang memahami standar keselamatan dan spesifikasi teknis unit. Dengan pengalaman menangani berbagai jenis dan kapasitas AC, kami memastikan proses instalasi berjalan cepat, rapi, dan sesuai kebutuhan ruangan Anda",
+    "header_02": "Pemeliharaan Berkala",
+    "desc_02": "Selama masa kerja sama, Kami juga menyediakan layanan pemeliharaan untuk memastikan AC, Water Heater, Dan heat pump selalu berfungsi secara optimal. Layanan ini disediakan untuk menjaga perangkat dalam kondisi terbaik dan mencegah sebelum terjadinya kerusakan",
+
+    "point_01": "Teknisi Profesional",
+    "point_02": "Garansi Pengerjaan 12 Bulan",
+    "point_03": "Semua Tipe Unit HVACR",
+    "point_04": "Hunian & Komersial",
+
+    "scope_tag": "Lingkup Pekerjaan",
+    "scope_title": "Cakupan Pekerjaan Instalasi Kami",
+    "scope_desc": "Setiap proyek instalasi kami jalankan lewat tahapan yang jelas, dari survei awal hingga serah terima, agar hasil kerja terukur dan bisa dipertanggungjawabkan.",
+    "scope_stag": "Tahapan SOP Terstandar",
+    "scope_01_title": "Survei & Analisa Lokasi",
+    "scope_01_desc": "Pengecekan kondisi ruangan, jalur pipa, dan kebutuhan daya listrik sebelum instalasi dimulai.",
+    "scope_02_title": "Pemasangan Unit Indoor & Outdoor",
+    "scope_02_desc": "Penempatan bracket dan unit sesuai standar sirkulasi udara serta estetika ruangan.",
+    "scope_03_title": "Instalasi Pipa & Kelistrikan",
+    "scope_03_desc": "Pemasangan pipa refrigerant, kabel daya, dan drainase dengan jalur yang rapi.",
+    "scope_04_title": "Vacuum & Pengisian Freon",
+    "scope_04_desc": "Proses vacuum sistem dan pengisian refrigerant sesuai spesifikasi unit.",
+    "scope_05_title": "Testing & Commissioning",
+    "scope_05_desc": "Pengujian tekanan, kebocoran, dan performa pendinginan sebelum unit dinyatakan siap pakai.",
+    "scope_06_title": "Serah Terima & Garansi",
+    "scope_06_desc": "Dokumentasi hasil kerja, penjelasan penggunaan, dan aktivasi garansi pengerjaan.",
+
+    "benefit_tag": "Komitmen Kualitas Kami",
+    "benefit_title": "Mengapa Instalasi yang Benar itu Penting",
+    "benefit_desc": "Sistem yang dipasang dengan benar bekerja pada kapasitas nominalnya, mengonsumsi daya sesuai desain, dan bertahan sesuai masa pakai yang direncanakan. Kami memastikan unit pendingin Anda beroperasi sempurna sejak hari pertama.",
+    "benefit_tag_notif": "Tahukah Anda?",
+    "benefit_content": "AC yang dipasang tidak presisi dapat kehilangan efisiensi 15-25% sejak hari pertama. Ukuran pipa dan proses vacuum yang tepat menghemat listrik dan memperpanjang umur kompresor",
+    "benefit_img_badge": "Jaminan Kualitas",
+    "benefit_img_title": "Pengerjaan Tepat, Nol Rework",
+    "benefit_img_desc": "Setiap pengerjaan instalasi mengikuti checklist ketat dan standar toleransi resmi pabrikan.",
+
+    "benefit_card_01": "3 Pilar Keunggulan Utama",
+    "benefit_card_02": "Presisi, Kebersihan, dan Hemat Daya",
+    "benefit_card_03": "Tiga prinsip dasar yang selalu dijunjung tinggi oleh teknisi kami di setiap pemasangan unit pendingin hunian maupun komersial.",
+    "benefit_card_footer": "Standar Kualitas Teruji",
+
+    "benefit_presisi_tag": "Presisi & Akurasi",
+    "benefit_presisi_title": "Presisi",
+    "benefit_presisi_desc": "Setiap sudut, waterpass, dan pemipaan dikerjakan dengan akurasi millimeter. Flare pipa mesin presisi menjamin sambungan kedap tanpa risiko kebocoran freon dan bebas getaran.",
+    "benefit_presisi_point_01": "Pengukuran waterpass digital presisi",
+    "benefit_presisi_point_02": "Flaring pipa mesin anti-bocor",
+    "benefit_presisi_point_03": "Dudukan bracket kokoh & anti-getar",
+
+    "benefit_kebersihan_tag": "Higienis & Rapi",
+    "benefit_kebersihan_title": "Kebersihan",
+    "benefit_kebersihan_desc": "Area pengerjaan dilindungi cover pengaman. Jalur pipa dan instalasi kabel ditata rapi tanpa merusak estetika ruangan, serta area kerja dibersihkan tuntas setelah selesai.",
+    "benefit_kebersihan_point_01": "Cover pelindung debu di area kerja",
+    "benefit_kebersihan_point_02": "Jalur pipa & kabel tertata rapi",
+    "benefit_kebersihan_point_03": "Pembersihan sisa material tuntas",
+
+    "benefit_hemat_daya_tag": "Efisiensi Energi",
+    "benefit_hemat_daya_title": "Hemat Daya",
+    "benefit_hemat_daya_desc": "Proses vacuum komprehensif, insulasi termal rapat, dan penempatan unit yang tepat menjaga beban kompresor tetap ringan sehingga konsumsi listrik jauh lebih hemat sejak hari pertama.",
+    "benefit_hemat_daya_point_01": "Vacuum sistem tuntas bebas udara",
+    "benefit_hemat_daya_point_02": "Insulasi termal rapat & tahan UV",
+    "benefit_hemat_daya_point_03": "Beban kompresor ringan & efisien",
+
+    "cta_tag": "Mulai Proyek Anda",
+    "cta_title": "Siap Memasang Unit AC & Sistem HVACR Anda?",
+    "cta_desc": "Konsultasikan kebutuhan instalasi rumah, kantor, atau gedung komersial Anda bersama tim teknisi bersertifikasi PT Intisukses Mitratama Mandiri.",
+    "cta_wa": "Konsultasi via WhatsApp",
+    "cta_contact": "Hubungi Kami"
+  },
+  "pemeliharaan": {
+    "meta": {
+      "title": "Layanan Perawatan & Pemeliharaan AC",
+      "description": "Layanan pemeliharaan dan perawatan berkala AC, heat pump, dan water heater oleh teknisi bersertifikasi. Udara bersih, hemat listrik, dan unit lebih awet."
+    },
+    "tag": "Layanan Pemeliharaan Berkala",
+    "header": "Perawatan Preventif Terstruktur untuk Performa Pendinginan Optimal",
+    "desc": "Kami menyediakan layanan pemeliharaan terjadwal untuk memastikan AC, Water Heater, dan Heat Pump selalu beroperasi pada efisiensi puncak, mencegah kerusakan dini, dan menjaga kualitas udara dalam ruangan.",
+    "badge_01": "Standar SOP Resmi",
+    "badge_02": "Teknisi Bersertifikat",
+    "badge_03": "Jaminan Servis",
+    "badge_04": "Garansi Bebas Bocor",
+    "point_01": "Pembersihan Menyeluruh & Higienis",
+    "point_02": "Cek Tekanan Freon & Arus Listrik",
+    "point_03": "Penanganan Segala Tipe Unit AC",
+    "point_04": "Layanan Residensial & Korporat",
+
+    "scope_tag": "Lingkup Pekerjaan",
+    "scope_title": "Cakupan Pemeliharaan Berkala Kami",
+    "scope_desc": "Setiap kunjungan servis dilakukan sesuai checklist standar pabrikan, mulai dari pembersihan fisik hingga audit kelistrikan dan pengujian performa.",
+    "scope_stag": "Tahapan SOP Terstandar",
+    "scope_01_title": "Pembersihan Filter & Cover Indoor",
+    "scope_01_desc": "Pelepasan, pencucian, dan sterilisasi filter udara serta casing indoor untuk sirkulasi udara bersih.",
+    "scope_02_title": "Jet-Wash Koil Evaporator",
+    "scope_02_desc": "Pencucian fin evaporator bertekanan terkontrol dengan cover pelindung dan pembersih aman.",
+    "scope_03_title": "Flushing Saluran Drainase Air",
+    "scope_03_desc": "Pembersihan baki dan pipa pembuangan air untuk mencegah penumpukan lumut dan kebocoran plafon.",
+    "scope_04_title": "Pencucian Kondensor Outdoor",
+    "scope_04_desc": "Jet-wash kisi kondensor luar ruangan agar pembuangan panas kompresor berlangsung optimal.",
+    "scope_05_title": "Pengecekan Freon & Arus Listrik",
+    "scope_05_desc": "Pengukuran tekanan kerja refrigerant dan running ampere kompresor menggunakan manifold digital.",
+    "scope_06_title": "Pengujian Delta T & Serah Terima",
+    "scope_06_desc": "Uji suhu hembusan dingin dan verifikasi performa sebelum serah terima catatan servis.",
+
+    "benefit_tag": "Komitmen Kualitas Kami",
+    "benefit_title": "Mengapa Perawatan Rutin itu Penting",
+    "benefit_desc": "Penumpukan debu mikro pada koil pendingin menurunkan efisiensi pendinginan hingga 25% dan memicu beban kompresor berlebih. Servis rutin menjaga udara tetap sehat dan tagihan listrik tetap terkendali.",
+    "benefit_tag_notif": "Fakta Efisiensi",
+    "benefit_content": "Pembersihan rutin setiap 3 bulan memulihkan performa dingin AC hingga 99%, menghemat konsumsi listrik hingga 20-30%, dan memperpanjang usia pakai unit pendingin.",
+    "benefit_img_badge": "Higienitas & Kerapian",
+    "benefit_img_title": "Proteksi Area & Tanpa Kotor",
+    "benefit_img_desc": "Pengerjaan selalu menggunakan plastik pelindung dinding dan penampung air khusus sehingga ruangan tetap bersih dan kering.",
+
+    "benefit_card_01": "3 Pilar Keunggulan Utama",
+    "benefit_card_02": "Efisiensi Daya, Kualitas Udara, dan Keawetan Unit",
+    "benefit_card_03": "Tiga manfaat nyata yang Anda dapatkan dari program pemeliharaan preventif berkala PT IMM.",
+    "benefit_card_footer": "Standar Kualitas Teruji",
+
+    "benefit_efisiensi_tag": "Efisiensi Daya",
+    "benefit_efisiensi_title": "Hemat Listrik 20–30%",
+    "benefit_efisiensi_desc": "Koil evaporator dan kondensor yang bersih mempercepat perpindahan panas, meringankan kerja kompresor, dan langsung menurunkan konsumsi daya listrik.",
+    "benefit_efisiensi_point_01": "Pertukaran panas koil kembali maksimal",
+    "benefit_efisiensi_point_02": "Kompresor bekerja pada ampere ideal",
+    "benefit_efisiensi_point_03": "Menekan tagihan listrik bulanan",
+
+    "benefit_kesehatan_tag": "Kesehatan & Higienis",
+    "benefit_kesehatan_title": "Udara Bersih & Bebas Alergen",
+    "benefit_kesehatan_desc": "Menghilangkan jamur, bakteri, lendir, dan bau apek yang mengendap di dalam unit AC, memastikan udara yang dihirup keluarga atau staf kerja selalu segar.",
+    "benefit_kesehatan_point_01": "Sterilisasi kotoran & jamur evaporator",
+    "benefit_kesehatan_point_02": "Menghilangkan bau apek & debu ruangan",
+    "benefit_kesehatan_point_03": "Udara lebih segar dan ramah pernapasan",
+
+    "benefit_keawetan_tag": "Perlindungan Aset",
+    "benefit_keawetan_title": "Perpanjang Usia Pakai Unit",
+    "benefit_keawetan_desc": "Deteksi dini potensi kerusakan seperti freon kurang, kapasitor melemah, atau drain tersumbat sebelum berubah menjadi kerusakan fatal yang berbiaya mahal.",
+    "benefit_keawetan_point_01": "Cegah kompresor overheat & macet",
+    "benefit_keawetan_point_02": "Bebas bocor air yang merusak plafon",
+    "benefit_keawetan_point_03": "Catatan riwayat servis terpantau rapi"
+  },
+  "perbaikan": {
+    "meta": {
+      "title": "Layanan Perbaikan & Servis Kerusakan AC HVACR ",
+      "description": "Diagnosa akurat dan perbaikan cepat untuk AC, sistem VRV/VRF, chiller, dan heat pump komersial oleh teknisi bersertifikasi. Spare part original dan bergaransi resmi."
+    },
+    "hero": {
+      "badge": "Layanan Perbaikan & Servis HVACR",
+      "title": "Diagnosa Cepat, Tepat, dan Solutif untuk Semua Kerusakan AC",
+      "desc": "Jangan biarkan unit pendingin yang bermasalah mengganggu kenyamanan atau operasional bisnis Anda. Teknisi tersertifikasi kami mendiagnosa akar kerusakan secara transparan dan memperbaikinya dengan suku cadang original bergaransi.",
+      "imageAlt": "Teknisi profesional melakukan perbaikan AC",
+      "badgeQualityLabel": "Kualitas Servis",
+      "badgeQualityValue": "Akurat & Bergaransi",
+      "badgeWarrantyLabel": "Garansi Servis",
+      "badgeWarrantyValue": "Hingga 6 Bulan Resmi"
+    },
+    "checklist": {
+      "point_01": "Teknisi Ahli Bersertifikat Resmi",
+      "point_02": "Diagnosa Digital Tanpa Tebakan",
+      "point_03": "Suku Cadang Asli Terjamin",
+      "point_04": "Garansi Perbaikan Hingga 6 Bulan"
+    },
+    "scopeSection": {
+      "badge": "Cakupan Layanan Perbaikan",
+      "title": "Berbagai Kendala & Kerusakan yang Kami Tangani",
+      "desc": "Mulai dari kendala kelistrikan ringan hingga penggantian kompresor kapasitas besar untuk semua merek pendingin.",
+      "footerLabel": "Standar Pabrikan"
+    },
+    "scope": {
+      "scope_01": {
+        "title": "Diagnosa Sistem Menyeluruh",
+        "desc": "Analisis kode error kelistrikan, tekanan freon, dan mekanikal secara mendalam untuk menemukan sumber kerusakan tanpa tebak-tebakan.",
+        "badge": "Inspeksi"
+      },
+      "scope_02": {
+        "title": "Perbaikan & Penggantian Kompresor",
+        "desc": "Penanganan kompresor macet, bising, atau grounding bocor dengan flushing asam pipa dan penggantian oli berstandar.",
+        "badge": "Komponen Utama"
+      },
+      "scope_03": {
+        "title": "Deteksi Kebocoran Freon & Pengelasan Pipa",
+        "desc": "Uji tekan nitrogen, electronic halogen sniffer, flaring ulang, serta pengelasan perak oksigen-asetilen pada sambungan pipa bocor.",
+        "badge": "Refrigerasi"
+      },
+      "scope_04": {
+        "title": "Penggantian Kapasitor & Kontaktor Listrik",
+        "desc": "Penggantian kapasitor starting/running yang melemah, kontaktor magnetik aus, serta pemulihan terminal kabel yang terbakar.",
+        "badge": "Kelistrikan"
+      },
+      "scope_05": {
+        "title": "Perbaikan Modul PCB & Sensor Termistor",
+        "desc": "Troubleshooting modul kontrol inverter, komponen relay PCB, sensor temperatur thermistor, dan modul receiver remote.",
+        "badge": "Elektronik"
+      },
+      "scope_06": {
+        "title": "Perbaikan Fan Motor & Blower Wheel",
+        "desc": "Mengatasi bearing motor fan aus/berisik, dinamo motor macet, daun blower indoor tidak seimbang, dan motor swing rusak.",
+        "badge": "Mekanikal"
+      }
+    },
+    "benefitsSection": {
+      "badge": "Kenapa Memilih Servis Kami",
+      "title": "Perbaikan yang Didukung Keahlian, Sparepart, dan Garansi Tertulis",
+      "desc": "Setiap pekerjaan dimulai dengan diagnosa akurat dan diakhiri dengan kartu garansi — Anda tahu pasti apa yang diperbaiki dan alasannya.",
+      "calloutTitle": "Respon Darurat Cepat",
+      "calloutDesc": "Menghadapi kerusakan mendadak yang mengganggu operasional? Teknisi kami dapat merespons dalam waktu kurang dari 60 menit untuk kasus darurat komersial maupun residensial.",
+      "galleryImageAlt": "Teknisi bersertifikat melakukan perbaikan unit AC",
+      "galleryBadge": "Proses Perbaikan",
+      "galleryTitle": "Teknisi Bersertifikat Bekerja",
+      "galleryDesc": "Setiap perbaikan mengikuti SOP ketat dan quality control sebelum serah terima.",
+      "guaranteeBadge": "Jaminan Kami",
+      "guaranteeTitle": "Tiga Alasan Pelanggan Percaya pada Perbaikan Kami",
+      "guaranteeDesc": "Diagnosa akurat, sparepart original, dan garansi yang menjamin hasil pengerjaan kami.",
+      "cardFooter": "Kualitas Terverifikasi"
+    },
+    "benefits": {
+      "diagnosa": {
+        "tag": "Bersertifikat",
+        "title": "Diagnosa Akar Masalah",
+        "desc": "Alat ukur tekanan digital dan pemindai kode error menemukan sumber kerusakan sebenarnya — tanpa tebakan, tanpa ganti komponen sia-sia.",
+        "points": {
+          "point_01": "Uji tekanan & ampere digital",
+          "point_02": "Analisis kode error PCB",
+          "point_03": "Laporan diagnosa tertulis"
+        }
+      },
+      "sparepart": {
+        "tag": "OEM",
+        "title": "Suku Cadang Original",
+        "desc": "Setiap komponen pengganti bersertifikasi pabrikan, menjamin kompatibilitas dan keandalan sistem jangka panjang.",
+        "points": {
+          "point_01": "Komponen bersertifikat pabrikan",
+          "point_02": "Kompatibilitas terverifikasi",
+          "point_03": "Bersumber dari jalur resmi"
+        }
+      },
+      "garansi": {
+        "tag": "Bergaransi",
+        "title": "Garansi Resmi Perbaikan",
+        "desc": "Kami menjamin setiap perbaikan dengan garansi tertulis yang mencakup suku cadang maupun jasa pengerjaan.",
+        "points": {
+          "point_01": "Cakupan hingga 6 bulan",
+          "point_02": "Mencakup suku cadang & jasa",
+          "point_03": "Kartu garansi resmi"
+        }
+      }
+    },
+    "stepsSection": {
+      "badge": "Prosedur Perbaikan Transparan",
+      "title": "4 Tahapan dari Diagnosa hingga Garansi",
+      "desc": "Kami tidak pernah melakukan perbaikan tanpa persetujuan Anda. Semua tahapan transparan dan disepakati di awal."
+    },
+    "steps": {
+      "step_01": {
+        "title": "Konsultasi Kendala",
+        "desc": "Sampaikan gejala masalah AC Anda (misal: hembusan tidak dingin, MCB sering anjlok, atau bau terbakar) via WhatsApp atau telepon.",
+        "detail": "Respon cepat & cek awal gejala"
+      },
+      "step_02": {
+        "title": "Diagnosa Langsung di Lokasi",
+        "desc": "Teknisi tiba di lokasi membawa alat ukur digital untuk memeriksa tekanan freon, arus ampere, dan kode error modul PCB.",
+        "detail": "Pemeriksaan akar masalah akurat"
+      },
+      "step_03": {
+        "title": "Estimasi Transparan & Eksekusi",
+        "desc": "Kami memberikan rincian jelas komponen yang perlu diperbaiki beserta biaya sebelum pengerjaan. Pengerjaan baru dimulai setelah Anda setuju.",
+        "detail": "Tanpa biaya tersembunyi"
+      },
+      "step_04": {
+        "title": "Uji Performa & Kartu Garansi",
+        "desc": "Pengujian continuous running untuk memastikan suhu dingin stabil kembali, serah terima lembar kerja, dan aktivasi kartu garansi resmi.",
+        "detail": "Verifikasi QC & kartu garansi resmi"
+      }
+    }
+  },
+  "faq": {
+    "tag": "Pertanyaan Umum",
+    "header": "Yang sering ditanyakan",
+    "duration": {
+      "q": "Berapa lama proses pemasangan satu unit AC?",
+      "a": "Untuk unit standar (1–1.5 PK), pemasangan umumnya memakan waktu 1.5–2.5 jam tergantung jarak instalasi pipa dan kondisi lokasi."
+    },
+    "material": {
+      "q": "Apakah freon dan bracket sudah termasuk dalam biaya jasa?",
+      "a": "Biaya jasa pemasangan terpisah dari material seperti pipa, bracket, dan freon. Rincian akan disampaikan setelah survei atau konfirmasi kebutuhan."
+    },
+    "warranty": {
+      "q": "Apakah ada garansi setelah pemasangan atau perbaikan?",
+      "a": "Ya, setiap pekerjaan dilindungi garansi resmi hingga 12 bulan untuk jasa pemasangan, dan garansi servis sesuai jenis pekerjaan."
+    },
+    "commercial": {
+      "q": "Apakah bisa untuk kebutuhan gedung atau kantor dalam jumlah banyak?",
+      "a": "Bisa. Kami menyediakan paket kontrak perawatan berkala untuk kebutuhan komersial dengan jumlah unit besar."
+    }
+  },
+  "testimonials": {
+    "budi": {
+      "name": "Budi Santoso",
+      "role": "Pemilik Ruko — Bekasi",
+      "quote": "Pemasangan 4 unit AC untuk ruko selesai dalam sehari, hasilnya rapi dan dingin merata di semua ruangan."
+    },
+    "sari": {
+      "name": "Sari Wulandari",
+      "role": "Rumah Tinggal — Depok",
+      "quote": "Teknisinya datang tepat waktu dan menjelaskan penyebab AC tidak dingin dengan jelas sebelum mulai bekerja."
+    },
+    "andrean": {
+      "name": "Andrean Wijaya",
+      "role": "Manajer Operasional — Gedung Perkantoran",
+      "quote": "Sudah dua tahun pakai layanan kontrak bulanan mereka untuk 20 unit AC kantor, jadwalnya selalu konsisten."
+    },
+    "rizal": {
+      "name": "Rizal Efendi",
+      "role": "Kantor Real Estate",
+      "quote": "AC di ruang meeting mendadak mati siang hari, teknisi datang di hari yang sama dan langsung beres sebelum jam kerja berakhir."
+    },
+    "sumanto": {
+      "name": "Sumanto",
+      "role": "Rumah Tinggal — Jombang",
+      "quote": "Setelah cuci AC berkala, ruangan jadi jauh lebih dingin dan tagihan listrik bulanan ikut turun."
+    },
+    "wijaya": {
+      "name": "Wijaya Susanto",
+      "role": "General Manager — Gedung Perkantoran",
+      "quote": "Laporan hasil pengecekan rutin selalu rinci, memudahkan kami memantau kondisi AC di tiap lantai gedung."
+    },
+    "dewi": {
+      "name": "Dewi Anggraini",
+      "role": "Ibu Rumah Tangga — Tangerang",
+      "quote": "Harga sudah dijelaskan jelas di awal, tidak ada biaya tambahan mendadak setelah pekerjaan selesai."
+    },
+    "hendra": {
+      "name": "Hendra Kurniawan",
+      "role": "Pemilik Kos-kosan — Bandung",
+      "quote": "Pemasangan AC di 8 kamar kos berjalan lancar dalam dua hari, teknisi juga rapi membereskan sisa material."
+    },
+    "linda": {
+      "name": "Linda Permatasari",
+      "role": "HRD — Perusahaan Manufaktur",
+      "quote": "Tim bersedia datang di luar jam kerja sesuai permintaan kami, jadi operasional kantor tidak terganggu."
+    }
+  },
+
+  "proyek": {
+    "meta": {
+      "title": "Proyek Perusahaan",
+      "description": "Beberapa Portofolio proyek Intisukses Mitratama Mandiri"
+    },
+    "hero": {
+      "badge": "Portofolio Proyek",
+      "title": "Proyek yang Telah Kami Kerjakan",
+      "desc": "Sebagian dari rekam jejak kami dalam menyuplai dan memasang sistem HVAC untuk gedung komersial, hunian, dan fasilitas publik di berbagai kota di Indonesia.",
+      "count": "Menampilkan {count} proyek"
+    },
+    "empty": "Belum ada proyek untuk ditampilkan."
+  },
+  "karir": {
+    "meta": {
+      "title": "Karir Perusahaan",
+      "description": "Lowongan perusaahan Intisukses Mitratama Mandiri"
+    },
+    "tag": "Lowongan Pekerjaan",
+    "header": "Kembangkan Karirmu Bersama Kami!",
+    "desc": "Jika anda seorang yang dinamis, pekerja keras dan ingin mengambil tantangan baru untuk mencapai hasil yang lebih baik, kami mengundang anda untuk bergabung dan menjadi bagian dari kami"
+  },
+  "kontak": {
+    "location_heading": "Lokasi Kami",
+    "desc_heading": "Tim kami siap membantu menjawab pertanyaan seputar produk dan layanan Sinergi Mandiri Perkasa",
+    "hero_heading_01": "Kami siap membantu",
+    "hero_heading_02": "Anda!",
+    "hero_subtext": "Silakan Isi Form & Konsultasikan",
+    "alert_message_name": "Nama lengkap harus diisi minimal 8 karakter",
+    "alert_message_email": "Alamat email harus diisi",
+    "alert_message_telp": "Nomor telepon harus diisi dengan format yang benar",
+    "alert_message_city": "Kota harus diisi",
+    "alert_message": "Pesan harus diisi minimal 10 karakter",
+    "form": {
+      "name_label": "Nama Lengkap",
+      "email_label": "Alamat Email",
+      "contact_label": "No.Telpon",
+      "contact_hint": "(Ex.+62812 7777 1111)",
+      "country_label": "Kota Anda",
+      "message_label": "Pesan Anda...",
+      "submit": "Kirim Pesan",
+      "submitting": "Mengirim...",
+      "success": "Pesan Anda berhasil dikirim. Kami akan segera menghubungi Anda.",
+      "error": "Terjadi kesalahan, silakan coba lagi."
+    },
+    "locations": {
+      "kantor-utama": { "name": "Kantor Utama" },
+      "email": { "name": "Email" },
+      "telepon": { "name": "Telepon" },
+      "company-profile": { "name": "Download Company Profile" }
+    }
+  },
+  "footer": {
+    "header_footer": "Connect With Us",
+    "header_footer_01": "Head Office"
+  }
+}

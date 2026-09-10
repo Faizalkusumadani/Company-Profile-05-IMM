@@ -63,7 +63,7 @@ export default function PageLoader() {
         position: "fixed",
         inset: 0,
         zIndex: 9999,
-        backgroundColor: "#0f172a",
+        backgroundColor: "#ffffff",
         alignItems: "center",
         justifyContent: "center",
         transition: "opacity 0.6s ease",
@@ -89,8 +89,8 @@ export default function PageLoader() {
         >
           <Image
             src="/logo/loading-screen.png"
-            alt="SMP Logo"
-            width={120}
+            alt="IMM Logo"
+            width={160}
             height={80}
             style={{ objectFit: "contain" }}
             className="w-30 h-20"
@@ -101,11 +101,11 @@ export default function PageLoader() {
               fontFamily: "Poppins, sans-serif",
               fontSize: "1rem",
               fontWeight: 600,
-              color: "#f7941e",
+              color: "#0f172a",
               letterSpacing: "-0.01em",
             }}
           >
-            Sinergi Mandiri Perkasa
+            Intisukses Mitratama Mandiri
           </span>
         </div>
 
@@ -135,9 +135,9 @@ export default function PageLoader() {
         <p
           ref={labelRef}
           style={{
-            fontFamily: "Poppins, sans-serif",
+            fontFamily: "Poppins",
             fontSize: "0.75rem",
-            color: "#e2e8f0",
+            color: "#94a3b8",
             marginTop: "-0.5rem",
           }}
         >
