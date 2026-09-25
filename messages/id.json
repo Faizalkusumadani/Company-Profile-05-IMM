@@ -8,23 +8,29 @@
     "nilai-nilai": "Nilai-Nilai",
     "manajemen": "Manajemen",
     "product": "Produk",
+    "product_all": "Semua Produk",
+    "product_ac": "AC",
+    "product_hepa": "HEPA Filter",
+    "product_chiller": "Chiller",
     "services": "Layanan",
-    "services_01": "Instalasi",
-    "services_02": "Pemeliharaan",
-    "services_03": "Perbaikan",
+    "services_01": "AC design dan instalasi",
+    "services_02": "Hepa filter design dan instalasi",
+    "services_03": "Chiller plan design dan instalasi",
+    "services_04": "Pemeliharaan",
     "find_us": "Temukan Kami",
     "news": "Ruang Informasi",
     "news_company": "Berita",
     "news_activity": "Kegiatan",
-    "project": "Proyek",
+    "project": "Proyek Referensi",
     "career": "Karir",
-    "contact": "Kontak"
+    "contact": "Kontak",
+    "switch": "Bahasa"
   },
   "hero": {
-    "label_01": "Udara sejuk,",
-    "label_02": "dikerjakan dengan presisi",
-    "desc": "Pemasangan, perawatan, dan perbaikan AC oleh teknisi profesional untuk rumah, ruko, hingga gedung perkantoran",
-    "cta": "Pesan Layanan Sekarang"
+    "label_01": "Solusi HVACR Andal",
+    "label_02": "Untuk Proyek Anda",
+    "desc": "Layanan tata udara dan refrigerasi terintegrasi untuk sektor komersial dan industri dari perencanaan hingga sistem siap operasi",
+    "cta": "Diskusi dengan Tim Kami"
   },
   "stat": {
     "label_01": "Produk",
@@ -34,34 +40,41 @@
   },
   "home": {
     "tag": "Layanan Kami",
-    "header": "Satu tim untuk seluruh kebutuhan AC Anda",
-    "desc": "Dari unit rumah hingga sistem pendingin komersial, kami bekerja dengan prosedur yang jelas dan standar teknis yang konsisten"
+    "header": "Satu tim untuk seluruh kebutuhan HVACR Anda",
+    "desc": "Dari unit rumahan hingga skala perkantoran dan industri, kami bekerja dengan prosedur yang jelas dan standar teknis yang konsisten"
+  },
+  "home_profile": {
+    "tag": "Tentang Kami",
+    "title": "Mitra Andal dalam Rekayasa & Solusi HVACR Terpadu",
+    "desc": "Kami berfokus pada perancangan sistem presisi, instalasi profesional, pemeliharaan berkala, serta pengadaan menyeluruh untuk kebutuhan residensial, gedung komersial, hingga kawasan industri.",
+    "box_title": "Authorized Engineering Dealer & Subcont Terpercaya",
+    "box_desc": "Dipercaya secara resmi oleh berbagai prinsipal pendingin kelas dunia seperti Daikin, Gree, Panasonic, Hitachi, Samsung, Midea, LG, Frimec, TICA, dan JAF.",
+    "point_01": "Teknisi bersertifikasi & berpengalaman",
+    "point_02": "Peralatan ukur & instalasi standar industri",
+    "point_03": "Jaminan garansi resmi & suku cadang asli",
+    "point_04": "Dukungan respons cepat & purna jual prima",
+    "cta": "Lihat Profil Perusahaan",
+    "img_badge": "Kantor Pusat & Operasional",
+    "img_title": "PT Intisukses Mitratama Mandiri",
+    "img_desc": "Didukung tim engineering andal dan fasilitas modern untuk memastikan setiap proyek terlaksana tepat waktu dan berkualitas."
   },
   "services": {
-    "cta": "Lihat semua",
-    "installation": {
-      "title": "Pasang AC baru",
-      "desc": "Instalasi presisi dengan jalur pipa dan drainase yang rapi."
+    "cta": "Selengkapnya",
+    "installation-ac": {
+      "title": "Ac desain dan instalasi",
+      "desc": "Perancangan dan pemasangan sistem AC presisi untuk kenyamanan serta efisiensi energi hunian, kantor, dan komersial."
+    },
+    "installation-hepa": {
+      "title": "Hepa Filter desain and instalasi",
+      "desc": "Perancangan dan pemasangan filtrasi HEPA (efisiensi 99,97%) untuk standar kebersihan udara cleanroom, ruang operasi, dan laboratorium."
+    },
+    "installation-chiller": {
+      "title": "Chiller desain dan instalasi",
+      "desc": "Perencanaan dan pemasangan sistem pendingin skala besar (HVAC) untuk kontrol suhu presisi gedung dan industri."
     },
     "maintenance": {
-      "title": "Cuci & perawatan",
-      "desc": "Kembalikan performa dingin dan efisiensi listrik unit Anda."
-    },
-    "relocation": {
-      "title": "Bongkar pasang",
-      "desc": "Relokasi unit dengan penanganan freon dan kelistrikan yang aman."
-    },
-    "repair": {
-      "title": "Perbaikan AC",
-      "desc": "Diagnosa transparan untuk masalah kompresor, freon, dan kelistrikan."
-    },
-    "refill": {
-      "title": "Isi ulang freon",
-      "desc": "Refrigerant sesuai spesifikasi untuk pendinginan yang optimal."
-    },
-    "contract": {
-      "title": "Kontrak gedung",
-      "desc": "Maintenance berkala untuk kantor, ruko, dan properti komersial."
+      "title": "Perawatan",
+      "desc": "pemeliharaan terjadwal untuk memastikan AC, Hepa filter, dan Chiller selalu beroperasi pada efisiensi puncak, mencegah kerusakan dini, dan menjaga kualitas udara dalam ruangan"
     }
   },
   "benefits": {
@@ -74,7 +87,7 @@
       "desc": "Estimasi jelas sebelum pengerjaan dimulai, tanpa biaya tersembunyi."
     },
     "warranty_12_months": {
-      "title": "Garansi 12 bulan",
+      "title": "Garansi",
       "desc": "Pekerjaan pemasangan dan perbaikan dilindungi garansi tertulis."
     },
     "fast_response": {
@@ -241,23 +254,133 @@
       "description": "Perasaan bahwa seseorang adalah bagian integral dari tim atau organisasi tempat mereka bekerja."
     }
   },
-  "instalasi": {
+  "product": {
     "meta": {
-      "title": "Layanan Instalasi AC & Sistem HVACR",
-      "description": "Layanan instalasi dan pemasangan AC, sistem VRV/VRF, chiller, dan heat pump komersial oleh teknisi bersertifikasi. Presisi, rapi, dan bergaransi resmi 12 bulan"
+      "title": "Produk Perusahaan",
+      "description": "berbagai macam produk yang tersedia di Intisukses Mitratama Mandiri HVACR di indonesia"
+    },
+    "tag": "katalog produk",
+    "header": "Temukan produk HVACR dengan kualitas terbaik",
+    "desc": "Jelajahi katalog pilihan kami dan dapatkan produk terbaik sesuai dengan prioritas Anda",
+    "error": "tidak di temukan",
+    "header-result": "Temukan produk anda disini... ",
+    "result-01": "ketik sesuatu untuk mulai mencari produk disini",
+    "not-found": " Produk untuk kategori ini belum tersedia",
+    "categories": {
+      "all": "Semua",
+      "ac": "AC",
+      "hepa": "HEPA",
+      "chiller": "Chiller"
+    },
+    "category_badge_all": "Semua",
+    "category_badge_ac": "AC",
+    "category_badge_hepa": "HEPA",
+    "category_badge_chiller": "Chiller",
+    "tab-menu-01": "Spesifikasi",
+    "tab-menu-02": "Tipe",
+    "tab-menu-03": "Kontak",
+    "tab-content-01": "Keunggulan & Fitur Utama",
+    "tab-content-02": "Tipe",
+    "tab-content-03": "Tanyakan Tipe Ini",
+    "consult_text": "Dapatkan penawaran harga terbaik, spesifikasi teknis, atau konsultasi kebutuhan sistem HVACR Anda langsung dari tim ahli kami.",
+    "related_title": "Produk Terkait Lainnya",
+    "related_desc": "Pilihan brand lainnya dalam kategori yang sama untuk referensi Anda.",
+    "catalog_count": "{count} Produk Ditemukan",
+    "daikin_desc": "AC Daikin adalah penyejuk udara berkualitas tinggi yang menawarkan pendinginan cepat dan efisien. Dilengkapi dengan teknologi canggih untuk hemat energi dan operasi yang tenang, AC Daikin memberikan kenyamanan maksimal di rumah atau kantor. Desainnya yang elegan dan fitur-fitur pintar membuatnya mudah digunakan dan dirawat",
+    "daikin_features_1": "Inverter Sejati",
+    "daikin_features_2": "Aliran Udara Nyaman dengan Mekanisme Coanda",
+    "daikin_features_3": "Aliran Udara 3D",
+    "daikin_features_4": "Penghilang Bau & Filter PM 2.5",
+    "daikin_features_5": "Energi Aman dengan Intelligent Eye",
+    "daikin_features_6": "Kontrol Wi-Fi Cerdas Daikin",
+    "gree_desc": "Gree memiliki beragam pilihan AC berkualitas tinggi. Mulai dari AC split dinding, AC split duct, AC cassette, AC multisplit, hingga AC VRF berkapasitas besar. Gree memiliki solusi pendinginan untuk setiap kebutuhan ruangan",
+    "gree_features_1": "Pendinginan Cepat & Hemat Energi ",
+    "gree_features_2": "Anti korosi untuk penggunaan luar ruangan",
+    "gree_features_3": "Sistem Pembersih Cerdas & Penghapusan Mudah",
+    "gree_features_4": "Gold Fin & Blue Fin ",
+    "gree_features_5": "Pasokan Udara Massal",
+    "gree_features_6": "Inverter G-1Hz & Freon R-32",
+    "aqua_desc": "AC AQUA (sebelumnya dikenal di bawah grup SANYO dan kini bagian dari AQUA Japan / Haier Group) adalah merek pendingin ruangan yang menawarkan keseimbangan antara kualitas standar Jepang, ketahanan komponen, dan harga yang sangat ekonomis",
+    "aqua_features_1": "Teknologi Inverter Plus & Eco Mode",
+    "aqua_features_2": "Fitur Self-Clean & Sterilisasi UVC",
+    "aqua_features_3": "Perlindungan Anti-Korosi Blue Fin & Pipa Tembaga Murni:",
+    "aqua_features_4": "Fitur Wide Voltage (160V - 242V)",
+    "aqua_features_5": "Pendinginan Cepat (Turbo Cooling & Triple Air Flow)",
+    "aqua_features_6": "Papan Sirkuit Tangguh (Hyper PCB)",
+    "hitachi_desc": "Hitachi Air Conditioner (AC) adalah solusi pendingin ruangan yang mengutamakan efisiensi energi dan kenyamanan. Dengan teknologi inverter, AC ini menjaga suhu ruangan tetap stabil sambil menghemat energi. Dilengkapi dengan filter udara canggih, produk ini memastikan udara yang bersih dan segar. Desainnya yang modern mudah menyatu dengan berbagai interior ruangan, sementara fitur-fitur seperti pengaturan suhu otomatis dan mode tidur menambah kenyamanan penggunaan sehari-hari",
+    "hitachi_features_1": "Teknologi Inverter Hemat Energi",
+    "hitachi_features_2": "Fitur FrostWash (Pembersih Otomatis)",
+    "hitachi_features_3": "Sistem Filtrasis Udara Canggih",
+    "hitachi_features_4": "Daya Tahan Tinggi & Anti-Korosi",
+    "hitachi_features_5": "Pendinginan Cepat (Powerful Cooling)",
+    "hitachi_features_6": "Operasi Senyap (Silent Operation)",
+    "panasonic_desc": "AC Panasonic adalah penyejuk udara andal yang menghadirkan kesejukan cepat dan efisien. Didesain dengan teknologi hemat energi dan operasi yang senyap, AC ini memastikan kenyamanan optimal di rumah atau kantor. Dengan desain modern dan fitur pintar, AC Panasonic mudah digunakan dan dirawat",
+    "panasonic_features_1": "Teknologi nanoe™ X & nanoe-G",
+    "panasonic_features_2": "Inverter & ECONAVI / AI Control",
+    "panasonic_features_3": "Fitur iAUTO-X (Powerful Cooling)",
+    "panasonic_features_4": "Kerapian Udara Aerowings",
+    "panasonic_features_5": "Daya Tahan Tinggi & Anti-Karat)",
+    "panasonic_features_6": "Pengoperasian Cerdas via Aplikasi (Panasonic Comfort Cloud)",
+    "samsung_desc": "Samsung merupakan produk elektronik dari korea yang sangat berani dalam berinovasi, Dengan produk yang tidak hanya mementingkan kualitas, Samsung juga menawarkan produk yag dapat menggabungkan antara teknologi dan seni didalam nya.",
+    "samsung_features_1": "Teknologi WindFree™ Cooling",
+    "samsung_features_2": "Digital Inverter Boost",
+    "samsung_features_3": "Sistem Filtrasi Udara Canggih (Tri-Care Filter & PM1.0)",
+    "samsung_features_4": "Konektivitas Cerdas (SmartThings)",
+    "samsung_features_5": "Pendinginan Cepat (Fast Cooling)",
+    "samsung_features_6": "Perlindungan Durafin™ Plus & Triple Protector Plus",
+    "midea_desc": "AC Midea memberikan pendinginan yang efisien dengan teknologi inverter yang menghemat energi dan menjaga suhu ruangan tetap stabil. Dikenal dengan sistem filtrasi udara yang efektif dan desain modern yang cocok untuk berbagai gaya interior, AC ini menawarkan kenyamanan optimal serta kemudahan penggunaan.",
+    "midea_features_1": "Harga Sangat Kompetitif dengan Fitur Melimpah",
+    "midea_features_2": "Teknologi Inverter Quattro",
+    "midea_features_3": "Fitur iECO Mode",
+    "midea_features_4": "Lapisan Pelindung PrimeGuard™ / Hyper Graphene",
+    "midea_features_5": "Sistem Pembersih Otomatis (Self-Cleaning / Air Magic)",
+    "midea_features_6": "Fitur Super Ionizer & Filtrasi Tinggi",
+    "lg_desc": "AC LG adalah salah satu merek pendingin ruangan terkemuka yang dikenal dengan inovasi teknologi pendinginan cepat, efisiensi energi yang tinggi, serta ketahanan mesin yang andal untuk kebutuhan hunian maupun komersial",
+    "lg_features_1": "Dual Inverter Compressor",
+    "lg_features_2": "Watt Control (Pengaturan Daya)",
+    "lg_features_3": "Sistem Pemurni Udara (Plasmaster™ Ionizer+ & UVnano™)",
+    "lg_features_4": "Operasi Sangat Senyap",
+    "lg_features_5": "Ketahanan Ekstra (Gold Fin™ & Garansi Panjang)",
+    "lg_features_6": "Integrasi Cerdas LG ThinQ",
+    "frimec_desc": "brand pendingin udara (HVAC System) berskala internasional asal Malaysia yang bekerja sama erat dengan standar rekayasa Jepang. Produk Frimec berfokus pada solusi pengondisian udara komersial, industri, hingga hunian besar, seperti unit AHU (Air Handling Unit), Chiller, Rooftop Packaged, dan Commercial Split",
+    "frimec_features_1": "Standar Mutu & Teknologi Jepang",
+    "frimec_features_2": "Kapasitas & Variasi Komersial Lengkap",
+    "frimec_features_3": "Struktur Panel Anti-Bocor Air & Panas (Labyrinth Panel Design)",
+    "frimec_features_4": "Efisiensi Energi Tingkat Tinggi",
+    "frimec_features_5": "Desain Senyap (Low Noise Operation)",
+    "frimec_features_6": "Konstruksi Tahan Lama & Kemudahan Perawatan",
+    "tica_desc": "TICA adalah Industri HVAC yang dikenal karena memproduksi berbagai jenis sistem pendingin udara yang efisien dan inovatif. Produk-produk TICA, seperti Modular Chiller, Fan Coil Units (FCU), Air Handling Units (AHU), dan sistem VRF (Variable Refrigerant Flow), dirancang untuk memenuhi kebutuhan pendinginan bangunan besar seperti perkantoran, hotel, dan pusat perbelanjaan",
+    "tica_features_1": "Inovasi Teknologi ",
+    "tica_features_2": "Produk TICA dilengkapi dengan teknologi terkini untuk memastikan kinerja maksimal dan efisiensi tinggi",
+    "tica_features_3": "Reputasi Global",
+    "tica_features_4": "Dengan pengalaman lebih dari 30 tahun, TICA telah dipercaya di berbagai industri di seluruh dunia",
+    "tica_features_5": "Efisiensi Biaya",
+    "tica_features_6": "Sistem kami dirancang untuk memberikan penghematan biaya energi yang signifikan bagi pelanggan",
+    "jaf_desc": "Japan Air Filter (JAF) menyediakan filter udara berkualitas tinggi yang dirancang untuk meningkatkan kualitas udara dalam ruangan. Dengan teknologi filtrasi canggih, produk ini efektif menghilangkan debu, alergen, dan kontaminasi dari udara, menjadikannya ideal untuk menciptakan lingkungan yang bersih dan sehat",
+    "jaf_features_1": "Menghilangkan bakteri dan debu",
+    "jaf_features_2": "Menghilangkan kontaminan kimia",
+    "jaf_features_3": "Bodi yang Kuat",
+    "jaf_features_4": "Desain karya seni eksternal yang inovatif dan mudah dibawa",
+    "jaf_features_5": "Filtrasi Udara No. 1 di Dunia",
+    "jaf_features_6": "Pemasangan & Perawatan Mudah"
+  },
+  "instalasi-ac": {
+    "meta": {
+      "title": "Layanan Instalasi AC & Desain",
+      "description": "Layanan instalasi dan pemasangan AC, sistem VRV/VRF, chiller, dan hepa filter komersial oleh teknisi profesional. Presisi, rapi, dan bergaransi"
     },
     "badge_01": "Standar Pabrikan",
     "badge_02": "Teknisi Profesional",
     "badge_03": "Garansi Pekerjaan",
-    "badge_04": "12 Bulan Garansi Resmi",
-    "tag_01": "Layanan Instalasi",
+    "badge_04": "Garansi Resmi",
+    "tag_01": "Layanan Instalasi AC",
     "header_01": "Dikerjakan oleh Teknisi Berpengalaman dan Profesional",
-    "desc_01": "Setiap pemasangan AC ditangani oleh teknisi terlatih yang memahami standar keselamatan dan spesifikasi teknis unit. Dengan pengalaman menangani berbagai jenis dan kapasitas AC, kami memastikan proses instalasi berjalan cepat, rapi, dan sesuai kebutuhan ruangan Anda",
+    "desc_01": "Setiap pemasangan AC ditangani oleh teknisi profesional yang memahami standar keselamatan dan spesifikasi teknis unit. Dengan pengalaman menangani berbagai jenis dan kapasitas AC, kami memastikan proses instalasi berjalan cepat, rapi, dan sesuai kebutuhan ruangan Anda",
     "header_02": "Pemeliharaan Berkala",
-    "desc_02": "Selama masa kerja sama, Kami juga menyediakan layanan pemeliharaan untuk memastikan AC, Water Heater, Dan heat pump selalu berfungsi secara optimal. Layanan ini disediakan untuk menjaga perangkat dalam kondisi terbaik dan mencegah sebelum terjadinya kerusakan",
+    "desc_02": "Selama masa kerja sama, Kami juga menyediakan layanan pemeliharaan untuk memastikan AC, Hepa Filter, Dan Chiller selalu berfungsi secara optimal. Layanan ini disediakan untuk menjaga perangkat dalam kondisi terbaik dan mencegah sebelum terjadinya kerusakan",
 
     "point_01": "Teknisi Profesional",
-    "point_02": "Garansi Pengerjaan 12 Bulan",
+    "point_02": "Garansi Pengerjaan",
     "point_03": "Semua Tipe Unit HVACR",
     "point_04": "Hunian & Komersial",
 
@@ -311,13 +434,148 @@
     "benefit_hemat_daya_desc": "Proses vacuum komprehensif, insulasi termal rapat, dan penempatan unit yang tepat menjaga beban kompresor tetap ringan sehingga konsumsi listrik jauh lebih hemat sejak hari pertama.",
     "benefit_hemat_daya_point_01": "Vacuum sistem tuntas bebas udara",
     "benefit_hemat_daya_point_02": "Insulasi termal rapat & tahan UV",
-    "benefit_hemat_daya_point_03": "Beban kompresor ringan & efisien",
+    "benefit_hemat_daya_point_03": "Beban kompresor ringan & efisien"
+  },
+  "instalasi-hepa": {
+    "meta": {
+      "title": "Layanan Instalasi Hepa Filter & Desain",
+      "description": "Solusi kualitas udara presisi tinggi untuk fasilitas yang membutuhkan standar kebersihan udara ketat mulai dari desain sistem hingga instalasi"
+    },
+    "badge_01": "Standar Regulasi",
+    "badge_02": "ISO 14644 & CPOB",
+    "badge_03": "Tingkat Filtrasi Udara",
+    "badge_04": "H13 / H14 (99.97%)",
+    "tag_01": "Layanan Instalasi Hepa Filter",
+    "header_01": "Desain & Instalasi Sistem HEPA Filter Profesional",
+    "desc_01": "Kami menyediakan solusi menyeluruh untuk perencanaan, Perhitungan pertukaran udara, hingga pemasangan sistem HEPA / ULPA Filter. Dirancang presisi untuk memenuhi standar kebersihan udara di ruang operasi, industri farmasi, Laboratorium, dan cleanroom manufaktur.",
+    "header_02": "Pemeliharaan Berkala",
+    "desc_02": "Selama masa kerja sama, Kami juga menyediakan layanan pemeliharaan untuk memastikan AC, Hepa Filter, Dan Chiller selalu berfungsi secara optimal. Layanan ini disediakan untuk menjaga perangkat dalam kondisi terbaik dan mencegah sebelum terjadinya kerusakan",
 
-    "cta_tag": "Mulai Proyek Anda",
-    "cta_title": "Siap Memasang Unit AC & Sistem HVACR Anda?",
-    "cta_desc": "Konsultasikan kebutuhan instalasi rumah, kantor, atau gedung komersial Anda bersama tim teknisi bersertifikasi PT Intisukses Mitratama Mandiri.",
-    "cta_wa": "Konsultasi via WhatsApp",
-    "cta_contact": "Hubungi Kami"
+    "point_01": "Kalkulasi Air Change per Hour (ACH)",
+    "point_02": "Pemasangan Terminal Box & FFU",
+    "point_03": "Uji Integritas Filter PAO / DOP Test",
+    "point_04": "Penyusunan Dokumen Kualifikasi IQ/OQ",
+    "scope_tag": "Lingkup Pekerjaan",
+    "scope_title": "Cakupan Pekerjaan Instalasi Kami",
+    "scope_desc": "Pendekatan terstruktur kami menjamin setiap tahap perancangan dan pemasangan unit berjalan sesuai spesifikasi teknis ruangan yang disyaratkan",
+    "scope_stag": "Tahapan SOP Terstandar",
+    "scope_01_title": "Desain Layout & Simulasi Cleanroom",
+    "scope_01_desc": "Perancangan pola aliran udara (laminar/turbulen), kriteria kontaminasi, dan spesifikasi pertukaran udara (ACH) sesuai ISO 14644 & CPOB",
+    "scope_02_title": "Instalasi Terminal Box & Filter HEPA/ULPA",
+    "scope_02_desc": "Pemasangan unit FFU/HEPA box dengan sistem penyegelan kedap udara (hermetic seal) serta integrasi ducting bertekanan presisi",
+    "scope_03_title": "Pengujian Kebocoran (PAO / DOP Leak Test)",
+    "scope_03_desc": "Pengujian integritas media filter dan gasket menggunakan metode aerosol PAO/DOP untuk menjamin nol kebocoran kontaminan",
+    "scope_04_title": "Airflow Balancing & Differential Pressure",
+    "scope_04_desc": "Pengaturan dan penyeimbangan volume udara serta tekanan diferensial antar-ruangan (ruang positif / negatif)",
+    "scope_05_title": "Kualifikasi & Sertifikasi Ruangan",
+    "scope_05_desc": "Penyusunan dokumen Kualifikasi Instalasi (IQ) dan Kualifikasi Operasional (OQ) untuk kebutuhan audit dan validasi industri",
+    "scope_06_title": "Serah Terima & Garansi",
+    "scope_06_desc": "Dokumentasi hasil kerja, penjelasan penggunaan, dan aktivasi garansi pengerjaan.",
+
+    "benefit_tag": "Jaminan Kualitas",
+    "benefit_title": "Mengapa Instalasi yang Benar itu Penting",
+    "benefit_desc": "Pemasangan HEPA Filter tidak sekadar menempatkan unit filte pada plafon atau ducting. Ketepatan dalam pemasangan gasket, Kerapatan frame, dan keseimbangan tekanan udara menentukan apakah ruangan Anda lolos uji validasi kebersihan udara",
+    "benefit_tag_notif": "Pengujian Kebocoran Aerosol (PAO/DOP)",
+    "benefit_content": "Setiap instalasi dikaji ulang dengan photometer aerosol untuk memastikan tidak ada bypass atau kerusakan mikroskopis pada media filter",
+    "benefit_img_badge": "Kualitas Terjamin",
+    "benefit_img_title": "Pemeriksaan & Validasi Berkala",
+    "benefit_img_desc": "Memastikan performa penyaringan tetap optimal dan konsisten sesuai baku mutu kebersihan udara",
+
+    "benefit_card_01": "Keunggulan Layanan",
+    "benefit_card_02": "Presisi, Kebersihan, dan Hemat Daya",
+    "benefit_card_03": "Tiga prinsip dasar yang selalu dijunjung tinggi oleh teknisi kami di setiap pemasangan unit pendingin hunian maupun komersial.",
+    "benefit_card_footer": "Standar Kualitas Teruji",
+
+    "benefit_presisi_tag": "Efisiensi 99.97% ",
+    "benefit_presisi_title": "Presisi Filtration & Airflow",
+    "benefit_presisi_desc": "Menggunakan filter HEPA H13/H14 standar medis dan industri farmasi untuk menyaring partikel hingga ukuran 0.3 mikron",
+    "benefit_presisi_point_01": "efisiensi H13 / H14",
+    "benefit_presisi_point_02": "Distribusi aliran udara merata",
+    "benefit_presisi_point_03": "Penyegelan karet / gel hermetis",
+
+    "benefit_kebersihan_tag": "Material Berstandar Cleanroom",
+    "benefit_kebersihan_title": "Standar ISO & GMP",
+    "benefit_kebersihan_desc": "Konstruksi housing stainless steel atau powder coated mild steel anti-korosi dengan jaminan integritas jangka panjang",
+    "benefit_kebersihan_point_01": "Cover pelindung debu di area kerja",
+    "benefit_kebersihan_point_02": "Jalur pipa & kabel tertata rapi",
+    "benefit_kebersihan_point_03": "Pembersihan sisa material tuntas",
+
+    "benefit_hemat_daya_tag": "Efisiensi Energi HVAC",
+    "benefit_hemat_daya_title": "Hemat Konsumsi Daya",
+    "benefit_hemat_daya_desc": "Perancangan penurunan tekanan awal (initial pressure drop) yang rendah untuk meringankan beban kerja AHU / Fan Unit",
+    "benefit_hemat_daya_point_01": "Optimasi beban kerja AHU/Blower",
+    "benefit_hemat_daya_point_02": "Konsumsi energi lebih terukur",
+    "benefit_hemat_daya_point_03": "Umur pakai filter lebih panjang"
+  },
+  "instalasi-chiller": {
+    "meta": {
+      "title": "Layanan Chiller Instalasi & Desain",
+      "description": "Wujudkan efisiensi energi dan performa pendinginan optimal untuk gedung Anda. Tim teknisi ahli kami merancang serta menginstalasi chiller plant kustom dengan standar keamanan tinggi dan ketepatan presisi"
+    },
+    "badge_01": "Kualitas layanan",
+    "badge_02": "Desain Presisi & Bergaransi",
+    "badge_03": "Garansi Pekerjaan",
+    "badge_04": "Garansi Instalasi & Performa Resmi",
+    "tag_01": "Layanan Chiller Instalasi",
+    "header_01": "Desain Terencana, Presisi, dan Efisien untuk Sistem Instalasi Chiller Anda",
+    "desc_01": "Wujudkan efisiensi energi dan performa pendinginan optimal untuk gedung Anda. Tim teknisi ahli kami merancang serta menginstalasi chiller plant kustom dengan standar keamanan tinggi dan ketepatan presisi",
+
+    "point_01": "Teknisi Profesional",
+    "point_02": "Desain Sistem Efisien Energi",
+    "point_03": "Material & Komponen Standar Industri",
+    "point_04": "Garansi Instalasi & Performa",
+
+    "scope_tag": "Lingkup Pekerjaan",
+    "scope_title": "Cakupan Pekerjaan Instalasi Kami",
+    "scope_desc": "Setiap proyek instalasi kami jalankan lewat tahapan yang jelas, dari survei awal hingga serah terima, agar hasil kerja terukur dan bisa dipertanggungjawabkan.",
+    "scope_stag": "Tahapan SOP Terstandar",
+    "scope_01_title": "Perancangan & Analisa Load Pendingin",
+    "scope_01_desc": "Perhitungan beban pendingin (cooling load), analisis tata letak chiller plant, serta pemetaan kapasitas listrik dan aliran air sebelum tahap fabrikasi",
+    "scope_02_title": "Pemasangan Unit Chiller & Cooling Tower",
+    "scope_02_desc": "Penempatan unit chiller (Air/Water-Cooled), cooling tower, serta pumping system sesuai standar struktur dan tingkat isolasi getaran",
+    "scope_03_title": "Instalasi Perpipaan & Kelistrikan Central",
+    "scope_03_desc": "Pemasangan pipa chilled water (dengan insulasi thermal), kabel daya utama, serta integrasi panel kontrol/BMS yang terintegrasi rapi",
+    "scope_04_title": "Flushing, Pressurizing & Charging",
+    "scope_04_desc": "Pembersihan jalur perpipaan (flushing), tes tekanan hidrostatis, proses vacuum, dan pengisian refrigerant sesuai spesifikasi teknis unit",
+    "scope_05_title": "Testing & Commissioning",
+    "scope_05_desc": "Pengujian aliran air (flow rate), delta T, keseimbangan tekanan, serta simulasi performa sistem sebelum chiller dinyatakan siap beroperasi",
+    "scope_06_title": "Serah Terima & Garansi",
+    "scope_06_desc": "Penyerahan dokumen as-built drawing, panduan operasional sistem chiller, pelatihan operator gedung, dan aktivasi garansi instalasi",
+
+    "benefit_tag": "Standar Rekayasa & Mutu",
+    "benefit_title": "Pentingnya Desain & Instalasi Chiller yang Terstandar",
+    "benefit_desc": "Chiller plant merupakan pusat konsumsi energi pendinginan terbesar di fasilitas komersial dan industri (mencapai 40-60% total energi gedung). Desain hidrolik dan instalasi yang presisi memastikan efisiensi optimal, mencegah fenomena Low Delta T Syndrome, serta melindungi investasi kompresor bernilai tinggi.",
+    "benefit_tag_notif": "Fakta Efisiensi Chiller Plant",
+    "benefit_content": "Ketidaktepatan sizing pipa dan ketidakseimbangan aliran air (flow rate) dapat memicu Low Delta T Syndrome yang memboroskan daya hingga 25%. Balancing hidrolik yang tepat menjamin chiller beroperasi pada kW/TR nominal terhemat.",
+    "benefit_img_badge": "Jaminan Kualitas",
+    "benefit_img_title": "Komisioning Terukur, Zero Defect",
+    "benefit_img_desc": "Setiap pengerjaan instalasi mengikuti checklist ketat, uji balancing hidrolik, dan standar toleransi resmi pabrikan.",
+
+    "benefit_card_01": "3 Pilar Keunggulan Rekayasa",
+    "benefit_card_02": "Presisi, Ketahanan Sistem, dan Efisiensi Energi",
+    "benefit_card_03": "Tiga pilar standar teknis yang diterapkan tim engineering kami untuk memastikan keandalan sistem chiller gedung komersial, rumah sakit, data center, dan industri.",
+    "benefit_card_footer": "Standar ASHRAE & AHRI Teruji",
+
+    "benefit_presisi_tag": "Desain & Rekayasa Termal",
+    "benefit_presisi_title": "Presisi Rekayasa & Hidrolik",
+    "benefit_presisi_desc": "Kalkulasi beban pendingin komprehensif, desain pemipaan hidrolik presisi, dan perhitungan head pompa akurat menjamin aliran chilled water merata ke seluruh AHU/FCU tanpa risiko blind spot.",
+    "benefit_presisi_point_01": "Kalkulasi beban termal & flow rate akurat",
+    "benefit_presisi_point_02": "Hydraulic balancing katup & pemipaan",
+    "benefit_presisi_point_03": "Inertia base & isolator getaran anti-vibrasi",
+
+    "benefit_kebersihan_tag": "Integritas & Standar Pemipaan",
+    "benefit_kebersihan_title": "Integritas & Ketahanan Sistem",
+    "benefit_kebersihan_desc": "Penerapan standar ASME/ASTM pada jalur perpipaan, chemical flushing pembersih kerak dan residu pengelasan, serta insulasi thermal vapor-barrier rapat mencegah kondensasi dan korosi pipa.",
+    "benefit_kebersihan_point_01": "Chemical flushing & pembersihan residu pipa",
+    "benefit_kebersihan_point_02": "Insulasi termal tebal tahan kondensasi",
+    "benefit_kebersihan_point_03": "Uji tekan hidrostatis 1.5x tekanan kerja",
+
+    "benefit_hemat_daya_tag": "Optimalisasi kW/TR",
+    "benefit_hemat_daya_title": "Efisiensi Daya Maksimal",
+    "benefit_hemat_daya_desc": "Penerapan teknologi Variable Primary Flow (VPF), kontrol modulasi VFD pada pompa, serta integrasi Building Management System (BMS) untuk menghasilkan rasio konsumsi daya terendah (kW/TR optimal).",
+    "benefit_hemat_daya_point_01": "Rasio kW/TR rendah efisien energi",
+    "benefit_hemat_daya_point_02": "Modulasi VFD pompa adaptif terhadap beban",
+    "benefit_hemat_daya_point_03": "Integrasi otomasi kontrol BMS / BAS"
   },
   "pemeliharaan": {
     "meta": {
@@ -326,9 +584,9 @@
     },
     "tag": "Layanan Pemeliharaan Berkala",
     "header": "Perawatan Preventif Terstruktur untuk Performa Pendinginan Optimal",
-    "desc": "Kami menyediakan layanan pemeliharaan terjadwal untuk memastikan AC, Water Heater, dan Heat Pump selalu beroperasi pada efisiensi puncak, mencegah kerusakan dini, dan menjaga kualitas udara dalam ruangan.",
+    "desc": "Kami menyediakan layanan pemeliharaan terjadwal untuk memastikan AC, Hepa filter, dan Chiller selalu beroperasi pada efisiensi puncak, mencegah kerusakan dini, dan menjaga kualitas udara dalam ruangan.",
     "badge_01": "Standar SOP Resmi",
-    "badge_02": "Teknisi Bersertifikat",
+    "badge_02": "Teknisi Profesional",
     "badge_03": "Jaminan Servis",
     "badge_04": "Garansi Bebas Bocor",
     "point_01": "Pembersihan Menyeluruh & Higienis",
@@ -387,140 +645,6 @@
     "benefit_keawetan_point_01": "Cegah kompresor overheat & macet",
     "benefit_keawetan_point_02": "Bebas bocor air yang merusak plafon",
     "benefit_keawetan_point_03": "Catatan riwayat servis terpantau rapi"
-  },
-  "perbaikan": {
-    "meta": {
-      "title": "Layanan Perbaikan & Servis Kerusakan AC HVACR ",
-      "description": "Diagnosa akurat dan perbaikan cepat untuk AC, sistem VRV/VRF, chiller, dan heat pump komersial oleh teknisi bersertifikasi. Spare part original dan bergaransi resmi."
-    },
-    "hero": {
-      "badge": "Layanan Perbaikan & Servis HVACR",
-      "title": "Diagnosa Cepat, Tepat, dan Solutif untuk Semua Kerusakan AC",
-      "desc": "Jangan biarkan unit pendingin yang bermasalah mengganggu kenyamanan atau operasional bisnis Anda. Teknisi tersertifikasi kami mendiagnosa akar kerusakan secara transparan dan memperbaikinya dengan suku cadang original bergaransi.",
-      "imageAlt": "Teknisi profesional melakukan perbaikan AC",
-      "badgeQualityLabel": "Kualitas Servis",
-      "badgeQualityValue": "Akurat & Bergaransi",
-      "badgeWarrantyLabel": "Garansi Servis",
-      "badgeWarrantyValue": "Hingga 6 Bulan Resmi"
-    },
-    "checklist": {
-      "point_01": "Teknisi Ahli Bersertifikat Resmi",
-      "point_02": "Diagnosa Digital Tanpa Tebakan",
-      "point_03": "Suku Cadang Asli Terjamin",
-      "point_04": "Garansi Perbaikan Hingga 6 Bulan"
-    },
-    "scopeSection": {
-      "badge": "Cakupan Layanan Perbaikan",
-      "title": "Berbagai Kendala & Kerusakan yang Kami Tangani",
-      "desc": "Mulai dari kendala kelistrikan ringan hingga penggantian kompresor kapasitas besar untuk semua merek pendingin.",
-      "footerLabel": "Standar Pabrikan"
-    },
-    "scope": {
-      "scope_01": {
-        "title": "Diagnosa Sistem Menyeluruh",
-        "desc": "Analisis kode error kelistrikan, tekanan freon, dan mekanikal secara mendalam untuk menemukan sumber kerusakan tanpa tebak-tebakan.",
-        "badge": "Inspeksi"
-      },
-      "scope_02": {
-        "title": "Perbaikan & Penggantian Kompresor",
-        "desc": "Penanganan kompresor macet, bising, atau grounding bocor dengan flushing asam pipa dan penggantian oli berstandar.",
-        "badge": "Komponen Utama"
-      },
-      "scope_03": {
-        "title": "Deteksi Kebocoran Freon & Pengelasan Pipa",
-        "desc": "Uji tekan nitrogen, electronic halogen sniffer, flaring ulang, serta pengelasan perak oksigen-asetilen pada sambungan pipa bocor.",
-        "badge": "Refrigerasi"
-      },
-      "scope_04": {
-        "title": "Penggantian Kapasitor & Kontaktor Listrik",
-        "desc": "Penggantian kapasitor starting/running yang melemah, kontaktor magnetik aus, serta pemulihan terminal kabel yang terbakar.",
-        "badge": "Kelistrikan"
-      },
-      "scope_05": {
-        "title": "Perbaikan Modul PCB & Sensor Termistor",
-        "desc": "Troubleshooting modul kontrol inverter, komponen relay PCB, sensor temperatur thermistor, dan modul receiver remote.",
-        "badge": "Elektronik"
-      },
-      "scope_06": {
-        "title": "Perbaikan Fan Motor & Blower Wheel",
-        "desc": "Mengatasi bearing motor fan aus/berisik, dinamo motor macet, daun blower indoor tidak seimbang, dan motor swing rusak.",
-        "badge": "Mekanikal"
-      }
-    },
-    "benefitsSection": {
-      "badge": "Kenapa Memilih Servis Kami",
-      "title": "Perbaikan yang Didukung Keahlian, Sparepart, dan Garansi Tertulis",
-      "desc": "Setiap pekerjaan dimulai dengan diagnosa akurat dan diakhiri dengan kartu garansi — Anda tahu pasti apa yang diperbaiki dan alasannya.",
-      "calloutTitle": "Respon Darurat Cepat",
-      "calloutDesc": "Menghadapi kerusakan mendadak yang mengganggu operasional? Teknisi kami dapat merespons dalam waktu kurang dari 60 menit untuk kasus darurat komersial maupun residensial.",
-      "galleryImageAlt": "Teknisi bersertifikat melakukan perbaikan unit AC",
-      "galleryBadge": "Proses Perbaikan",
-      "galleryTitle": "Teknisi Bersertifikat Bekerja",
-      "galleryDesc": "Setiap perbaikan mengikuti SOP ketat dan quality control sebelum serah terima.",
-      "guaranteeBadge": "Jaminan Kami",
-      "guaranteeTitle": "Tiga Alasan Pelanggan Percaya pada Perbaikan Kami",
-      "guaranteeDesc": "Diagnosa akurat, sparepart original, dan garansi yang menjamin hasil pengerjaan kami.",
-      "cardFooter": "Kualitas Terverifikasi"
-    },
-    "benefits": {
-      "diagnosa": {
-        "tag": "Bersertifikat",
-        "title": "Diagnosa Akar Masalah",
-        "desc": "Alat ukur tekanan digital dan pemindai kode error menemukan sumber kerusakan sebenarnya — tanpa tebakan, tanpa ganti komponen sia-sia.",
-        "points": {
-          "point_01": "Uji tekanan & ampere digital",
-          "point_02": "Analisis kode error PCB",
-          "point_03": "Laporan diagnosa tertulis"
-        }
-      },
-      "sparepart": {
-        "tag": "OEM",
-        "title": "Suku Cadang Original",
-        "desc": "Setiap komponen pengganti bersertifikasi pabrikan, menjamin kompatibilitas dan keandalan sistem jangka panjang.",
-        "points": {
-          "point_01": "Komponen bersertifikat pabrikan",
-          "point_02": "Kompatibilitas terverifikasi",
-          "point_03": "Bersumber dari jalur resmi"
-        }
-      },
-      "garansi": {
-        "tag": "Bergaransi",
-        "title": "Garansi Resmi Perbaikan",
-        "desc": "Kami menjamin setiap perbaikan dengan garansi tertulis yang mencakup suku cadang maupun jasa pengerjaan.",
-        "points": {
-          "point_01": "Cakupan hingga 6 bulan",
-          "point_02": "Mencakup suku cadang & jasa",
-          "point_03": "Kartu garansi resmi"
-        }
-      }
-    },
-    "stepsSection": {
-      "badge": "Prosedur Perbaikan Transparan",
-      "title": "4 Tahapan dari Diagnosa hingga Garansi",
-      "desc": "Kami tidak pernah melakukan perbaikan tanpa persetujuan Anda. Semua tahapan transparan dan disepakati di awal."
-    },
-    "steps": {
-      "step_01": {
-        "title": "Konsultasi Kendala",
-        "desc": "Sampaikan gejala masalah AC Anda (misal: hembusan tidak dingin, MCB sering anjlok, atau bau terbakar) via WhatsApp atau telepon.",
-        "detail": "Respon cepat & cek awal gejala"
-      },
-      "step_02": {
-        "title": "Diagnosa Langsung di Lokasi",
-        "desc": "Teknisi tiba di lokasi membawa alat ukur digital untuk memeriksa tekanan freon, arus ampere, dan kode error modul PCB.",
-        "detail": "Pemeriksaan akar masalah akurat"
-      },
-      "step_03": {
-        "title": "Estimasi Transparan & Eksekusi",
-        "desc": "Kami memberikan rincian jelas komponen yang perlu diperbaiki beserta biaya sebelum pengerjaan. Pengerjaan baru dimulai setelah Anda setuju.",
-        "detail": "Tanpa biaya tersembunyi"
-      },
-      "step_04": {
-        "title": "Uji Performa & Kartu Garansi",
-        "desc": "Pengujian continuous running untuk memastikan suhu dingin stabil kembali, serah terima lembar kerja, dan aktivasi kartu garansi resmi.",
-        "detail": "Verifikasi QC & kartu garansi resmi"
-      }
-    }
   },
   "faq": {
     "tag": "Pertanyaan Umum",
@@ -589,7 +713,6 @@
       "quote": "Tim bersedia datang di luar jam kerja sesuai permintaan kami, jadi operasional kantor tidak terganggu."
     }
   },
-
   "proyek": {
     "meta": {
       "title": "Proyek Perusahaan",
@@ -640,6 +763,29 @@
       "email": { "name": "Email" },
       "telepon": { "name": "Telepon" },
       "company-profile": { "name": "Download Company Profile" }
+    }
+  },
+  "Cookies": {
+    "ariaLabel": "Pengaturan cookie",
+    "title": "Kami menggunakan cookie",
+    "description": "Kami menggunakan cookie untuk meningkatkan pengalaman kamu, menganalisis trafik, dan menampilkan konten yang relevan.",
+    "learnMore": "Pelajari lebih lanjut",
+    "managePreferences": "Atur preferensi",
+    "hidePreferences": "Sembunyikan preferensi",
+    "acceptAll": "Terima semua",
+    "rejectAll": "Tolak semua",
+    "savePreferences": "Simpan preferensi",
+    "necessary": {
+      "title": "Esensial",
+      "description": "Diperlukan agar situs berfungsi dengan baik. Selalu aktif."
+    },
+    "analytics": {
+      "title": "Analitik",
+      "description": "Membantu kami memahami cara pengunjung menggunakan situs."
+    },
+    "marketing": {
+      "title": "Pemasaran",
+      "description": "Digunakan untuk menampilkan iklan yang lebih relevan."
     }
   },
   "footer": {

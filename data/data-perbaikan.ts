@@ -10,15 +10,6 @@ import {
   LucideIcon,
 } from "lucide-react";
 
-/**
- * File ini HANYA berisi data struktural (key, icon, class).
- * Semua teks yang tampil ke user WAJIB diambil lewat t() dari message file,
- * bukan ditulis ulang di sini. Ini menghindari duplikasi ID/EN di komponen.
- */
-
-// ---------------------------------------------------------------------------
-// Checklist (Hero section)
-// ---------------------------------------------------------------------------
 export const checklistPointKeys = [
   "point_01",
   "point_02",

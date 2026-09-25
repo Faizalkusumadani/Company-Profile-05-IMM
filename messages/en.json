@@ -8,10 +8,15 @@
     "nilai-nilai": "Core Values",
     "manajemen": "Management",
     "product": "Product",
+    "product_all": "All Products",
+    "product_ac": "AC",
+    "product_hepa": "HEPA Filter",
+    "product_chiller": "Chiller",
     "services": "Services",
-    "services_01": "Installation",
-    "services_02": "Maintenance",
-    "services_03": "Repair",
+    "services_01": "AC design and installation",
+    "services_02": "HEPA filter design and installation",
+    "services_03": "Chiller plan design and installation",
+    "services_04": "Maintenance",
     "find_us": "Find Us",
     "business": "Bussiness",
     "business_construction": "Trading & Distribution",
@@ -22,17 +27,17 @@
     "news": "Room Information",
     "news_company": "News",
     "news_activity": "Activities",
-    "project": "Project",
+    "project": "Reference Project",
     "career": "Career",
-    "contact": "Contact"
+    "contact": "Contact",
+    "switch": "Language"
   },
   "hero": {
-    "label_01": "Cool air,",
-    "label_02": "delivered with precision",
-    "desc": "Professional AC installation, maintenance, and repair for homes, shophouses, and office buildings",
-    "cta": "Booking Service Now"
+    "label_01": "Reliable HVACR Solutions",
+    "label_02": "For Your Projects",
+    "desc": "Integrated HVAC and refrigeration services for the commercial and industrial sectors, from planning to fully operational systems",
+    "cta": "Discuss with Our Team"
   },
-
   "stat": {
     "label_01": "Product",
     "label_02": "Business Partner",
@@ -41,34 +46,41 @@
   },
   "home": {
     "tag": "Our Services",
-    "header": "One team for all your AC needs",
-    "desc": "From residential units to commercial cooling systems, we operate using clear procedures and consistent technical standards"
+    "header": "One team for all your HVACR needs",
+    "desc": "From residential units to office and industrial scales, we operate using clear procedures and consistent technical standards."
+  },
+  "home_profile": {
+    "tag": "About Us",
+    "title": "Your Trusted Partner in Integrated HVACR Engineering Solutions",
+    "desc": "We focus on precision system design, professional installation, periodic maintenance, and comprehensive procurement for residential, commercial, and industrial applications",
+    "box_title": "Authorized Engineering Dealer & Trusted Subcontractor",
+    "box_desc": "Officially trusted by world-class cooling principals including Daikin, Gree, Panasonic, Hitachi, Samsung, Midea, LG, Frimec, TICA, and JAF.",
+    "point_01": "Certified & experienced engineering personnel",
+    "point_02": "Industry-standard measurement & installation tools",
+    "point_03": "Official workmanship warranty & genuine parts",
+    "point_04": "Prompt response & reliable after-sales support",
+    "cta": "View Company Profile",
+    "img_badge": "Headquarters & Operations",
+    "img_title": "PT Intisukses Mitratama Mandiri",
+    "img_desc": "Empowered by a dedicated engineering team and modern facilities to ensure every project is completed on schedule with the highest quality."
   },
   "services": {
-    "cta": "See all",
-    "installation": {
-      "title": "New AC Installation",
-      "desc": "Precision installation with neat piping and drainage routing."
+    "cta": "Read more",
+    "installation-ac": {
+      "title": "AC design and installation",
+      "desc": "Design and installation of precision air conditioning systems for comfort and energy efficiency in residential, office, and commercial settings."
+    },
+    "installation-hepa": {
+      "title": "HEPA filter design and installation",
+      "desc": "Design and installation of HEPA filtration (99.97% efficiency) to meet air cleanliness standards for cleanrooms, operating rooms, and laboratories."
+    },
+    "installation-chiller": {
+      "title": "Chiller design and installation",
+      "desc": "Planning and installation of large-scale cooling systems (HVAC) for precision temperature control in buildings and industrial facilities."
     },
     "maintenance": {
-      "title": "Cleaning & Maintenance",
-      "desc": "Restore your unit's cooling performance and energy efficiency."
-    },
-    "relocation": {
-      "title": "Relocation (Uninstall & Reinstall)",
-      "desc": "Unit relocation with safe handling of refrigerant and electrical systems."
-    },
-    "repair": {
-      "title": "AC Repair",
-      "desc": "Transparent diagnosis for compressor, refrigerant, and electrical issues."
-    },
-    "refill": {
-      "title": "Refrigerant Refill",
-      "desc": "Specification-compliant refrigerant for optimal cooling."
-    },
-    "contract": {
-      "title": "Building Contracts",
-      "desc": "Scheduled maintenance for offices, shophouses, and commercial properties."
+      "title": "Maintenance",
+      "desc": "Scheduled maintenance to ensure the air conditioning system, HEPA filters, and chillers consistently operate at peak efficiency, prevent premature failure, and maintain indoor air quality"
     }
   },
   "benefits": {
@@ -81,7 +93,7 @@
       "desc": "Clear estimate before work begins, no hidden fees."
     },
     "warranty_12_months": {
-      "title": "12-month warranty",
+      "title": "Warranty",
       "desc": "Installation and repair work covered by a written warranty."
     },
     "fast_response": {
@@ -244,7 +256,117 @@
       "description": "The feeling that one is an integral part of the team or organization they work in."
     }
   },
-  "instalasi": {
+  "product": {
+    "meta": {
+      "title": "Company Products",
+      "description": "A wide range of products available from Intisukses Mitratama Mandiri HVACR in Indonesia"
+    },
+    "tag": "product catalog",
+    "header": "Discover high-quality HVACR products.",
+    "desc": "Explore our curated catalog and find the best products to suit your priorities",
+    "error": "not found",
+    "header-result": "Find your products here...",
+    "result-01": "Type something to start searching for products here",
+    "not-found": "Products for this category are not yet available",
+    "categories": {
+      "all": "All",
+      "ac": "AC",
+      "hepa": "HEPA",
+      "chiller": "Chiller"
+    },
+    "category_badge_all": "All",
+    "category_badge_ac": "AC",
+    "category_badge_hepa": "HEPA",
+    "category_badge_chiller": "Chiller",
+    "tab-menu-01": "Specifications",
+    "tab-menu-02": "Type",
+    "tab-menu-03": "Contact",
+    "tab-content-01": "Keunggulan & Fitur Utama",
+    "tab-content-02": "tipe",
+    "tab-content-03": "Tanyakan Tipe Ini",
+    "consult_text": "Get the best price offer, technical specifications, or consultation on your HVACR system needs directly from our expert team.",
+    "related_title": "Other Related Products",
+    "related_desc": "Other brands in the same category for your reference.",
+    "catalog_count": "{count} Products Found",
+    "daikin_desc": "Daikin air conditioners are high-quality units offering rapid and efficient cooling. Equipped with advanced technology for energy efficiency and quiet operation, Daikin ACs provide maximum comfort for homes and offices. Their elegant design and smart features make them easy to use and maintain.",
+    "daikin_features_1": "True Inverter",
+    "daikin_features_2": "Comfort Airflow with Coanda Mechanism",
+    "daikin_features_3": "3D Airflow",
+    "daikin_features_4": "Deodorizing & PM 2.5 Filter",
+    "daikin_features_5": "Energy Efficiency with Intelligent Eye",
+    "daikin_features_6": "Daikin Smart Wi-Fi Control",
+    "gree_desc": "Gree offers a wide range of high-quality air conditioners, including wall-mounted split systems, ducted split systems, cassette units, multi-split systems, and high-capacity VRF systems. Gree provides cooling solutions for every room requirement.",
+    "gree_features_1": "Rapid Cooling & Energy Efficiency",
+    "gree_features_2": "Anti-corrosion for outdoor use",
+    "gree_features_3": "Smart Cleaning System & Easy Removal",
+    "gree_features_4": "Gold Fin & Blue Fin",
+    "gree_features_5": "High-Volume Airflow",
+    "gree_features_6": "G-1Hz Inverter & R-32 Refrigerant",
+    "aqua_desc": "AQUA AC (formerly associated with the SANYO group and now part of AQUA Japan / Haier Group) is an air conditioner brand offering a balance of Japanese-standard quality, component durability, and highly economical pricing.",
+    "aqua_features_1": "Inverter Plus Technology & Eco Mode",
+    "aqua_features_2": "Self-Clean & UVC Sterilization Features",
+    "aqua_features_3": "Blue Fin Anti-Corrosion Protection & Pure Copper Piping",
+    "aqua_features_4": "Wide Voltage Feature (160V - 242V)",
+    "aqua_features_5": "Rapid Cooling (Turbo Cooling & Triple Air Flow)",
+    "aqua_features_6": "Durable Circuit Board (Hyper PCB)",
+    "hitachi_desc": "Hitachi Air Conditioners (AC) are cooling solutions that prioritize energy efficiency and comfort. Featuring inverter technology, these units maintain a stable room temperature while conserving energy. Equipped with advanced air filtration, they ensure the air remains clean and fresh. Their modern design blends seamlessly with various interior styles, while features such as automatic temperature control and sleep mode enhance everyday convenience.",
+    "hitachi_features_1": "Energy-Saving Inverter Technology",
+    "hitachi_features_2": "FrostWash Feature (Automatic Cleaning)",
+    "hitachi_features_3": "Advanced Air Filtration System",
+    "hitachi_features_4": "High Durability & Anti-Corrosion",
+    "hitachi_features_5": "Powerful Cooling",
+    "hitachi_features_6": "Silent Operation",
+    "panasonic_desc": "Panasonic air conditioners are reliable units that deliver fast and efficient cooling. Designed with energy-saving technology and quiet operation, they ensure optimal comfort for your home or office. Featuring a modern design and smart capabilities, Panasonic air conditioners are easy to use and maintain.",
+    "panasonic_features_1": "nanoe™ X & nanoe-G Technology",
+    "panasonic_features_2": "Inverter & ECONAVI / AI Control",
+    "panasonic_features_3": "iAUTO-X Feature (Powerful Cooling)",
+    "panasonic_features_4": "Aerowings Airflow",
+    "panasonic_features_5": "High Durability & Anti-Corrosion",
+    "panasonic_features_6": "Smart App Operation (Panasonic Comfort Cloud)",
+    "samsung_desc": "Samsung is a South Korean electronics brand known for its bold approach to innovation; beyond prioritizing quality, Samsung offers products that seamlessly blend technology and art.",
+    "samsung_features_1": "WindFree™ Cooling Technology",
+    "samsung_features_2": "Digital Inverter Boost",
+    "samsung_features_3": "Advanced Air Filtration System (Tri-Care Filter & PM1.0)",
+    "samsung_features_4": "Smart Connectivity (SmartThings)",
+    "samsung_features_5": "Fast Cooling",
+    "samsung_features_6": "Durafin™ Plus & Triple Protector Plus Protection",
+    "midea_desc": "Midea air conditioners deliver efficient cooling using inverter technology that saves energy and maintains a stable room temperature. Renowned for their effective air filtration systems and modern designs that complement various interior styles, these units offer optimal comfort and ease of use.",
+    "midea_features_1": "Highly Competitive Pricing with Extensive Features",
+    "midea_features_2": "Inverter Quattro Technology",
+    "midea_features_3": "iECO Mode Feature",
+    "midea_features_4": "PrimeGuard™ / Hyper Graphene Protective Coating",
+    "midea_features_5": "Self-Cleaning System (Self-Cleaning / Air Magic)",
+    "midea_features_6": "Super Ionizer & High-Performance Filtration",
+    "lg_desc": "LG air conditioners are a leading brand known for rapid cooling technology innovation, high energy efficiency, and reliable durability for both residential and commercial use",
+    "lg_features_1": "Dual Inverter Compressor",
+    "lg_features_2": "Watt Control (Power Regulation)",
+    "lg_features_3": "Air Purification System (Plasmaster™ Ionizer+ & UVnano™)",
+    "lg_features_4": "Ultra-Quiet Operation",
+    "lg_features_5": "Enhanced Durability (Gold Fin™ & Extended Warranty)",
+    "lg_features_6": "LG ThinQ Smart Integration",
+    "frimec_desc": "An international air conditioning (HVAC system) brand from Malaysia that adheres to Japanese engineering standards. Frimec products focus on air conditioning solutions for commercial, industrial, and large-scale residential applications, including Air Handling Units (AHU), Chillers, Rooftop Packaged units, and Commercial Split systems.",
+    "frimec_features_1": "Japanese Quality Standards & Technology",
+    "frimec_features_2": "Comprehensive Commercial Capacities & Varieties",
+    "frimec_features_3": "Water- and Heat-Resistant Panel Structure (Labyrinth Panel Design)",
+    "frimec_features_4": "High Energy Efficiency",
+    "frimec_features_5": "Quiet Design (Low Noise Operation)",
+    "frimec_features_6": "Durable Construction & Easy Maintenance",
+    "tica_desc": "TICA is an HVAC manufacturer known for producing a wide range of efficient and innovative air conditioning systems. TICA products—such as modular chillers, fan coil units (FCU), air handling units (AHU), and VRF (Variable Refrigerant Flow) systems—are designed to meet the cooling needs of large buildings like offices, hotels, and shopping centers.",
+    "tica_features_1": "Technological Innovation",
+    "tica_features_2": "TICA products feature state-of-the-art technology to ensure peak performance and high efficiency",
+    "tica_features_3": "Global Reputation",
+    "tica_features_4": "With over 30 years of experience, TICA has earned the trust of various industries worldwide",
+    "tica_features_5": "Cost Efficiency",
+    "tica_features_6": "Our systems are designed to deliver significant energy cost savings for customers",
+    "jaf_desc": "Japan Air Filter (JAF) provides high-quality air filters designed to improve indoor air quality. Featuring advanced filtration technology, these products effectively remove dust, allergens, and contaminants from the air, making them ideal for creating a clean and healthy environment.",
+    "jaf_features_1": "Removes bacteria and dust",
+    "jaf_features_2": "Removes chemical contaminants",
+    "jaf_features_3": "Durable body",
+    "jaf_features_4": "Innovative, portable design with artistic exterior",
+    "jaf_features_5": "World's No. 1 Air Filtration",
+    "jaf_features_6": "Easy installation & maintenance"
+  },
+  "instalasi-ac": {
     "meta": {
       "title": "AC & HVACR Installation Services",
       "description": "Professional installation services for AC, VRF/VRV, chillers, and commercial heat pumps by certified engineers. Precise, clean, and fully guaranteed"
@@ -313,13 +435,149 @@
     "benefit_hemat_daya_desc": "Thorough system vacuuming, tight thermal insulation, and optimal placement keep compressor workloads light, significantly reducing power consumption from day one.",
     "benefit_hemat_daya_point_01": "Thorough non-condensable vacuuming",
     "benefit_hemat_daya_point_02": "Tight UV-resistant thermal insulation",
-    "benefit_hemat_daya_point_03": "Light & energy-efficient compressor load",
+    "benefit_hemat_daya_point_03": "Light & energy-efficient compressor load"
+  },
+  "instalasi-hepa": {
+    "meta": {
+      "title": "HEPA Filter Design & Installation Services",
+      "description": "High-precision air quality solutions for facilities requiring strict air cleanliness standards, covering everything from system design to installation"
+    },
+    "badge_01": "Regulatory Standards",
+    "badge_02": "ISO 14644 & GMP",
+    "badge_03": "Air Filtration Level",
+    "badge_04": "H13 / H14 (99.97%)",
+    "tag_01": "HEPA Filter Installation Services",
+    "header_01": "Professional HEPA Filter System Design & Installation",
+    "desc_01": "We provide comprehensive solutions ranging from planning and air exchange calculations to the installation of HEPA/ULPA filter systems. Precision-engineered to meet air cleanliness standards for operating rooms, the pharmaceutical industry, laboratories, and manufacturing cleanrooms.",
+    "header_02": "Periodic Maintenance",
+    "desc_02": "Throughout our partnership, we also provide maintenance services to ensure that HVAC units, HEPA filters, and chillers consistently operate at peak performance. These services are designed to keep equipment in optimal condition and prevent breakdowns before they occur.",
 
-    "cta_tag": "Start Your Project",
-    "cta_title": "Ready to Install Your AC & HVACR System?",
-    "cta_desc": "Consult your residential, office, or commercial installation requirements with the certified engineering team at PT Intisukses Mitratama Mandiri.",
-    "cta_wa": "Consult via WhatsApp",
-    "cta_contact": "Contact Us"
+    "point_01": "Air Change per Hour (ACH) Calculation",
+    "point_02": "Terminal Box & FFU Installation",
+    "point_03": "Filter Integrity Testing (PAO/DOP Test)",
+    "point_04": "IQ/OQ Qualification Documentation",
+
+    "scope_tag": "Our Service Stages",
+    "scope_title": "HEPA Filter System Scope of Work",
+    "scope_desc": "Our structured approach ensures every stage of unit design and installation aligns with the room's required technical specifications",
+    "scope_stag": "Standardized SOP Stages",
+    "scope_01_title": "Cleanroom Layout Design & Simulation",
+    "scope_01_desc": "Designing airflow patterns (laminar/turbulent), contamination criteria, and air exchange specifications (ACH) in accordance with ISO 14644 & CPOB standards",
+    "scope_02_title": "Terminal Box & HEPA/ULPA Filter Installation",
+    "scope_02_desc": "Installation of FFU/HEPA box units featuring hermetic sealing systems and integration with precision-pressurized ducting",
+    "scope_03_title": "Leak Testing (PAO/DOP Leak Test)",
+    "scope_03_desc": "Testing filter media and gasket integrity using PAO/DOP aerosol methods to ensure zero contaminant leakage",
+    "scope_04_title": "Airflow Balancing & Differential Pressure",
+    "scope_04_desc": "Adjusting and balancing air volume and inter-room differential pressure (positive/negative pressure rooms)",
+    "scope_05_title": "Room Qualification & Certification",
+    "scope_05_desc": "Preparation of Installation Qualification (IQ) and Operational Qualification (OQ) documentation for industry audits and validation requirements",
+    "scope_06_title": "Handover & Warranty",
+    "scope_06_desc": "Documentation of work results, explanation of usage, and activation of the workmanship warranty.",
+
+    "benefit_tag": "Quality Assurance",
+    "benefit_title": "Why Proper Installation Matters",
+    "benefit_desc": "Installing a HEPA filter involves more than just placing the unit in the ceiling or ductwork. Precision in gasket installation, frame tightness, and air pressure balance determine whether your room passes air cleanliness validation tests.",
+    "benefit_tag_notif": "Aerosol Leak Testing (PAO/DOP)",
+    "benefit_content": "Every installation is verified using an aerosol photometer to ensure there is no bypass or microscopic damage to the filter media.",
+    "benefit_img_badge": "Guaranteed Quality",
+    "benefit_img_title": "Periodic Inspection & Validation",
+    "benefit_img_desc": "Ensuring filtration performance remains optimal and consistent with air cleanliness standards.",
+
+    "benefit_card_01": "Service Excellence",
+    "benefit_card_02": "Precision, Cleanliness, and Energy Efficiency",
+    "benefit_card_03": "Three core principles upheld by our technicians during every installation of residential and commercial cooling units.",
+    "benefit_card_footer": "Proven Quality Standards",
+
+    "benefit_presisi_tag": "99.97% Efficiency",
+    "benefit_presisi_title": "Precision Filtration & Airflow",
+    "benefit_presisi_desc": "Utilizing medical and pharmaceutical-grade H13/H14 HEPA filters to capture particles as small as 0.3 microns.",
+    "benefit_presisi_point_01": "H13 / H14 efficiency",
+    "benefit_presisi_point_02": "Uniform airflow distribution",
+    "benefit_presisi_point_03": "Hermetic rubber/gel sealing",
+
+    "benefit_kebersihan_tag": "Cleanroom-Grade Materials",
+    "benefit_kebersihan_title": "ISO & GMP Standards",
+    "benefit_kebersihan_desc": "Corrosion-resistant housing construction (stainless steel or powder-coated mild steel) ensuring long-term structural integrity",
+    "benefit_kebersihan_point_01": "Dust protection cover for the work area",
+    "benefit_kebersihan_point_02": "Neatly organized piping and cabling",
+    "benefit_kebersihan_point_03": "Thorough removal of residual material",
+
+    "benefit_hemat_daya_tag": "HVAC Energy Efficiency",
+    "benefit_hemat_daya_title": "Reduced Power Consumption",
+    "benefit_hemat_daya_desc": "Designed for low initial pressure drop to reduce the workload on AHUs or fan units",
+    "benefit_hemat_daya_point_01": "Optimized AHU/blower workload",
+    "benefit_hemat_daya_point_02": "More controlled energy consumption",
+    "benefit_hemat_daya_point_03": "Extended filter service life"
+  },
+  "instalasi-chiller": {
+    "meta": {
+      "title": "Chiller Design & Installation Services",
+      "description": "Achieve energy efficiency and optimal cooling performance for your building. Our team of expert technicians designs and installs custom chiller plants with high safety standards and precision accuracy."
+    },
+    "badge_01": "Quality Service",
+    "badge_02": "Precision Design & Warranty",
+    "badge_03": "Workmanship Warranty",
+    "badge_04": "Official Installation & Performance Warranty",
+    "tag_01": "Chiller Installation Services",
+    "header_01": "Well-Planned, Precise, and Efficient Design for Your Chiller Installation System",
+    "desc_01": "Achieve energy efficiency and optimal cooling performance for your building. Our team of expert technicians designs and installs custom chiller plants with high safety standards and precision accuracy.",
+
+    "point_01": "Professional Technicians",
+    "point_02": "Energy-Efficient System Design",
+    "point_03": "Industry-Standard Materials & Components",
+    "point_04": "Installation & Performance Warranty",
+
+    "scope_tag": "Scope of Work",
+    "scope_title": "Our Installation Scope",
+    "scope_desc": "We execute every installation project through clear, defined stages—from initial survey to handover—ensuring measurable and accountable results.",
+    "scope_stag": "Standardized SOP Stages",
+    "scope_01_title": "Design & Cooling Load Analysis",
+    "scope_01_desc": "Cooling load calculations, chiller plant layout analysis, and mapping of electrical capacity and water flow prior to fabrication",
+    "scope_02_title": "Chiller Unit & Cooling Tower Installation",
+    "scope_02_desc": "Placement of chiller units (Air/Water-Cooled), cooling towers, and pumping systems in accordance with structural standards and vibration isolation requirements",
+    "scope_03_title": "Piping & Central Electrical Installation",
+    "scope_03_desc": "Installation of chilled water piping (with thermal insulation), main power cabling, and seamless integration of control panels/BMS",
+    "scope_04_title": "Flushing, Pressurizing & Charging",
+    "scope_04_desc": "Pipeline cleaning (flushing), hydrostatic pressure testing, vacuuming, and refrigerant charging according to unit technical specifications",
+    "scope_05_title": "Testing & Commissioning",
+    "scope_05_desc": "Testing of flow rates, Delta T, and pressure balance, along with system performance simulations before the chiller is certified ready for operation",
+    "scope_06_title": "Handover & Warranty",
+    "scope_06_desc": "Document handover as-built drawings, chiller system operating manual, building operator training, and installation warranty activation",
+
+    "benefit_tag": "Engineering Standards & Quality",
+    "benefit_title": "Why Proper Chiller Design & Installation is Crucial",
+    "benefit_desc": "The chiller plant is the single largest cooling energy consumer in commercial and industrial facilities (accounting for 40-60% of total building energy). Precision hydraulic design and installation guarantee optimal efficiency, eliminate Low Delta T Syndrome, and safeguard high-value compressor assets.",
+    "benefit_tag_notif": "Chiller Plant Efficiency Fact",
+    "benefit_content": "Improper pipe sizing and flow rate imbalances can trigger Low Delta T Syndrome, wasting up to 25% extra energy. Proper hydraulic balancing ensures chillers operate at their lowest nominal kW/TR rating.",
+    "benefit_img_badge": "Quality Assurance",
+    "benefit_img_title": "Measured Commissioning, Zero Defects",
+    "benefit_img_desc": "Every installation follows rigorous engineering checklists, flow balancing tests, and manufacturer tolerances.",
+
+    "benefit_card_01": "3 Core Engineering Pillars",
+    "benefit_card_02": "Precision Engineering, System Integrity, and Energy Efficiency",
+    "benefit_card_03": "Three engineering standards implemented by our expert team to ensure maximum reliability for commercial buildings, hospitals, data centers, and industrial facilities.",
+    "benefit_card_footer": "ASHRAE & AHRI Standard Certified",
+
+    "benefit_presisi_tag": "Thermal & Hydraulic Design",
+    "benefit_presisi_title": "Precision Engineering & Hydraulics",
+    "benefit_presisi_desc": "Comprehensive cooling load calculations, precision hydraulic piping design, and accurate pump head estimation ensure uniform chilled water distribution across all AHUs/FCUs without flow dead spots.",
+    "benefit_presisi_point_01": "Accurate thermal load & flow rate sizing",
+    "benefit_presisi_point_02": "Hydraulic balancing of valves & headers",
+    "benefit_presisi_point_03": "Inertia base & anti-vibration spring isolators",
+
+    "benefit_kebersihan_tag": "Piping Standards & Integrity",
+    "benefit_kebersihan_title": "System Integrity & Durability",
+    "benefit_kebersihan_desc": "Implementation of ASME/ASTM piping standards, chemical flushing to eliminate weld slag and scale, plus vapor-sealed thermal insulation to prevent condensation and premature corrosion.",
+    "benefit_kebersihan_point_01": "Chemical flushing & pipeline residue cleaning",
+    "benefit_kebersihan_point_02": "Vapor-tight condensation-resistant insulation",
+    "benefit_kebersihan_point_03": "Hydrostatic pressure test at 1.5x working pressure",
+
+    "benefit_hemat_daya_tag": "kW/TR Optimization",
+    "benefit_hemat_daya_title": "Maximum Power Efficiency",
+    "benefit_hemat_daya_desc": "Adoption of Variable Primary Flow (VPF), VFD modulation on pumps, and Building Management System (BMS) integration to achieve the lowest power consumption ratio (optimal kW/TR).",
+    "benefit_hemat_daya_point_01": "Low kW/TR energy consumption ratio",
+    "benefit_hemat_daya_point_02": "Load-adaptive pump VFD modulation",
+    "benefit_hemat_daya_point_03": "Automated BMS / BAS control integration"
   },
   "pemeliharaan": {
     "meta": {
@@ -328,9 +586,9 @@
     },
     "tag": "Periodic Maintenance Services",
     "header": "Structured Preventive Maintenance for Peak Cooling Efficiency",
-    "desc": "We provide scheduled maintenance services to ensure your air conditioning, water heaters, and heat pumps operate at peak efficiency, preventing premature failures and maintaining healthy indoor air quality.",
+    "desc": "We provide scheduled maintenance services to ensure air conditioning units, HEPA filters, and chillers consistently operate at peak efficiency, preventing premature failure and maintaining indoor air quality",
     "badge_01": "Official SOP Standards",
-    "badge_02": "Certified Technicians",
+    "badge_02": "Professional Technician",
     "badge_03": "Service Guarantee",
     "badge_04": "Leak-Free Warranty",
     "point_01": "Thorough & Hygienic Deep Cleaning",
@@ -389,140 +647,6 @@
     "benefit_keawetan_point_01": "Prevents compressor overheating and seizure",
     "benefit_keawetan_point_02": "Avoids water leaks that damage ceilings",
     "benefit_keawetan_point_03": "Documented digital service history"
-  },
-  "perbaikan": {
-    "meta": {
-      "title": "AC & HVACR Repair & Troubleshooting Services",
-      "description": "Fast, accurate diagnosis and repair for AC, VRF/VRV systems, chillers, and commercial heat pumps by certified engineers. Genuine spare parts and official warranty."
-    },
-    "hero": {
-      "badge": "HVACR Repair & Troubleshooting",
-      "title": "Accurate Diagnosis. Genuine Parts. Reliable Solutions.",
-      "desc": "Don't let malfunctioning air conditioning disrupt your comfort or business operations. Our certified engineers identify root causes and restore peak performance with genuine OEM components.",
-      "imageAlt": "Professional technician repairing an air conditioner",
-      "badgeQualityLabel": "Diagnostic Quality",
-      "badgeQualityValue": "Accurate & Reliable",
-      "badgeWarrantyLabel": "Official Guarantee",
-      "badgeWarrantyValue": "Up to 6 Months Official"
-    },
-    "checklist": {
-      "point_01": "Certified HVAC Engineers",
-      "point_02": "Accurate Digital Diagnostics",
-      "point_03": "Genuine OEM Spare Parts",
-      "point_04": "Up to 6 Months Warranty"
-    },
-    "scopeSection": {
-      "badge": "Full Repair Scope",
-      "title": "Common HVACR Failures We Resolve",
-      "desc": "From small electrical faults to major compressor replacements across all brands and capacities.",
-      "footerLabel": "OEM Compliant"
-    },
-    "scope": {
-      "scope_01": {
-        "title": "Comprehensive System Diagnostics",
-        "desc": "In-depth electrical, refrigerant, and mechanical error code analysis to pinpoint exact failure causes without guesswork.",
-        "badge": "Inspection"
-      },
-      "scope_02": {
-        "title": "Compressor Overhaul & Replacement",
-        "desc": "Professional repair or replacement of locked, noisy, or grounded compressors with proper oil balancing and acid flushing.",
-        "badge": "Core Engine"
-      },
-      "scope_03": {
-        "title": "Refrigerant Leak Detection & Brazing",
-        "desc": "Nitrogen bubble pressure testing, electronic halogen sniffing, pipe re-flaring, and oxygen-acetylene silver brazing.",
-        "badge": "Refrigerant"
-      },
-      "scope_04": {
-        "title": "Capacitor, Contactor & Wiring Repair",
-        "desc": "Replacement of degraded starting/running capacitors, burned magnetic contactors, and corroded electrical terminals.",
-        "badge": "Electrical"
-      },
-      "scope_05": {
-        "title": "PCB Module & Thermistor Repair",
-        "desc": "Troubleshooting inverter control boards, microcontrollers, sensor thermistors, and remote receiver modules.",
-        "badge": "Electronics"
-      },
-      "scope_06": {
-        "title": "Blower & Outdoor Fan Motor Repair",
-        "desc": "Resolving screeching bearings, seized fan motors, unbalanced blower wheels, and broken swing blades.",
-        "badge": "Mechanical"
-      }
-    },
-    "benefitsSection": {
-      "badge": "Why Choose Our Repair Service",
-      "title": "Repairs Backed by Skill, Parts, and a Written Guarantee",
-      "desc": "Every job starts with an accurate diagnosis and ends with a warranty card — so you know exactly what was fixed and why.",
-      "calloutTitle": "Emergency Response",
-      "calloutDesc": "Facing a critical cooling failure? Our technicians can be dispatched in under 60 minutes for urgent commercial and residential cases.",
-      "galleryImageAlt": "Certified technician performing AC unit repair",
-      "galleryBadge": "Repair in Action",
-      "galleryTitle": "Certified Technician at Work",
-      "galleryDesc": "Every repair follows strict SOP and quality control before handover.",
-      "guaranteeBadge": "Our Guarantee",
-      "guaranteeTitle": "Three Reasons Customers Trust Our Repairs",
-      "guaranteeDesc": "Accurate diagnostics, genuine parts, and a warranty that backs our workmanship.",
-      "cardFooter": "Verified Quality"
-    },
-    "benefits": {
-      "diagnosa": {
-        "tag": "Certified",
-        "title": "Root-Cause Diagnostics",
-        "desc": "Digital pressure gauges and error-code scanners pinpoint the exact failure — no guesswork, no unnecessary part swaps.",
-        "points": {
-          "point_01": "Digital pressure & amperage test",
-          "point_02": "PCB error-code analysis",
-          "point_03": "Written diagnostic report"
-        }
-      },
-      "sparepart": {
-        "tag": "OEM",
-        "title": "Genuine Spare Parts",
-        "desc": "Every replaced component is factory-certified, ensuring long-term compatibility and system reliability.",
-        "points": {
-          "point_01": "Factory-certified components",
-          "point_02": "Verified compatibility",
-          "point_03": "Sourced from official channels"
-        }
-      },
-      "garansi": {
-        "tag": "Guaranteed",
-        "title": "Official Repair Warranty",
-        "desc": "We stand behind every repair with a written warranty covering both parts and workmanship.",
-        "points": {
-          "point_01": "Up to 6 months coverage",
-          "point_02": "Covers parts & labor",
-          "point_03": "Official warranty card"
-        }
-      }
-    },
-    "stepsSection": {
-      "badge": "Repair Procedure",
-      "title": "4 Steps from Diagnosis to Warranty",
-      "desc": "We never perform unapproved repairs. Every step is documented and explained before execution."
-    },
-    "steps": {
-      "step_01": {
-        "title": "Consultation & Symptoms",
-        "desc": "Explain the issues you are experiencing (e.g., AC blowing warm air, tripping breaker, or water leaks) via WhatsApp or phone.",
-        "detail": "Fast response & symptom check"
-      },
-      "step_02": {
-        "title": "On-Site Diagnostic Audit",
-        "desc": "Our technician arrives on site with professional testing meters to inspect pressure, voltage, and circuit board error codes.",
-        "detail": "Accurate root-cause analysis"
-      },
-      "step_03": {
-        "title": "Transparent Quote & Repair",
-        "desc": "We present a clear breakdown of required parts and labor costs before starting. Repair proceeds only after your approval.",
-        "detail": "No hidden charges, upfront price"
-      },
-      "step_04": {
-        "title": "Testing & Written Warranty",
-        "desc": "Continuous load testing to confirm steady temperature drop (Delta T) and issuance of our official written warranty card.",
-        "detail": "QC sign-off & warranty card"
-      }
-    }
   },
   "faq": {
     "tag": "FAQ",
@@ -641,6 +765,29 @@
       "email": { "name": "Email" },
       "telepon": { "name": "Phone" },
       "company-profile": { "name": "Download Company Profile" }
+    }
+  },
+  "Cookies": {
+    "ariaLabel": "Cookie settings",
+    "title": "We use cookies",
+    "description": "We use cookies to improve your experience, analyze traffic, and show relevant content.",
+    "learnMore": "Learn more",
+    "managePreferences": "Manage preferences",
+    "hidePreferences": "Hide preferences",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject all",
+    "savePreferences": "Save preferences",
+    "necessary": {
+      "title": "Necessary",
+      "description": "Required for the site to function properly. Always on."
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Helps us understand how visitors use the site."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Used to show more relevant ads."
     }
   },
   "footer": {

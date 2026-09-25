@@ -1,21 +1,35 @@
 export type ServiceKey =
-  | "installation"
-  | "maintenance"
-  | "relocation"
-  | "repair"
-  | "refill"
-  | "contract";
+  | "installation-ac"
+  | "installation-hepa"
+  | "installation-chiller"
+  | "maintenance";
 
 export type ServiceItem = {
   key: ServiceKey;
   image: string;
+  href: string;
 };
 
 export const services: ServiceItem[] = [
-  { key: "installation", image: "/images/pemasangan.jpeg" },
-  { key: "maintenance", image: "/images/cuci-ac.jpeg" },
-  { key: "relocation", image: "/images/bongkar.png" },
-  { key: "repair", image: "/images/perbaikan.jpeg" },
-  { key: "refill", image: "/images/isi-freon.png" },
-  { key: "contract", image: "/images/kontrak.jpeg" },
+  {
+    key: "installation-ac",
+    image: "/images/bongkar.png",
+
+    href: "/layanan/ac-instalasi",
+  },
+  {
+    key: "installation-hepa",
+    image: "/images/cuci-ac.jpeg",
+    href: "/layanan/hepa-instalasi",
+  },
+  {
+    key: "installation-chiller",
+    image: "/images/pemasangan.jpeg",
+    href: "/layanan/chiller-instalasi",
+  },
+  {
+    key: "maintenance",
+    image: "/images/perbaikan.jpeg",
+    href: "/layanan/maintenance",
+  },
 ];

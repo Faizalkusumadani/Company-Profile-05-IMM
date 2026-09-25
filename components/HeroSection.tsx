@@ -6,7 +6,7 @@ import { PhoneCall } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
-const HERO_IMAGE_SRC = "/background/Hero-Section.webp";
+const HERO_IMAGE_SRC = "/background/Hero-Section-01.webp";
 const container: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.12, delayChildren: 0.05 } },
@@ -86,7 +86,7 @@ function CountUpStat({ value }: { value: string }) {
 export function HeroSection() {
   const t = useTranslations();
   const stats = [
-    { label: t("stat.label_01"), value: "15" },
+    { label: t("stat.label_01"), value: "11" },
     { label: t("stat.label_02"), value: "550+" },
     { label: t("stat.label_03"), value: "2016" },
     { label: t("stat.label_04"), value: "40+" },

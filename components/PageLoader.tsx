@@ -90,10 +90,10 @@ export default function PageLoader() {
           <Image
             src="/logo/loading-screen.png"
             alt="IMM Logo"
-            width={160}
-            height={80}
-            style={{ objectFit: "contain" }}
-            className="w-30 h-20"
+            width={364}
+            height={440}
+            className="h-20 w-auto object-contain"
+            style={{ width: "auto" }}
             priority
           />
           <span

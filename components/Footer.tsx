@@ -24,8 +24,8 @@ export default async function Footer() {
           <div className="relative pb-6">
             <Image
               src="/logo/logo-imm.png"
-              width={140}
-              height={140}
+              width={364}
+              height={440}
               quality={75}
               sizes="140px"
               alt="Logo Sinergi"
@@ -142,12 +142,12 @@ export default async function Footer() {
           >
             <Image
               src="/logo/logoreddmas.png"
-              width={80}
-              height={24}
+              width={1034}
+              height={241}
               alt="Reddmas Group"
               className="object-contain inline-block align-middle"
               loading="eager"
-              style={{ width: "80px", height: "30px" }}
+              style={{ width: "auto", height: "24px" }}
             />
           </a>
         </span>

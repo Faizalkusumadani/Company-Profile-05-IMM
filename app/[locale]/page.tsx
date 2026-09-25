@@ -10,8 +10,11 @@ import { BrandMarquee } from "@/components/Brandmarquee";
 import { useTranslations } from "next-intl";
 import { ServicesCarousel } from "@/components/Services";
 import { TestimonialsCarousel } from "@/components/Testimonicarousel";
+import { Link } from "@/i18n/navigation";
+import { ArrowRight } from "lucide-react";
 
 const HERO_IMAGE_SRC = "/background/Benefits-image.webp";
+const ABOUT_IMAGE_SRC = "/images/instalasi-ac.png";
 
 export default function Beranda() {
   const t = useTranslations();
@@ -31,15 +34,66 @@ export default function Beranda() {
       {/* HERO */}
       <HeroSection />
 
+      {/* TENTANG KAMI / ABOUT US */}
+      <section
+        id="tentang-kami"
+        className="w-full py-16 sm:py-20 lg:py-24 border-b border-gray-100 scroll-mt-16"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+            {/* Teks Kiri */}
+            <div className="lg:col-span-7 space-y-5">
+              <span className="inline-block text-xs sm:text-sm font-semibold text-imm-blue uppercase tracking-[0.18em]">
+                {t("home_profile.tag")}
+              </span>
+
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground tracking-tight leading-snug">
+                Intisukses Mitratama Mandiri
+              </h2>
+
+              <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+                {t("home_profile.desc")}
+              </p>
+
+              {/* Tombol CTA ke Profil Perusahaan */}
+              <div className="pt-3">
+                <Link
+                  href="/tentang-kami/profil-perusahaan"
+                  className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-imm-blue px-6 py-3.5 text-sm sm:text-base font-semibold text-white shadow-md shadow-imm-blue/20 hover:bg-[#073A66] hover:shadow-lg transition-all duration-200 group"
+                >
+                  <span>{t("home_profile.cta")}</span>
+                  <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Gambar Kanan */}
+            <div className="lg:col-span-5">
+              <div className="relative aspect-4/3 sm:aspect-5/4 lg:aspect-square w-full rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl border border-gray-200/80 group">
+                <Image
+                  src={ABOUT_IMAGE_SRC}
+                  alt="teknisi imm"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  sizes="(max-width: 768px) 95vw, (max-width: 1200px) 45vw, 540px"
+                />
+                <div className="absolute inset-0 bg-linear-to-t from-black/85 via-black/30 to-transparent" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* LAYANAN */}
       <ServicesCarousel
         eyebrow={t("home.tag")}
         title={t("home.header")}
         description={t("home.desc")}
-        items={services.map(({ key, image }) => ({
+        items={services.map(({ key, image, href }) => ({
           key,
           title: t(`services.${key}.title`),
           desc: t(`services.${key}.desc`),
+          href,
           image,
         }))}
       />
@@ -146,7 +200,7 @@ export default function Beranda() {
       <section id="faq" className="px-4 py-20 sm:px-6 sm:py-24">
         <div className="mx-auto max-w-6xl">
           <div className="text-start">
-            <span className="text-sm font-semibold uppercase tracking-[0.18em] text-imm-blue">
+            <span className="inline-block text-sm font-semibold uppercase tracking-[0.18em] text-imm-blue">
               {t("faq.tag")}
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight text-foreground">

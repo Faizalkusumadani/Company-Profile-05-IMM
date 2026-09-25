@@ -1,0 +1,41 @@
+# Intisukses Mitratama Mandiri
+
+> Perusahaan Layanan Jasa instalasi, pengadaan dan perawatan HVACR di indonesia.
+
+PT Intisukses Mitratama Mandiri merupakan perusahaan Layanan Jasa instalasi, pengadaan dan perawatan HVACR di indonesia.
+
+## Beranda
+
+- [Beranda](https://intisukses-mm.com/id): Halaman utama perusahaan
+
+## Tentang Kami
+
+- [Profil Perusahaan](https://intisukses-mm.com/id/profil-perusahaan): Sejarah dan profil perusahaan
+- [Visi & Misi](https://intisukses-mm.com/id/tentang-kami/visi-misi): Fondasi dan arah strategis perusahaan
+- [Nilai-Nilai](https://intisukses-mm.com/id/tentang-kami/nilai-nilai): Nilai-nilai inti perusahaan
+- [Manajemen](https://intisukses-mm.com/id/tentang-kami/manajemen): Tim manajemen/BOD perusahaan
+
+
+## Produk
+
+- [Produk](https://intisukses-mm.com/id/produk): Katalog produk HVACR
+
+## Layanan
+
+- [Ac Desain dan Instalasi](https://intisukses-mm.com/id/layanan/ac-instalasi): Layanan perusahaan AC Desain dan Instalasi
+- [Hepa Filter Desain dan Instalasi](https://intisukses-mm.com/id/layanan/hepa-instalasi) : Layanan perusahaan Hepa Filter Desain dan Instalasi
+- [Chiller Desain dan Instalasi](https://intisukses-mm.com/id/layanan/chiller-instalasi) : Layanan perusahaan Chiller Desain dan Instalasi
+- [Perawatan](https://intisukses-mm.com/id/layanan/maintenance) : Layanan Perawatan Berkala
+
+
+## Proyek Referensi
+
+- [Proyek Referensi](https://intisukses-mm.com/id/proyek): Beberapa Portofolio Proyek Perusahaan
+
+## Karir
+
+- [Karir](https://intisukses-mm.com/id/karir/): Lowongan kerja dan informasi karir
+
+## Hubungi Kami
+
+- [Hubungi Kami](https://intisukses-mm.com/id/kontak/): Informasi kontak dan lokasi

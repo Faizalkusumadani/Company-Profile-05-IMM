@@ -13,7 +13,7 @@ interface PageBreadcrumbProps {
 
 // Gambar latar ini sekarang tetap untuk semua halaman, tidak lagi bisa
 // di-override lewat props — lihat catatan di bawah kode.
-const BACKGROUND_IMAGE = "/background/Breadcrumb.png";
+const BACKGROUND_IMAGE = "/background/New-banner.png";
 
 export default function PageBreadcrumb({ title, items }: PageBreadcrumbProps) {
   return (
