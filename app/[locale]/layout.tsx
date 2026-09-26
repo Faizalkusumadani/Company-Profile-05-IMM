@@ -69,6 +69,7 @@ export async function generateMetadata({
       "Instalasi AC di indonesia",
       "Instalasi Hepa Filter di indonesia",
       "Instalasi Chiller di indonesia",
+      "HVACR Profesional",
     ],
     authors: [{ name: siteConfig.name, url: siteConfig.url }],
     creator: siteConfig.name,
