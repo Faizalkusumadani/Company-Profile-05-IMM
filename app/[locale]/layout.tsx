@@ -92,7 +92,6 @@ export async function generateMetadata({
       },
     },
 
-    // Isi hanya jika sudah punya kode verifikasi asli dari
     // Google Search Console / Bing Webmaster (lewat env var, jangan hardcode).
     ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION && {
       verification: {
