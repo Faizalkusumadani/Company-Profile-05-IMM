@@ -1,7 +1,7 @@
-import { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
     qualities: [25, 50, 65, 70, 75, 80, 100],
   },
