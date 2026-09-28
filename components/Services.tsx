@@ -30,26 +30,38 @@ function ServiceCard({ item }: { item: ServiceCarouselItem }) {
         className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
       />
 
-      {/* gradient overlay, dipertebal di bawah supaya teks tidak menempel ke tepi */}
+      {/* gradient overlay */}
       <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/35 to-transparent" />
 
-      {/* konten teks diangkat dari tepi bawah kartu agar ada ruang napas */}
       <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1.5 p-6 pb-8">
         <h3 className="text-lg font-bold leading-snug text-white">
           {item.title}
         </h3>
-        <p className="text-sm leading-relaxed text-white/70 line-clamp-3">
+        <p className="line-clamp-3 text-sm leading-relaxed text-white/70">
           {item.desc}
         </p>
 
-        {/* CTA: tampil langsung di mobile, baru muncul saat hover di layar sm ke atas */}
-        <Link
-          href={item.href}
-          className="mt-3 flex w-fit items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-foreground opacity-100 transition-all duration-300 ease-out focus-visible:translate-y-0 focus-visible:opacity-100 sm:translate-y-2 sm:opacity-0 sm:group-hover:translate-y-0 sm:group-hover:opacity-100"
+        {/* Wrapper CTA:
+            - mobile & perangkat tanpa hover: selalu terbuka (1fr)
+            - desktop dengan hover: tertutup (0fr), terbuka saat hover/fokus keyboard
+            Saat terbuka, tinggi CTA mendorong deskripsi naik. */}
+        <div
+          className="grid grid-rows-[1fr] transition-[grid-template-rows,opacity] duration-300 ease-out motion-reduce:transition-none
+                     sm:grid-rows-[0fr] sm:opacity-0
+                     sm:group-hover:grid-rows-[1fr] sm:group-hover:opacity-100
+                     sm:group-focus-within:grid-rows-[1fr] sm:group-focus-within:opacity-100
+                     [@media(hover:none)]:grid-rows-[1fr] [@media(hover:none)]:opacity-100"
         >
-          {t("services.cta")}
-          <ArrowUpRight className="size-4" strokeWidth={2} />
-        </Link>
+          <div className="min-h-0 overflow-hidden">
+            <Link
+              href={item.href}
+              className="mt-3 flex w-fit items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-foreground"
+            >
+              {t("services.cta")}
+              <ArrowUpRight className="size-4" strokeWidth={2} />
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

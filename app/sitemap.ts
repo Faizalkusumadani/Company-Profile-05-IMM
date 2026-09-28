@@ -1,125 +1,112 @@
 import type { MetadataRoute } from "next";
 import { produkDetailList } from "@/data/data-produk";
+import { routing } from "@/i18n/routing";
 
 const BASE_URL = "https://intisukses-mm.com";
 
+interface RouteConfig {
+  path: string;
+  changeFrequency:
+    | "always"
+    | "hourly"
+    | "daily"
+    | "weekly"
+    | "monthly"
+    | "yearly"
+    | "never";
+  priority: number;
+}
+
+// ─── Rute Statis Aktual (Sesuai Folder Fisik app/[locale]/...) ────────────────
+const staticRoutesConfig: RouteConfig[] = [
+  // Beranda
+  { path: "", changeFrequency: "weekly", priority: 1.0 },
+
+  // Layanan (Rute aktual sesuai struktur folder)
+  { path: "/layanan/ac-instalasi", changeFrequency: "weekly", priority: 0.9 },
+  { path: "/layanan/hepa-instalasi", changeFrequency: "weekly", priority: 0.9 },
+  {
+    path: "/layanan/chiller-instalasi",
+    changeFrequency: "weekly",
+    priority: 0.9,
+  },
+  { path: "/layanan/maintenance", changeFrequency: "weekly", priority: 0.9 },
+
+  // Produk (Katalog Utama)
+  { path: "/produk", changeFrequency: "weekly", priority: 0.8 },
+
+  // Proyek Referensi
+  { path: "/proyek", changeFrequency: "weekly", priority: 0.8 },
+
+  // Tentang Kami
+  {
+    path: "/tentang-kami/profil-perusahaan",
+    changeFrequency: "monthly",
+    priority: 0.7,
+  },
+  {
+    path: "/tentang-kami/visi-misi",
+    changeFrequency: "monthly",
+    priority: 0.6,
+  },
+  {
+    path: "/tentang-kami/nilai-nilai",
+    changeFrequency: "monthly",
+    priority: 0.6,
+  },
+  {
+    path: "/tentang-kami/manajemen",
+    changeFrequency: "monthly",
+    priority: 0.6,
+  },
+
+  // Karir
+  { path: "/karir", changeFrequency: "weekly", priority: 0.6 },
+
+  // Kontak
+  { path: "/kontak", changeFrequency: "monthly", priority: 0.5 },
+
+  // Kebijakan Privasi
+  { path: "/kebijakan", changeFrequency: "yearly", priority: 0.3 },
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const lastModified = new Date();
+  const { locales } = routing;
 
-  const staticRoutes: MetadataRoute.Sitemap = [
-    {
-      url: `${BASE_URL}/`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 1,
-    },
-
-    // Tentang Kami
-    {
-      url: `${BASE_URL}/tentang-kami`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/tentang-kami/profil-perusahaan`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-    {
-      url: `${BASE_URL}/tentang-kami/visi-misi`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-    {
-      url: `${BASE_URL}/tentang-kami/nilai-nilai`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-    {
-      url: `${BASE_URL}/tentang-kami/manajemen`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-
-    // Produk (index)
-    {
-      url: `${BASE_URL}/produk`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-
-    // Proyek
-    {
-      url: `${BASE_URL}/proyek`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-
-    // Layanan
-    {
-      url: `${BASE_URL}/layanan`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/layanan/ac-desain-instalasi`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/layanan/hepa-desain-instalasi`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/layanan/chiller-desain-instalasi`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/layanan/perawatan`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-
-    // Karir
-    {
-      url: `${BASE_URL}/karir`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.6,
-    },
-
-    // Kontak
-    {
-      url: `${BASE_URL}/kontak`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
-  ];
-
-  // Rute produk dinamis, diambil dari data produk (@/data/data-produk)
-  const productRoutes: MetadataRoute.Sitemap = produkDetailList.map(
-    (product) => ({
-      url: `${BASE_URL}/produk/${product.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.6,
-    }),
+  // 1. Generate sitemap rute statis per-locale dengan anotasi hreflang alternates (Standar Google i18n)
+  const staticSitemap: MetadataRoute.Sitemap = staticRoutesConfig.flatMap(
+    (route) =>
+      locales.map((locale) => ({
+        url: `${BASE_URL}/${locale}${route.path}`,
+        lastModified,
+        changeFrequency: route.changeFrequency,
+        priority: route.priority,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${BASE_URL}/${l}${route.path}`]),
+          ),
+        },
+      })),
   );
 
-  return [...staticRoutes, ...productRoutes];
+  // 2. Generate sitemap rute produk dinamis per-locale dengan anotasi hreflang alternates
+  const productSitemap: MetadataRoute.Sitemap = produkDetailList.flatMap(
+    (product) => {
+      const productPath = `/produk/${product.slug}`;
+      return locales.map((locale) => ({
+        url: `${BASE_URL}/${locale}${productPath}`,
+        lastModified,
+        changeFrequency: "weekly" as const,
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${BASE_URL}/${l}${productPath}`]),
+          ),
+        },
+      }));
+    },
+  );
+
+  return [...staticSitemap, ...productSitemap];
 }
