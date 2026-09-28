@@ -1,5 +1,6 @@
 import { getTranslations, getLocale } from "next-intl/server";
-import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import PageBreadcrumb from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
@@ -50,7 +51,7 @@ export default async function LayananlPage() {
       <section id="karir">
         <div className="w-full py-16 sm:py-20 lg:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl space-y-4 mb-12 sm:mb-16">
+            <div className="max-w-3xl space-y-8 mb-12 sm:mb-16">
               <span className="inline-block text-xs sm:text-sm font-semibold text-imm-blue uppercase tracking-[0.18em]">
                 {t("karir.tag")}
               </span>
@@ -60,6 +61,13 @@ export default async function LayananlPage() {
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 {t("karir.desc")}
               </p>
+              <Link
+                href="https://www.reddmasgroup.com/id/karir"
+                className="inline-flex items-center gap-2 rounded-2xl bg-imm-blue px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#073A66]"
+              >
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                {t("karir.cta")}
+              </Link>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://sinergimandiriperkasa.co.id/";
+const baseUrl = "https://intisukses-mm.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/ruby", "/forgot-password", " /*/smp"],
+        disallow: ["/ruby", "/forgot-password", " /*/imm"],
       },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,

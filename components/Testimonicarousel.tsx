@@ -209,7 +209,7 @@ export function TestimonialsCarousel({
                     className={`h-2 rounded-full transition-all duration-300 ${
                       activePage === page
                         ? "w-6 bg-imm-blue"
-                        : "w-2 bg-foreground/15 hover:bg-foreground/30"
+                        : "w-4 bg-gray-200 hover:bg-gray-300"
                     }`}
                   />
                 ))}

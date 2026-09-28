@@ -5,15 +5,16 @@ import { brandData } from "@/data/data-principle";
 import { testimonials } from "@/data/data-testimoni";
 import { faqs } from "@/data/data-faq";
 import Image from "next/image";
-import { HeroSection } from "@/components/HeroSection";
+import { CountUpStat } from "@/components/Countstat";
 import { BrandMarquee } from "@/components/Brandmarquee";
 import { useTranslations } from "next-intl";
 import { ServicesCarousel } from "@/components/Services";
 import { TestimonialsCarousel } from "@/components/Testimonicarousel";
 import { Link } from "@/i18n/navigation";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, PhoneCall } from "lucide-react";
 
 const HERO_IMAGE_SRC = "/background/Benefits-image.webp";
+const heroImage = "/background/Hero-Section-01.webp";
 const ABOUT_IMAGE_SRC = "/images/instalasi-ac.png";
 
 export default function Beranda() {
@@ -29,10 +30,89 @@ export default function Beranda() {
     quote: t(`testimonials.${key}.quote`),
   }));
 
+  const stats = [
+    { label: t("stat.label_01"), value: "11", countUp: true },
+    { label: t("stat.label_02"), value: "550+", countUp: true },
+    { label: t("stat.label_03"), value: "2016", countUp: false },
+    { label: t("stat.label_04"), value: "40+", countUp: true },
+  ];
+
   return (
     <div className="w-full min-h-screen">
       {/* HERO */}
-      <HeroSection />
+      <section className="relative isolate">
+        <div className="relative min-h-140 w-full overflow-hidden sm:min-h-170 lg:min-h-200">
+          <Image
+            src={heroImage}
+            alt="Teknisi IMM"
+            fill
+            preload
+            fetchPriority="high"
+            sizes="100vw"
+            quality={65}
+            className="object-cover object-[68%_center]"
+          />
+
+          {/* Overlay: gelap di kiri untuk kontras teks, foto tetap terlihat di kanan */}
+          <div className="absolute inset-0 bg-linear-to-r from-[#0B131A] via-[#0B131A]/70 to-[#0B131A]/10" />
+          <div className="absolute inset-0 bg-linear-to-t from-[#0B131A]/85 via-transparent to-transparent" />
+
+          <div className="relative flex h-full min-h-140 items-center sm:min-h-170 lg:min-h-200">
+            <div className="mx-auto w-full max-w-7xl px-6 sm:px-10">
+              <div className="max-w-4xl">
+                <h1 className="hero-rise text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl">
+                  {t("hero.label_01")}
+                  <br />
+                  {t("hero.label_02")}
+                </h1>
+
+                <p
+                  className="hero-rise mt-6 max-w-md text-base leading-relaxed text-white/80 md:text-lg"
+                  style={{ animationDelay: "120ms" }}
+                >
+                  {t("hero.desc")}
+                </p>
+
+                <div
+                  className="hero-rise mt-9"
+                  style={{ animationDelay: "240ms" }}
+                >
+                  <Link
+                    href="#kontak"
+                    className="inline-flex items-center gap-2 rounded-full bg-imm-blue px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#073A66]"
+                  >
+                    <PhoneCall className="h-4 w-4" aria-hidden="true" />
+                    {t("hero.cta")}
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Kartu spesifikasi mengambang — lebar & margin disamakan dengan container hero di atas agar selaras */}
+        <div className="relative z-10 mx-auto -mt-12 w-full max-w-7xl px-6 sm:-mt-16 sm:px-10">
+          <div className="rounded-2xl border border-gray-300 bg-white shadow-xl shadow-black/10">
+            <div className="overflow-hidden rounded-2xl">
+              <div className="grid grid-cols-2 divide-y divide-gray-300 text-foreground sm:grid-cols-4 sm:divide-y-0 sm:divide-x">
+                {stats.map((stat) => (
+                  <div
+                    key={stat.label}
+                    className="px-6 py-7 text-center sm:px-8 sm:py-9"
+                  >
+                    <div className="text-xs uppercase tracking-[0.14em] text-gray-600">
+                      {stat.label}
+                    </div>
+                    <div className="mt-2 text-xl font-bold sm:text-2xl">
+                      <CountUpStat value={stat.value} animate={stat.countUp} />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* TENTANG KAMI / ABOUT US */}
       <section
@@ -105,7 +185,7 @@ export default function Beranda() {
             src={HERO_IMAGE_SRC}
             alt="Teknisi profesional membersihkan unit AC split di dinding rumah"
             fill
-            priority
+            loading="lazy"
             sizes="100vw"
             className="object-cover object-[68%_center]"
           />
@@ -167,11 +247,11 @@ export default function Beranda() {
             {processSteps.map((item, i) => (
               <div key={item.step} className="relative pl-0">
                 <div className="flex items-center gap-3">
-                  <span className="text-2xl font-bold text-imm-blue/30">
+                  <span className="text-2xl font-bold text-imm-blue/60">
                     {item.step}
                   </span>
                   {i < processSteps.length - 1 && (
-                    <span className="hidden h-px flex-1 bg-foreground/10 lg:block" />
+                    <span className="hidden h-px flex-1 bg-foreground/30 lg:block" />
                   )}
                 </div>
                 <h3 className="mt-4 text-base font-semibold text-foreground">
