@@ -18,6 +18,12 @@ export type ServiceCarouselItem = {
 const GAP = 24;
 const INITIAL_STEP = 340 + GAP;
 
+// Kelas tombol navigasi dipakai bersama oleh tombol prev dan next.
+// - relative z-20: memastikan tombol berada di atas elemen lain di sekitarnya
+// - size-12 + touch-manipulation: area sentuh lebih besar dan tanpa jeda 300 ms
+const NAV_BUTTON_CLASS =
+  "relative z-20 flex size-12 touch-manipulation items-center justify-center rounded-full border border-foreground/15 text-foreground transition-colors hover:border-imm-blue hover:bg-imm-blue hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-imm-blue aria-disabled:pointer-events-none aria-disabled:opacity-30";
+
 function ServiceCard({ item }: { item: ServiceCarouselItem }) {
   const t = useTranslations();
   return (
@@ -41,21 +47,27 @@ function ServiceCard({ item }: { item: ServiceCarouselItem }) {
           {item.desc}
         </p>
 
-        {/* Wrapper CTA:
-            - mobile & perangkat tanpa hover: selalu terbuka (1fr)
-            - desktop dengan hover: tertutup (0fr), terbuka saat hover/fokus keyboard
-            Saat terbuka, tinggi CTA mendorong deskripsi naik. */}
+        {/* Wrapper CTA.
+            Semua efek di bawah hanya aktif di desktop: lebar sm ke atas DAN
+            perangkat yang punya hover (sm:[@media(hover:hover)]:).
+            - mobile, tablet sentuh: CTA tampil biasa, tanpa animasi/clipping
+            - desktop: tinggi CTA menciut (0fr), terbuka saat hover/fokus keyboard,
+              sehingga deskripsi terdorong naik saat CTA muncul dari bawah. */}
         <div
-          className="grid grid-rows-[1fr] transition-[grid-template-rows,opacity] duration-300 ease-out motion-reduce:transition-none
-                     sm:grid-rows-[0fr] sm:opacity-0
-                     sm:group-hover:grid-rows-[1fr] sm:group-hover:opacity-100
-                     sm:group-focus-within:grid-rows-[1fr] sm:group-focus-within:opacity-100
-                     [@media(hover:none)]:grid-rows-[1fr] [@media(hover:none)]:opacity-100"
+          className="grid grid-rows-[1fr]
+                     sm:[@media(hover:hover)]:grid-rows-[0fr] sm:[@media(hover:hover)]:opacity-0
+                     sm:[@media(hover:hover)]:transition-[grid-template-rows,opacity] sm:[@media(hover:hover)]:duration-300 sm:[@media(hover:hover)]:ease-out
+                     sm:[@media(hover:hover)]:group-hover:grid-rows-[1fr] sm:[@media(hover:hover)]:group-hover:opacity-100
+                     sm:[@media(hover:hover)]:group-focus-within:grid-rows-[1fr] sm:[@media(hover:hover)]:group-focus-within:opacity-100
+                     motion-reduce:transition-none"
         >
-          <div className="min-h-0 overflow-hidden">
+          <div className="sm:[@media(hover:hover)]:min-h-0 sm:[@media(hover:hover)]:overflow-hidden">
             <Link
               href={item.href}
-              className="mt-3 flex w-fit items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-foreground"
+              className="mt-3 flex w-fit items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-foreground
+                         sm:[@media(hover:hover)]:translate-y-2 sm:[@media(hover:hover)]:transition-transform sm:[@media(hover:hover)]:duration-300 sm:[@media(hover:hover)]:ease-out
+                         sm:[@media(hover:hover)]:group-hover:translate-y-0 sm:[@media(hover:hover)]:group-focus-within:translate-y-0
+                         motion-reduce:transition-none"
             >
               {t("services.cta")}
               <ArrowUpRight className="size-4" strokeWidth={2} />
@@ -126,8 +138,11 @@ export function ServicesCarousel({
   // tanpa perlu effect tambahan.
   const current = Math.min(index, maxIndex);
 
-  const goPrev = () => setIndex(Math.max(0, current - 1));
-  const goNext = () => setIndex(Math.min(maxIndex, current + 1));
+  // Functional update: klik berturut-turut yang cepat selalu membaca state
+  // terbaru, bukan nilai `current` dari render sebelumnya.
+  const goPrev = () => setIndex((i) => Math.max(0, Math.min(i, maxIndex) - 1));
+  const goNext = () =>
+    setIndex((i) => Math.min(maxIndex, Math.min(i, maxIndex) + 1));
 
   // Klik terakhir tidak melewati batas: track berhenti pas di tepi kanan,
   // bukan menyisakan ruang kosong.
@@ -179,24 +194,24 @@ export function ServicesCarousel({
             (hydration mismatch). aria-disabled tidak dipulihkan browser, dan
             fokus keyboard tidak hilang saat tombol mencapai ujung. onClick
             aman karena goPrev/goNext sudah dijepit ke batas. */}
-        <div className="mt-10 flex justify-end gap-2.5">
+        <div className="relative z-20 mt-10 flex justify-end gap-2.5 pb-4">
           <button
             type="button"
             onClick={goPrev}
             aria-disabled={isFirst}
             aria-label="Sebelumnya"
-            className="flex size-11 items-center justify-center rounded-full border border-foreground/15 text-foreground transition-all hover:border-imm-blue hover:bg-imm-blue hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-imm-blue aria-disabled:pointer-events-none aria-disabled:opacity-30"
+            className={NAV_BUTTON_CLASS}
           >
-            <ArrowLeft className="size-4" strokeWidth={2} />
+            <ArrowLeft className="size-5" strokeWidth={2} />
           </button>
           <button
             type="button"
             onClick={goNext}
             aria-disabled={isLast}
             aria-label="Berikutnya"
-            className="flex size-11 items-center justify-center rounded-full border border-foreground/15 text-foreground transition-all hover:border-imm-blue hover:bg-imm-blue hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-imm-blue aria-disabled:pointer-events-none aria-disabled:opacity-30"
+            className={NAV_BUTTON_CLASS}
           >
-            <ArrowRight className="size-4" strokeWidth={2} />
+            <ArrowRight className="size-5" strokeWidth={2} />
           </button>
         </div>
       </div>
