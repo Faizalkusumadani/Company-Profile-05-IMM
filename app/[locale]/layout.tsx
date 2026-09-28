@@ -129,6 +129,25 @@ export async function generateMetadata({
         "id-ID": `${siteConfig.url}/id`,
         "en-US": `${siteConfig.url}/en`,
       },
+    }, //
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/logo/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+        {
+          url: "/logo/web-app-manifest-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
+        },
+      ],
+      apple: [
+        {
+          url: "/logo/apple-touch-icon.png",
+          sizes: "180x180",
+          type: "image/png",
+        },
+      ],
+      shortcut: "/favicon.ico",
     },
     manifest: "/manifest.webmanifest",
     appleWebApp: {
@@ -166,11 +185,17 @@ export default async function RootLayout({
     "@context": "https://schema.org",
     "@type": "HVACBusiness",
     "@id": `${siteConfig.url}/#organization`,
-    description: siteConfig.description,
     name: siteConfig.name,
     alternateName: siteConfig.shortName,
-    url: `${siteConfig.url}/${locale}`,
-    logo: `${siteConfig.url}${siteConfig.logo}`,
+    url: siteConfig.url,
+    description: siteConfig.description,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteConfig.url}/logo/logo-imm.png`,
+      caption: siteConfig.name,
+      width: "364",
+      height: "440",
+    },
     image: `${siteConfig.url}${siteConfig.ogImage}`,
     telephone: "+62-21-300-678-68",
     email: "project@intisukses-mm.com",

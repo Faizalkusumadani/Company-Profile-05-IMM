@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import PageBreadcrumb from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
-const siteUrl = "https://intisukses-mm.com/";
+const siteUrl = "https://intisukses-mm.com";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
