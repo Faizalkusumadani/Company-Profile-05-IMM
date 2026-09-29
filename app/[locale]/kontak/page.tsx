@@ -6,7 +6,7 @@ import { getTranslations, getLocale } from "next-intl/server";
 import { MapPin, Mail, Phone, Download, ArrowUpRight } from "lucide-react";
 import Form from "@/components/Form";
 
-const siteUrl = "https://intisukses-mm.com/id";
+const siteUrl = "https://intisukses-mm.com";
 
 const iconMap: Record<LocationIcon, React.ElementType> = {
   office: MapPin,

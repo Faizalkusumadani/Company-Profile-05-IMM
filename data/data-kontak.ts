@@ -12,7 +12,7 @@ export const locations: ContactLocation[] = [
     key: "kantor-utama",
     icon: "office",
     value:
-      "Business Park Kebon Jeruk Blok C-2 No.8 Jl. Meruya Ilir Raya No. 88 Meruya Utara, Kembangan Jakarta 11620",
+      "Grand Puri Niaga Blok K6 No. 50 JI. Puri Kencana, Kembangan Jakarta 11610",
   },
   {
     key: "email",
@@ -30,6 +30,6 @@ export const locations: ContactLocation[] = [
     key: "company-profile",
     icon: "download",
     value: "klik here",
-    href: "/files/Compro Reddmas-Group.pdf",
+    href: "/files/Compro_Intisukses-Mitratama-mandiri.pdf",
   },
 ];

@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/Breadcrumb";
 import { getTranslations, getLocale } from "next-intl/server";
 import { visiMisiData } from "@/data/data-visimisi";
 
-const siteUrl = "https://intisukses-mm.com/";
+const siteUrl = "https://intisukses-mm.com";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
