@@ -2,64 +2,24 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import type { IconType } from "react-icons";
+import {
+  TbCircleCheckFilled,
+  TbLayoutGrid,
+  TbListDetails,
+  TbPhone,
+  TbPhoneCall,
+} from "react-icons/tb";
 import type { Product, ProductVariant } from "@/data/data-produk";
-
-// ─── Ikon (inline SVG, tanpa dependency tambahan) ──────────────────────────
-const ICONS = {
-  Settings: (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.75"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="12" cy="12" r="3" />
-      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-    </svg>
-  ),
-  Layers: (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.75"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M12 2 2 7l10 5 10-5-10-5Z" />
-      <path d="M2 17l10 5 10-5" />
-      <path d="M2 12l10 5 10-5" />
-    </svg>
-  ),
-  Phone: (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.75"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z" />
-    </svg>
-  ),
-  Check: (
-    <svg viewBox="0 0 24 24" fill="currentColor" className="h-full w-full">
-      <path
-        fillRule="evenodd"
-        d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm4.7 7.7-5.4 5.4a1 1 0 0 1-1.4 0l-2.6-2.6a1 1 0 1 1 1.4-1.4l1.9 1.9 4.7-4.7a1 1 0 0 1 1.4 1.4Z"
-        clipRule="evenodd"
-      />
-    </svg>
-  ),
-} as const;
 
 type TabId = "fitur" | "tipe" | "kontak";
 type Accent = "red" | "blue";
 
+type TabItem = { id: TabId; label: string; icon: IconType };
+
+// Semua class ditulis utuh (bukan dirakit) supaya terbaca oleh Tailwind.
 const ACCENT_STYLES: Record<
   Accent,
   {
@@ -67,6 +27,10 @@ const ACCENT_STYLES: Record<
     activeBorder: string;
     activeBackground: string;
     ring: string;
+    icon: string;
+    bar: string;
+    contactBg: string;
+    contactCta: string;
   }
 > = {
   red: {
@@ -74,37 +38,64 @@ const ACCENT_STYLES: Record<
     activeBorder: "border-rose-500",
     activeBackground: "bg-gray-50",
     ring: "focus-visible:ring-rose-400",
+    icon: "text-rose-500",
+    bar: "bg-rose-500",
+    contactBg: "bg-rose-600",
+    contactCta: "text-rose-600",
   },
   blue: {
     activeText: "text-imm-blue",
     activeBorder: "border-imm-blue",
     activeBackground: "bg-gray-50",
     ring: "focus-visible:ring-imm-blue",
+    icon: "text-imm-blue",
+    bar: "bg-imm-blue",
+    contactBg: "bg-imm-blue",
+    contactCta: "text-imm-blue",
   },
 };
 
-// ─── Panel: daftar fitur (checklist, tanpa kotak, 3 kolom di desktop) ──────
+type AccentStyle = (typeof ACCENT_STYLES)[Accent];
+
+// ─── Panel: spesifikasi ─────────────────────────────────────────────────────
+// Gaya lembar spesifikasi: judul di kiri (sticky di desktop), daftar di kanan
+// dipisah garis tipis per baris — bukan kartu, agar terbaca seperti datasheet.
 function FeatureList({
   features,
   heading,
+  countLabel,
+  emptyText,
+  style,
 }: {
   features: string[];
   heading: string;
+  countLabel: string;
+  emptyText: string;
+  style: AccentStyle;
 }) {
-  if (!features.length)
-    return <EmptyState text="Belum ada spesifikasi untuk produk ini." />;
+  if (!features.length) return <EmptyState text={emptyText} />;
+
   return (
-    <div>
-      <h3 className="mb-6 text-lg font-bold text-foreground sm:text-xl">
-        {heading}
-      </h3>
-      <ul className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-8 lg:grid-cols-[minmax(0,17rem)_1fr] lg:gap-16">
+      <header className="lg:sticky lg:top-28 lg:self-start">
+        <h3 className="text-xl font-bold leading-tight text-foreground sm:text-2xl">
+          {heading}
+        </h3>
+        <p className="mt-2 text-sm text-gray-500">{countLabel}</p>
+        <div className={`mt-5 h-1 w-12 rounded-full ${style.bar}`} />
+      </header>
+
+      <ul className="grid grid-cols-1 border-b border-gray-200 sm:grid-cols-2 sm:gap-x-12">
         {features.map((feature, i) => (
-          <li key={i} className="flex items-start gap-3">
-            <span className="mt-0.5 h-5 w-5 shrink-0 text-rose-500">
-              {ICONS.Check}
-            </span>
-            <span className="text-sm font-semibold leading-snug text-foreground sm:text-[15px]">
+          <li
+            key={i}
+            className="flex items-start gap-3 border-t border-gray-200 py-4"
+          >
+            <TbCircleCheckFilled
+              aria-hidden="true"
+              className={`mt-0.5 h-5 w-5 shrink-0 ${style.icon}`}
+            />
+            <span className="text-sm font-medium leading-snug text-foreground sm:text-[15px]">
               {feature}
             </span>
           </li>
@@ -115,9 +106,25 @@ function FeatureList({
 }
 
 // ─── Panel: grid varian/tipe ────────────────────────────────────────────────
-function VariantGrid({ variants }: { variants: ProductVariant[] }) {
-  if (!variants.length)
-    return <EmptyState text="Belum ada tipe/varian untuk produk ini." />;
+function VariantGrid({
+  variants,
+  emptyText,
+  labels,
+}: {
+  variants: ProductVariant[];
+  emptyText: string;
+  labels: { size: string; color: string; weight: string };
+}) {
+  const locale = useLocale();
+
+  if (!variants.length) return <EmptyState text={emptyText} />;
+
+  const formatter = new Intl.NumberFormat(locale === "id" ? "id-ID" : "en-US", {
+    style: "currency",
+    currency: "IDR",
+    maximumFractionDigits: 0,
+  });
+
   return (
     <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
       {variants.map((variant, i) => (
@@ -141,9 +148,21 @@ function VariantGrid({ variants }: { variants: ProductVariant[] }) {
               {variant.name}
             </h4>
             <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-gray-500">
-              {variant.size && <span>Ukuran: {variant.size}</span>}
-              {variant.color && <span>Warna: {variant.color}</span>}
-              {variant.weight && <span>Berat: {variant.weight}</span>}
+              {variant.size && (
+                <span>
+                  {labels.size}: {variant.size}
+                </span>
+              )}
+              {variant.color && (
+                <span>
+                  {labels.color}: {variant.color}
+                </span>
+              )}
+              {variant.weight && (
+                <span>
+                  {labels.weight}: {variant.weight}
+                </span>
+              )}
             </div>
             {variant.description && (
               <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-gray-400">
@@ -152,11 +171,7 @@ function VariantGrid({ variants }: { variants: ProductVariant[] }) {
             )}
             {typeof variant.price === "number" && (
               <p className="mt-2 text-sm font-semibold text-imm-blue">
-                {new Intl.NumberFormat("id-ID", {
-                  style: "currency",
-                  currency: "IDR",
-                  maximumFractionDigits: 0,
-                }).format(variant.price)}
+                {formatter.format(variant.price)}
               </p>
             )}
           </div>
@@ -167,35 +182,47 @@ function VariantGrid({ variants }: { variants: ProductVariant[] }) {
 }
 
 // ─── Panel: kontak ──────────────────────────────────────────────────────────
+// Satu blok berwarna solid sebagai penutup halaman produk: pesan singkat,
+// satu tombol aksi yang jelas. Ikon besar di sudut hanya watermark.
 function ContactPanel({
   title,
   description,
   ctaHref,
   ctaLabel,
+  style,
 }: {
   title: string;
   description: string;
   ctaHref: string;
   ctaLabel: string;
+  style: AccentStyle;
 }) {
   return (
-    <div className="flex flex-col items-start gap-4 rounded-2xl border border-gray-100 bg-gray-50/60 p-6 sm:p-8">
-      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-rose-50 text-rose-500">
-        <span className="h-5 w-5">{ICONS.Phone}</span>
-      </div>
-      <div>
-        <h4 className="text-lg font-bold text-foreground">{title}</h4>
-        <p className="mt-1 max-w-xl text-sm leading-relaxed text-gray-500">
+    <section
+      className={`relative overflow-hidden rounded-3xl px-6 py-10 text-white sm:px-12 sm:py-14 ${style.contactBg}`}
+    >
+      <TbPhoneCall
+        aria-hidden="true"
+        className="pointer-events-none absolute -bottom-10 -right-6 h-56 w-56 text-white/10 sm:-right-2 sm:h-80 sm:w-80"
+      />
+
+      <div className="relative max-w-2xl">
+        <h4 className="text-2xl font-bold leading-tight sm:text-4xl">
+          {title}
+        </h4>
+        <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/85 sm:text-base">
           {description}
         </p>
+
+        <Link
+          href={ctaHref}
+          className={`mt-8 inline-flex items-center gap-2.5 rounded-full bg-white px-6 py-3 text-sm font-semibold transition-transform duration-200 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white motion-reduce:transition-none motion-reduce:hover:translate-y-0 sm:text-base ${style.contactCta}`}
+        >
+          <TbPhone aria-hidden="true" className="h-5 w-5" />
+          {ctaLabel}
+        </Link>
       </div>
-      <a
-        href={ctaHref}
-        className="inline-flex items-center gap-2 rounded-full bg-imm-blue px-5 py-2.5 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
-      >
-        {ctaLabel}
-      </a>
-    </div>
+    </section>
   );
 }
 
@@ -221,27 +248,19 @@ export default function ProductTabs({
   defaultTab,
   contactHref = "/kontak",
 }: Props) {
-  const tProduct = useTranslations("product");
-  const features = produk.featuresKeys.map((key) => tProduct(key));
+  const t = useTranslations("product");
+  const features = produk.featuresKeys.map((key) => t(key));
   const variants = produk.variants ?? [];
 
-  const tabs: { id: TabId; label: string; icon: React.ReactNode }[] = [
-    features.length > 0 && {
-      id: "fitur" as const,
-      label: tProduct("tab-menu-01"),
-      icon: ICONS.Settings,
-    },
-    variants.length > 0 && {
-      id: "tipe" as const,
-      label: tProduct("tab-menu-02"),
-      icon: ICONS.Layers,
-    },
-    {
-      id: "kontak" as const,
-      label: tProduct("tab-menu-03"),
-      icon: ICONS.Phone,
-    },
-  ].filter(Boolean) as { id: TabId; label: string; icon: React.ReactNode }[];
+  const tabs: TabItem[] = [
+    ...(features.length > 0
+      ? [{ id: "fitur" as const, label: t("tab-menu-01"), icon: TbListDetails }]
+      : []),
+    ...(variants.length > 0
+      ? [{ id: "tipe" as const, label: t("tab-menu-02"), icon: TbLayoutGrid }]
+      : []),
+    { id: "kontak" as const, label: t("tab-menu-03"), icon: TbPhone },
+  ];
 
   const [active, setActive] = useState<TabId>(
     defaultTab ?? tabs[0]?.id ?? "kontak",
@@ -265,14 +284,15 @@ export default function ProductTabs({
 
   return (
     <div>
-      {/* Tab list — gaya underline, simpel & scrollable di mobile */}
+      {/* Tab list — gaya underline, scrollable di mobile */}
       <div
         role="tablist"
-        aria-label="Informasi produk"
+        aria-label={t("tabs-aria")}
         className="flex gap-2 overflow-x-auto border-b border-gray-200 sm:gap-3"
       >
         {tabs.map((tab, index) => {
           const isActive = tab.id === active;
+          const Icon = tab.icon;
           return (
             <button
               key={tab.id}
@@ -285,7 +305,7 @@ export default function ProductTabs({
               onClick={() => setActive(tab.id)}
               onKeyDown={(e) => handleKeyDown(e, index)}
               className={[
-                "flex shrink-0 items-center gap-2 whitespace-nowrap rounded-t-lg border-b-2 px-3 pb-3 pt-2 text-sm sm:text-base font-medium outline-none transition-colors duration-200",
+                "flex shrink-0 items-center gap-2 whitespace-nowrap rounded-t-lg border-b-2 px-3 pb-3 pt-2 text-sm font-medium outline-none transition-colors duration-200 sm:text-base",
                 "focus-visible:ring-2 focus-visible:ring-offset-2",
                 style.ring,
                 isActive
@@ -293,7 +313,7 @@ export default function ProductTabs({
                   : "border-transparent text-gray-500 hover:bg-gray-50 hover:text-gray-700",
               ].join(" ")}
             >
-              <span className="h-4 w-4 shrink-0">{tab.icon}</span>
+              <Icon aria-hidden="true" className="h-4 w-4 shrink-0" />
               {tab.label}
             </button>
           );
@@ -312,16 +332,30 @@ export default function ProductTabs({
         {active === "fitur" && (
           <FeatureList
             features={features}
-            heading={`${tProduct("tab-content-01")}`}
+            heading={t("tab-content-01")}
+            countLabel={t("spec-count", { count: features.length })}
+            emptyText={t("empty-features")}
+            style={style}
           />
         )}
-        {active === "tipe" && <VariantGrid variants={variants} />}
+        {active === "tipe" && (
+          <VariantGrid
+            variants={variants}
+            emptyText={t("empty-variants")}
+            labels={{
+              size: t("variant-size"),
+              color: t("variant-color"),
+              weight: t("variant-weight"),
+            }}
+          />
+        )}
         {active === "kontak" && (
           <ContactPanel
-            title={`Tertarik dengan ${produk.namaBrand}?`}
-            description="Konsultasikan dengan tim profesional kami untuk kebutuhan proyek konstruksi Anda."
+            title={t("contact-title", { brand: produk.namaBrand })}
+            description={t("contact-desc")}
             ctaHref={contactHref}
-            ctaLabel="Hubungi Kami"
+            ctaLabel={t("contact-cta")}
+            style={style}
           />
         )}
       </div>

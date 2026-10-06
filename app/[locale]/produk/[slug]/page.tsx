@@ -7,7 +7,7 @@ import produkDetailList from "@/data/data-produk";
 import PageBreadcrumb from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
-const siteUrl = "https://intisukses-mm.com/";
+const siteUrl = "https://intisukses-mm.com";
 const siteName = "PT. Intisukses Mitratama Mandiri";
 
 export async function generateStaticParams() {
@@ -127,7 +127,7 @@ export default async function ProdukDetail({
 
         <div className="px-4 sm:px-6 lg:px-8 py-15">
           <div className="mx-auto max-w-7xl">
-            <ProductTabs produk={produk} accent="red" />
+            <ProductTabs produk={produk} accent="blue" />
           </div>
         </div>
       </div>

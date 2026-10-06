@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import type { Product } from "@/data/data-produk";
-import { CATEGORY_BADGE_LABEL } from "./CategoryFilter";
+import { useCategoryLabels } from "./CategoryFilter";
 
 type Props = {
   product: Product;
@@ -12,9 +12,12 @@ type Props = {
 
 export default function ProductCard({ product }: Props) {
   const t = useTranslations("product");
+  const categoryLabels = useCategoryLabels();
 
-  const itemsLabel = product.itemsBadge ?? `${product.variants.length} Item`;
-  const categoryLabel = CATEGORY_BADGE_LABEL[product.category];
+  // itemsBadge dari data tetap diprioritaskan; fallback-nya sekarang diterjemahkan
+  const itemsLabel =
+    product.itemsBadge ?? t("itemsCount", { count: product.variants.length });
+  const categoryLabel = categoryLabels[product.category];
 
   return (
     <Link
